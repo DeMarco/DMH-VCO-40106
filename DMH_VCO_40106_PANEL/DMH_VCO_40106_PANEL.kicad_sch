@@ -1,0 +1,3680 @@
+(kicad_sch
+	(version 20231120)
+	(generator "eeschema")
+	(generator_version "8.0")
+	(uuid "1ac843a2-b018-4f05-9c7c-f861332ffc39")
+	(paper "A4" portrait)
+	(title_block
+		(title "VCO mki Front Panel")
+		(date "2024-06-06")
+		(rev "1")
+		(company "DMH")
+	)
+	(lib_symbols
+		(symbol "Connector_Generic:Conn_01x01"
+			(pin_names
+				(offset 1.016) hide)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "J"
+				(at 0 2.54 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "Conn_01x01"
+				(at 0 -2.54 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "~"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "Generic connector, single row, 01x01, script generated (kicad-library-utils/schlib/autogen/connector/)"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "connector"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_fp_filters" "Connector*:*_1x??_*"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "Conn_01x01_1_1"
+				(rectangle
+					(start -1.27 0.127)
+					(end 0 -0.127)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(rectangle
+					(start -1.27 1.27)
+					(end 1.27 -1.27)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type background)
+					)
+				)
+				(pin passive line
+					(at -5.08 0 0)
+					(length 3.81)
+					(name "Pin_1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+		)
+		(symbol "Mechanical:MountingHole"
+			(pin_names
+				(offset 1.016)
+			)
+			(exclude_from_sim yes)
+			(in_bom no)
+			(on_board yes)
+			(property "Reference" "H"
+				(at 0 5.08 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "MountingHole"
+				(at 0 3.175 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "~"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "Mounting Hole without connection"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "mounting hole"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_fp_filters" "MountingHole*"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "MountingHole_0_1"
+				(circle
+					(center 0 0)
+					(radius 1.27)
+					(stroke
+						(width 1.27)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+		)
+		(symbol "SynthStuff:MountingHole_Jack6.35mm_Output_v2"
+			(pin_numbers hide)
+			(pin_names
+				(offset 1.016) hide)
+			(exclude_from_sim yes)
+			(in_bom no)
+			(on_board yes)
+			(property "Reference" "H"
+				(at 0 5.08 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "SIGNAL NAME"
+				(at 0 3.175 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" "SynthStuff:Jack_6.35mm_Cutout_Output_v6"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "~"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "Jack 6.35mm Output"
+				(at 0.254 -3.302 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "ki_keywords" "mounting hole toggle switch"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_fp_filters" "MountingHole*"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "MountingHole_Jack6.35mm_Output_v2_0_1"
+				(circle
+					(center 0 0)
+					(radius 1.27)
+					(stroke
+						(width 1.27)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "MountingHole_Jack6.35mm_Output_v2_1_1"
+				(pin input line
+					(at -3.81 0 0)
+					(length 2.54)
+					(name "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+		)
+		(symbol "SynthStuff:MountingHole_Jack6.35mm_v2"
+			(pin_numbers hide)
+			(pin_names
+				(offset 1.016) hide)
+			(exclude_from_sim yes)
+			(in_bom no)
+			(on_board yes)
+			(property "Reference" "H"
+				(at 0 5.08 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "SIGNAL NAME"
+				(at 0 3.175 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" "SynthStuff:Jack_6.35mm_Cutout_v3"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "~"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "Jack 6.35mm"
+				(at 0 -3.048 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "ki_keywords" "mounting hole toggle switch"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_fp_filters" "MountingHole*"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "MountingHole_Jack6.35mm_v2_0_1"
+				(circle
+					(center 0 0)
+					(radius 1.27)
+					(stroke
+						(width 1.27)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "MountingHole_Jack6.35mm_v2_1_1"
+				(pin input line
+					(at -3.81 0 0)
+					(length 2.54)
+					(name "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+		)
+		(symbol "SynthStuff:MountingHole_Pot"
+			(pin_numbers hide)
+			(pin_names
+				(offset 1.016) hide)
+			(exclude_from_sim yes)
+			(in_bom no)
+			(on_board yes)
+			(property "Reference" "H"
+				(at 0 6.35 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "Function"
+				(at 0 4.445 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "~"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "Pot Mounting Hole"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "ki_keywords" "mounting hole"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_fp_filters" "Pot_Cutout_*"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "MountingHole_Pot_0_1"
+				(circle
+					(center 0 1.27)
+					(radius 1.27)
+					(stroke
+						(width 1.27)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "MountingHole_Pot_1_1"
+				(pin input line
+					(at 0 -2.54 90)
+					(length 2.54)
+					(name "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+		)
+		(symbol "SynthStuff:MountingHole_Rails"
+			(pin_numbers hide)
+			(pin_names
+				(offset 1.016) hide)
+			(exclude_from_sim yes)
+			(in_bom no)
+			(on_board yes)
+			(property "Reference" "H"
+				(at 0 6.35 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "MountingHole_Rails"
+				(at 0 4.445 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" "SynthStuff:MountingHole_3.2mm_M3_Pad4mm"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "~"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "Mounting Hole with connection"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "mounting hole"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_fp_filters" "MountingHole*Pad*"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "MountingHole_Rails_0_1"
+				(circle
+					(center 0 1.27)
+					(radius 1.27)
+					(stroke
+						(width 1.27)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "MountingHole_Rails_1_1"
+				(pin input line
+					(at 0 -2.54 90)
+					(length 2.54)
+					(name "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+		)
+		(symbol "SynthStuff:MountingHole_ToggleSwitch"
+			(pin_names
+				(offset 1.016)
+			)
+			(exclude_from_sim yes)
+			(in_bom no)
+			(on_board yes)
+			(property "Reference" "H"
+				(at 0 5.08 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "MountingHole_ToggleSwitch"
+				(at 0 3.175 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" "SynthStuff:Toggle_Switch_Cutout"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "~"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "Mounting Hole without connection"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "mounting hole toggle switch"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_fp_filters" "MountingHole*"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "MountingHole_ToggleSwitch_0_1"
+				(circle
+					(center 0 0)
+					(radius 1.27)
+					(stroke
+						(width 1.27)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "MountingHole_ToggleSwitch_1_1"
+				(pin input line
+					(at 0 -3.81 90)
+					(length 2.54)
+					(name "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+		)
+		(symbol "power:GND"
+			(power)
+			(pin_numbers hide)
+			(pin_names
+				(offset 0) hide)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "#PWR"
+				(at 0 -6.35 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Value" "GND"
+				(at 0 -3.81 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "global power"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "GND_0_1"
+				(polyline
+					(pts
+						(xy 0 0) (xy 0 -1.27) (xy 1.27 -1.27) (xy 0 -2.54) (xy -1.27 -1.27) (xy 0 -1.27)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "GND_1_1"
+				(pin power_in line
+					(at 0 0 270)
+					(length 0)
+					(name "~"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+		)
+	)
+	(junction
+		(at 77.47 99.06)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "09cb92e8-5fda-4dd4-a2d0-b197f0fb93c4")
+	)
+	(junction
+		(at 133.35 99.06)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "1a57f20d-fa5d-4c2d-bf50-27e478b69e81")
+	)
+	(junction
+		(at 139.7 62.23)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "1f1027d1-065a-44d6-a799-d6c32f2a9317")
+	)
+	(junction
+		(at 132.08 62.23)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "2327d758-10f5-4db3-b889-64c3dc6c8d4a")
+	)
+	(junction
+		(at 26.67 80.01)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "2feedf6d-7a15-4110-98b7-e25a2831fc6c")
+	)
+	(junction
+		(at 105.41 62.23)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "30907ce5-cce4-4c7c-be4b-25ed291b6b77")
+	)
+	(junction
+		(at 34.29 36.83)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "42db167b-182f-4b43-920e-1bebaa840bbd")
+	)
+	(junction
+		(at 21.59 46.99)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "4f55b654-7fc0-4f1d-bc3c-a16daed8fef2")
+	)
+	(junction
+		(at 161.29 99.06)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "58a5f5eb-9475-4a2c-b1a4-d7997620b0b9")
+	)
+	(junction
+		(at 21.59 36.83)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "72968175-72c6-4917-8396-e8b53b196daf")
+	)
+	(junction
+		(at 77.47 83.82)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "9f9e919d-a09e-4a0b-b716-03a822de2cf3")
+	)
+	(junction
+		(at 21.59 53.34)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "a96d8e85-c095-407b-888b-091f6264208c")
+	)
+	(junction
+		(at 161.29 62.23)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "bb6a1613-6ea8-461b-ac90-65101752966f")
+	)
+	(junction
+		(at 106.68 29.21)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "d05f4e8d-19af-42c6-aa4f-7d9b5abbdf4c")
+	)
+	(junction
+		(at 132.08 44.45)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "deffeab0-3cbd-48ff-bd1f-698cf6b8f40a")
+	)
+	(junction
+		(at 106.68 62.23)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "e56b1ea6-554f-4662-9486-07bcebe280cd")
+	)
+	(junction
+		(at 34.29 46.99)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "efded10b-5f33-4b9d-9f66-7f40c68a7ec8")
+	)
+	(junction
+		(at 105.41 99.06)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "f5bb7fdf-90a6-42d5-bf25-689ae331ac78")
+	)
+	(junction
+		(at 40.64 80.01)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "fc042c33-2541-4ade-81e1-c3432bc0ca45")
+	)
+	(junction
+		(at 133.35 62.23)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "fd2e98b4-d4f3-4f5d-9118-2c74d7fe53af")
+	)
+	(wire
+		(pts
+			(xy 21.59 53.34) (xy 21.59 55.88)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "0e6845c1-6edc-4b1a-a0db-0082999a2761")
+	)
+	(wire
+		(pts
+			(xy 106.68 29.21) (xy 132.08 29.21)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "1194aabb-b4a2-40f7-b7fb-b3ef085f0037")
+	)
+	(wire
+		(pts
+			(xy 77.47 62.23) (xy 105.41 62.23)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "143db698-ae1d-47be-b178-768bf2771bd5")
+	)
+	(wire
+		(pts
+			(xy 77.47 99.06) (xy 77.47 83.82)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "14590e99-3dbc-43e5-b344-10310f10998e")
+	)
+	(wire
+		(pts
+			(xy 133.35 62.23) (xy 133.35 99.06)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "1e25363a-990e-4baa-8889-3794c6d5a6e5")
+	)
+	(wire
+		(pts
+			(xy 21.59 46.99) (xy 21.59 53.34)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "21a66eb4-b3e7-4774-900e-97748011c01d")
+	)
+	(wire
+		(pts
+			(xy 161.29 62.23) (xy 166.37 62.23)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "2ce32ca8-1c5b-4953-aa24-e33cf7b17c70")
+	)
+	(wire
+		(pts
+			(xy 34.29 36.83) (xy 21.59 36.83)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "32eb1b71-6114-4ed5-bbbb-b57a19e27ffc")
+	)
+	(wire
+		(pts
+			(xy 77.47 83.82) (xy 77.47 62.23)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "45e71ad5-eb47-4cc2-a0c7-4894a7d49afa")
+	)
+	(wire
+		(pts
+			(xy 77.47 83.82) (xy 80.01 83.82)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "4c057cf2-459e-4b68-84bd-dcf0d09f545c")
+	)
+	(wire
+		(pts
+			(xy 21.59 29.21) (xy 21.59 36.83)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "4dc4e1e8-833b-4905-ab28-e8773c31d129")
+	)
+	(wire
+		(pts
+			(xy 15.24 46.99) (xy 21.59 46.99)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "634397c8-d26b-4881-8b64-c8e60f50b45d")
+	)
+	(wire
+		(pts
+			(xy 161.29 62.23) (xy 161.29 99.06)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "6e844460-3b7f-40c5-bf45-a36ee089049f")
+	)
+	(wire
+		(pts
+			(xy 40.64 80.01) (xy 54.61 80.01)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "709b1366-1544-4a71-ba80-d4bdba8c36ad")
+	)
+	(wire
+		(pts
+			(xy 21.59 53.34) (xy 29.21 53.34)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "765edda0-ac92-4c62-9cd1-fe69c3e798e2")
+	)
+	(wire
+		(pts
+			(xy 132.08 44.45) (xy 139.7 44.45)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "77762124-f09c-417a-a53c-775f90a618b1")
+	)
+	(wire
+		(pts
+			(xy 34.29 46.99) (xy 21.59 46.99)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "7d9cb64a-338a-4a49-935a-5650bb7647f1")
+	)
+	(wire
+		(pts
+			(xy 26.67 80.01) (xy 40.64 80.01)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "83007458-ebbf-4947-bef5-682918d227ea")
+	)
+	(wire
+		(pts
+			(xy 26.67 80.01) (xy 15.24 80.01)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "91944644-011e-4b66-b773-52f81154d972")
+	)
+	(wire
+		(pts
+			(xy 132.08 44.45) (xy 132.08 62.23)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "96cafbc0-ae3f-4962-8df5-ee8f4c78eb31")
+	)
+	(wire
+		(pts
+			(xy 106.68 62.23) (xy 132.08 62.23)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "9d2ab496-a3b6-49e1-b980-97a6adaa4c0f")
+	)
+	(wire
+		(pts
+			(xy 77.47 99.06) (xy 77.47 110.49)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a7a682f0-ea3e-4c94-a96e-a497f25de283")
+	)
+	(wire
+		(pts
+			(xy 105.41 62.23) (xy 105.41 99.06)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "aa89b9af-0bc2-4948-8505-c53832adbf48")
+	)
+	(wire
+		(pts
+			(xy 132.08 29.21) (xy 132.08 44.45)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b14cd714-697e-4fd3-98a2-f0af617515ec")
+	)
+	(wire
+		(pts
+			(xy 34.29 46.99) (xy 59.69 46.99)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b555fce2-1617-4384-b19b-197a33d4bcd3")
+	)
+	(wire
+		(pts
+			(xy 161.29 99.06) (xy 161.29 110.49)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c56dd2e8-81ac-4179-a18a-66ee43dfde7b")
+	)
+	(wire
+		(pts
+			(xy 105.41 99.06) (xy 105.41 110.49)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c973d18d-92e3-4ba8-b89d-2f24d9e1120e")
+	)
+	(wire
+		(pts
+			(xy 133.35 99.06) (xy 133.35 110.49)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "cb1aef6b-ce75-4309-baff-0fc56e8fc1c3")
+	)
+	(wire
+		(pts
+			(xy 34.29 36.83) (xy 59.69 36.83)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d0366889-4871-4869-af3d-82ae7b698bb3")
+	)
+	(wire
+		(pts
+			(xy 21.59 36.83) (xy 21.59 46.99)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d165fbc3-0c98-4e3d-9cae-9e69d92a55b5")
+	)
+	(wire
+		(pts
+			(xy 133.35 62.23) (xy 139.7 62.23)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d43c8710-fb35-4ad1-a4c7-5bba665e4606")
+	)
+	(wire
+		(pts
+			(xy 15.24 80.01) (xy 15.24 46.99)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d5ca61b8-2ee8-4806-abbf-7f189b64d65d")
+	)
+	(wire
+		(pts
+			(xy 132.08 62.23) (xy 133.35 62.23)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "dd556231-f5d9-4210-a648-079775a38bad")
+	)
+	(wire
+		(pts
+			(xy 106.68 44.45) (xy 132.08 44.45)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e29a5f75-2a38-42a7-a737-d4021f067824")
+	)
+	(wire
+		(pts
+			(xy 105.41 62.23) (xy 106.68 62.23)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e9f29948-c181-4533-90d1-33767dddd82e")
+	)
+	(wire
+		(pts
+			(xy 106.68 29.21) (xy 21.59 29.21)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f54e9248-ee8d-42f9-bf1e-02a8e5a313ec")
+	)
+	(wire
+		(pts
+			(xy 139.7 62.23) (xy 161.29 62.23)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f9f84496-c043-4403-9f7a-6846f8260420")
+	)
+	(symbol
+		(lib_id "Mechanical:MountingHole")
+		(at 41.91 105.41 0)
+		(unit 1)
+		(exclude_from_sim yes)
+		(in_bom no)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "006462f6-af44-4f0a-b761-d7f7ed0deafc")
+		(property "Reference" "H33"
+			(at 44.45 104.1399 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "LED_0"
+			(at 44.45 106.6799 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "SynthStuff:MountingHole_LED_3mm"
+			(at 41.91 105.41 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 41.91 105.41 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Mounting Hole without connection"
+			(at 41.91 105.41 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(instances
+			(project "VCO mki Panel"
+				(path "/1ac843a2-b018-4f05-9c7c-f861332ffc39"
+					(reference "H33")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "SynthStuff:MountingHole_Rails")
+		(at 34.29 34.29 0)
+		(unit 1)
+		(exclude_from_sim yes)
+		(in_bom no)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "099e06c9-c0d5-430b-9efc-2920800a1e11")
+		(property "Reference" "H1"
+			(at 36.83 31.7499 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "MountingHole_Rails"
+			(at 36.83 34.2899 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "SynthStuff:MountingHole_Rails"
+			(at 34.29 34.29 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 34.29 34.29 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Mounting Hole with connection"
+			(at 34.29 34.29 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "b23b79ae-8073-4418-9cd7-e286fb4728ad")
+		)
+		(instances
+			(project "VCO mki Panel"
+				(path "/1ac843a2-b018-4f05-9c7c-f861332ffc39"
+					(reference "H1")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "SynthStuff:MountingHole_Jack6.35mm_Output_v2")
+		(at 137.16 110.49 0)
+		(unit 1)
+		(exclude_from_sim yes)
+		(in_bom no)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "11383890-1f7a-4a02-a0b7-2a0347bdeb95")
+		(property "Reference" "H15"
+			(at 139.7 107.9499 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "Sqr"
+			(at 139.7 110.4899 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "SynthStuff:Jack_6.35mm_Cutout_Output_v6"
+			(at 137.16 110.49 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 137.16 110.49 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Jack 6.35mm Output"
+			(at 139.7 113.0299 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "1"
+			(uuid "c7d88764-7a01-43ac-b779-520d858918cc")
+		)
+		(instances
+			(project "VCO mki Panel"
+				(path "/1ac843a2-b018-4f05-9c7c-f861332ffc39"
+					(reference "H15")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 21.59 55.88 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "22e883c9-30f4-41bc-a200-8bf0c9a24276")
+		(property "Reference" "#PWR01"
+			(at 21.59 62.23 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 21.59 60.96 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 21.59 55.88 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 21.59 55.88 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 21.59 55.88 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "14ef55aa-4089-4e9d-b896-ed1e6ce42463")
+		)
+		(instances
+			(project "VCO mki Panel"
+				(path "/1ac843a2-b018-4f05-9c7c-f861332ffc39"
+					(reference "#PWR01")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "SynthStuff:MountingHole_Rails")
+		(at 59.69 34.29 0)
+		(unit 1)
+		(exclude_from_sim yes)
+		(in_bom no)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "25ae287f-6182-4445-9a20-74aa062114ad")
+		(property "Reference" "H2"
+			(at 62.23 31.7499 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "MountingHole_Rails"
+			(at 62.23 34.2899 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "SynthStuff:MountingHole_Rails"
+			(at 59.69 34.29 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 59.69 34.29 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Mounting Hole with connection"
+			(at 59.69 34.29 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "36a44ae6-afb3-4469-8658-d46690d89ac1")
+		)
+		(instances
+			(project "VCO mki Panel"
+				(path "/1ac843a2-b018-4f05-9c7c-f861332ffc39"
+					(reference "H2")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Mechanical:MountingHole")
+		(at 177.8 30.48 0)
+		(unit 1)
+		(exclude_from_sim yes)
+		(in_bom no)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "2746cfa0-64b4-404b-8abe-86fe87e7606f")
+		(property "Reference" "H23"
+			(at 180.34 29.2099 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "Calib 3"
+			(at 180.34 31.7499 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "MountingHole:MountingHole_2.2mm_M2_DIN965"
+			(at 177.8 30.48 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 177.8 30.48 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Mounting Hole without connection"
+			(at 177.8 30.48 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(instances
+			(project "VCO mki Panel"
+				(path "/1ac843a2-b018-4f05-9c7c-f861332ffc39"
+					(reference "H23")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "SynthStuff:MountingHole_Pot")
+		(at 139.7 59.69 0)
+		(unit 1)
+		(exclude_from_sim yes)
+		(in_bom no)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "29c5066e-44b9-474a-afea-067880d525f9")
+		(property "Reference" "H11"
+			(at 142.24 55.8799 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "Lin FM"
+			(at 142.24 58.4199 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "SynthStuff:Pot_Cutout_Tiny"
+			(at 139.7 59.69 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 139.7 59.69 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Pot Mounting Hole"
+			(at 142.24 60.9599 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "1"
+			(uuid "36c93f9a-871b-4511-af88-f8b2d840b137")
+		)
+		(instances
+			(project "VCO mki Panel"
+				(path "/1ac843a2-b018-4f05-9c7c-f861332ffc39"
+					(reference "H11")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Mechanical:MountingHole")
+		(at 35.56 120.65 0)
+		(unit 1)
+		(exclude_from_sim yes)
+		(in_bom no)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "2a6fcc95-d0f8-4a19-9eea-e6c6ae461483")
+		(property "Reference" "H6"
+			(at 38.1 119.3799 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "7Segment"
+			(at 38.1 121.9199 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "SynthStuff:7Segment_Cutout"
+			(at 35.56 120.65 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 35.56 120.65 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Mounting Hole without connection"
+			(at 35.56 120.65 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(instances
+			(project ""
+				(path "/1ac843a2-b018-4f05-9c7c-f861332ffc39"
+					(reference "H6")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "SynthStuff:MountingHole_Rails")
+		(at 34.29 44.45 0)
+		(unit 1)
+		(exclude_from_sim yes)
+		(in_bom no)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "368edee4-2976-41e4-b3b5-1f64ea3a0ce0")
+		(property "Reference" "H3"
+			(at 36.83 41.9099 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "MountingHole_Rails"
+			(at 36.83 44.4499 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "SynthStuff:MountingHole_Rails"
+			(at 34.29 44.45 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 34.29 44.45 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Mounting Hole with connection"
+			(at 34.29 44.45 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "92ca592d-ad98-4d4b-ae5d-cdde78017119")
+		)
+		(instances
+			(project "VCO mki Panel"
+				(path "/1ac843a2-b018-4f05-9c7c-f861332ffc39"
+					(reference "H3")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "SynthStuff:MountingHole_ToggleSwitch")
+		(at 40.64 76.2 0)
+		(unit 1)
+		(exclude_from_sim yes)
+		(in_bom no)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "39d2f491-20bb-43c0-a5dc-67d5bb2b952d")
+		(property "Reference" "H27"
+			(at 43.18 74.9299 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "Tuner"
+			(at 43.18 77.4699 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "SynthStuff:Toggle_Switch_Cutout"
+			(at 40.64 76.2 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 40.64 76.2 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Mounting Hole without connection"
+			(at 40.64 76.2 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "e34ec21e-e1d6-45a9-a66f-bdb4fc0a95eb")
+		)
+		(instances
+			(project "VCO mki Panel"
+				(path "/1ac843a2-b018-4f05-9c7c-f861332ffc39"
+					(reference "H27")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "SynthStuff:MountingHole_Pot")
+		(at 166.37 59.69 0)
+		(unit 1)
+		(exclude_from_sim yes)
+		(in_bom no)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "3f11e40e-16a9-4281-87d4-aca51d63f9b4")
+		(property "Reference" "H12"
+			(at 168.91 55.8799 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "PW Mod"
+			(at 168.91 58.4199 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "SynthStuff:Pot_Cutout_Tiny"
+			(at 166.37 59.69 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 166.37 59.69 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Pot Mounting Hole"
+			(at 168.91 60.9599 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "1"
+			(uuid "1c25580b-f18b-44c6-89d7-0ed0b6642c1e")
+		)
+		(instances
+			(project "VCO mki Panel"
+				(path "/1ac843a2-b018-4f05-9c7c-f861332ffc39"
+					(reference "H12")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "SynthStuff:MountingHole_Jack6.35mm_Output_v2")
+		(at 165.1 110.49 0)
+		(unit 1)
+		(exclude_from_sim yes)
+		(in_bom no)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "3fb63471-eaff-436e-bf9a-d7ca849289c6")
+		(property "Reference" "H16"
+			(at 167.64 107.9499 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "Saw"
+			(at 167.64 110.4899 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "SynthStuff:Jack_6.35mm_Cutout_Output_v6"
+			(at 165.1 110.49 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 165.1 110.49 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Jack 6.35mm Output"
+			(at 167.64 113.0299 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "1"
+			(uuid "3fce1a13-2c50-4da1-813a-3e7e8614ea71")
+		)
+		(instances
+			(project "VCO mki Panel"
+				(path "/1ac843a2-b018-4f05-9c7c-f861332ffc39"
+					(reference "H16")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "SynthStuff:MountingHole_Jack6.35mm_v2")
+		(at 81.28 99.06 0)
+		(unit 1)
+		(exclude_from_sim yes)
+		(in_bom no)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "4673f829-a32c-445d-a0f5-0f2f3a187fc8")
+		(property "Reference" "H17"
+			(at 83.82 96.5199 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "V/Oct"
+			(at 83.82 99.0599 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "SynthStuff:Jack_6.35mm_Cutout_v3"
+			(at 81.28 99.06 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 81.28 99.06 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Jack 6.35mm"
+			(at 83.82 101.5999 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "1"
+			(uuid "4f9fde03-3dbe-4865-ac84-0f581f6828d2")
+		)
+		(instances
+			(project "VCO mki Panel"
+				(path "/1ac843a2-b018-4f05-9c7c-f861332ffc39"
+					(reference "H17")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "SynthStuff:MountingHole_ToggleSwitch")
+		(at 54.61 76.2 0)
+		(unit 1)
+		(exclude_from_sim yes)
+		(in_bom no)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "5e0bbe55-ac1c-4628-8fee-3db6f1f37416")
+		(property "Reference" "H28"
+			(at 57.15 74.9299 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "Soft Hard"
+			(at 57.15 77.4699 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "SynthStuff:Toggle_Switch_Cutout"
+			(at 54.61 76.2 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 54.61 76.2 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Mounting Hole without connection"
+			(at 54.61 76.2 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "5481676f-3e6f-4b2f-b8ee-caea25dba08e")
+		)
+		(instances
+			(project "VCO mki Panel"
+				(path "/1ac843a2-b018-4f05-9c7c-f861332ffc39"
+					(reference "H28")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "SynthStuff:MountingHole_Pot")
+		(at 106.68 59.69 0)
+		(unit 1)
+		(exclude_from_sim yes)
+		(in_bom no)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "6039e1f0-378f-44f1-9095-94b3ab8bb40b")
+		(property "Reference" "H10"
+			(at 109.22 55.8799 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "Exp FM"
+			(at 109.22 58.4199 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "SynthStuff:Pot_Cutout_Tiny"
+			(at 106.68 59.69 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 106.68 59.69 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Pot Mounting Hole"
+			(at 109.22 60.9599 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "1"
+			(uuid "0a992c69-24f8-4158-b4f2-ef3fc0feb0b1")
+		)
+		(instances
+			(project "VCO mki Panel"
+				(path "/1ac843a2-b018-4f05-9c7c-f861332ffc39"
+					(reference "H10")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "SynthStuff:MountingHole_Jack6.35mm_Output_v2")
+		(at 109.22 110.49 0)
+		(unit 1)
+		(exclude_from_sim yes)
+		(in_bom no)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "6b506fb4-a951-4eac-9e86-e22e2276f963")
+		(property "Reference" "H14"
+			(at 111.76 107.9499 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "Tri"
+			(at 111.76 110.4899 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "SynthStuff:Jack_6.35mm_Cutout_Output_v6"
+			(at 109.22 110.49 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 109.22 110.49 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Jack 6.35mm Output"
+			(at 111.76 113.0299 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "1"
+			(uuid "410819bc-7ae6-4770-9113-d86013f85a47")
+		)
+		(instances
+			(project "VCO mki Panel"
+				(path "/1ac843a2-b018-4f05-9c7c-f861332ffc39"
+					(reference "H14")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "SynthStuff:MountingHole_Jack6.35mm_v2")
+		(at 83.82 83.82 0)
+		(unit 1)
+		(exclude_from_sim yes)
+		(in_bom no)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "704ad80a-bff3-4c61-b2ef-c7fc4732356d")
+		(property "Reference" "H25"
+			(at 86.36 81.2799 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "Sync"
+			(at 86.36 83.8199 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "SynthStuff:Jack_6.35mm_Cutout_v3"
+			(at 83.82 83.82 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 83.82 83.82 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Jack 6.35mm"
+			(at 86.36 86.3599 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "1"
+			(uuid "d4eba17e-e712-4d1a-9082-e6543b0b2066")
+		)
+		(instances
+			(project "VCO mki Panel"
+				(path "/1ac843a2-b018-4f05-9c7c-f861332ffc39"
+					(reference "H25")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "SynthStuff:MountingHole_ToggleSwitch")
+		(at 26.67 76.2 0)
+		(unit 1)
+		(exclude_from_sim yes)
+		(in_bom no)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "70e37a6b-d6e8-49d9-90ea-011ea355dc01")
+		(property "Reference" "H26"
+			(at 29.21 74.9299 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "Bus CV"
+			(at 29.21 77.4699 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "SynthStuff:Toggle_Switch_Cutout"
+			(at 26.67 76.2 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 26.67 76.2 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Mounting Hole without connection"
+			(at 26.67 76.2 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "8586e046-3a68-490f-997d-e1736c7dfeb7")
+		)
+		(instances
+			(project ""
+				(path "/1ac843a2-b018-4f05-9c7c-f861332ffc39"
+					(reference "H26")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Mechanical:MountingHole")
+		(at 177.8 17.78 0)
+		(unit 1)
+		(exclude_from_sim yes)
+		(in_bom no)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "740fff64-676d-41f0-a722-816cdcc9e896")
+		(property "Reference" "H21"
+			(at 180.34 16.5099 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "Calib 1"
+			(at 180.34 19.0499 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "MountingHole:MountingHole_2.2mm_M2_DIN965"
+			(at 177.8 17.78 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 177.8 17.78 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Mounting Hole without connection"
+			(at 177.8 17.78 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(instances
+			(project "VCO mki Panel"
+				(path "/1ac843a2-b018-4f05-9c7c-f861332ffc39"
+					(reference "H21")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Connector_Generic:Conn_01x01")
+		(at 34.29 53.34 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "743ef76d-c1de-4c63-a3c7-6323bb236be7")
+		(property "Reference" "J1"
+			(at 36.83 52.0699 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "GND"
+			(at 36.83 54.6099 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Connector_Wire:SolderWirePad_1x01_SMD_5x10mm"
+			(at 34.29 53.34 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 34.29 53.34 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Generic connector, single row, 01x01, script generated (kicad-library-utils/schlib/autogen/connector/)"
+			(at 34.29 53.34 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "f5585bb7-bb51-4b08-a266-0018ca713e6b")
+		)
+		(instances
+			(project ""
+				(path "/1ac843a2-b018-4f05-9c7c-f861332ffc39"
+					(reference "J1")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "SynthStuff:MountingHole_Pot")
+		(at 106.68 26.67 0)
+		(unit 1)
+		(exclude_from_sim yes)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "75e6c99c-8e96-4575-96b7-b5a4ee2fe823")
+		(property "Reference" "H5"
+			(at 109.22 22.8599 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "Coarse"
+			(at 109.22 25.3999 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "SynthStuff:Pot_Cutout_Huge_v2"
+			(at 106.68 26.67 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 106.68 26.67 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Pot Mounting Hole"
+			(at 109.22 27.9399 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "1"
+			(uuid "d100448b-e67a-471f-90eb-d2fd6114bfae")
+		)
+		(instances
+			(project "VCO mki Panel"
+				(path "/1ac843a2-b018-4f05-9c7c-f861332ffc39"
+					(reference "H5")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Mechanical:MountingHole")
+		(at 64.77 105.41 0)
+		(unit 1)
+		(exclude_from_sim yes)
+		(in_bom no)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "7dc301c6-da6d-4b5a-bbeb-d8225046b6ec")
+		(property "Reference" "H35"
+			(at 67.31 104.1399 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "LED_+2"
+			(at 67.31 106.6799 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "SynthStuff:MountingHole_LED_3mm"
+			(at 64.77 105.41 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 64.77 105.41 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Mounting Hole without connection"
+			(at 64.77 105.41 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(instances
+			(project "VCO mki Panel"
+				(path "/1ac843a2-b018-4f05-9c7c-f861332ffc39"
+					(reference "H35")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "SynthStuff:MountingHole_Jack6.35mm_v2")
+		(at 137.16 99.06 0)
+		(unit 1)
+		(exclude_from_sim yes)
+		(in_bom no)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "84830c60-7d8b-42cc-9b99-29a3f9356318")
+		(property "Reference" "H19"
+			(at 139.7 96.5199 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "Lin FM"
+			(at 139.7 99.0599 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "SynthStuff:Jack_6.35mm_Cutout_v3"
+			(at 137.16 99.06 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 137.16 99.06 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Jack 6.35mm"
+			(at 139.7 101.5999 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "1"
+			(uuid "819b6168-c380-4a17-af03-3bb15f6b0a43")
+		)
+		(instances
+			(project "VCO mki Panel"
+				(path "/1ac843a2-b018-4f05-9c7c-f861332ffc39"
+					(reference "H19")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Mechanical:MountingHole")
+		(at 177.8 36.83 0)
+		(unit 1)
+		(exclude_from_sim yes)
+		(in_bom no)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "9992cdc9-9cb7-4bb1-ba67-65a9b7d439eb")
+		(property "Reference" "H24"
+			(at 180.34 35.5599 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "Calib 4"
+			(at 180.34 38.0999 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "MountingHole:MountingHole_2.2mm_M2_DIN965"
+			(at 177.8 36.83 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 177.8 36.83 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Mounting Hole without connection"
+			(at 177.8 36.83 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(instances
+			(project "VCO mki Panel"
+				(path "/1ac843a2-b018-4f05-9c7c-f861332ffc39"
+					(reference "H24")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "SynthStuff:MountingHole_Jack6.35mm_v2")
+		(at 165.1 99.06 0)
+		(unit 1)
+		(exclude_from_sim yes)
+		(in_bom no)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "9e9c8433-cc21-4f04-90be-b2aea2e28eb7")
+		(property "Reference" "H20"
+			(at 167.64 96.5199 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "PW Mod"
+			(at 167.64 99.0599 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "SynthStuff:Jack_6.35mm_Cutout_v3"
+			(at 165.1 99.06 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 165.1 99.06 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Jack 6.35mm"
+			(at 167.64 101.5999 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "1"
+			(uuid "913a5d29-7414-4dcf-a064-834782903f38")
+		)
+		(instances
+			(project "VCO mki Panel"
+				(path "/1ac843a2-b018-4f05-9c7c-f861332ffc39"
+					(reference "H20")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Mechanical:MountingHole")
+		(at 39.37 95.25 0)
+		(unit 1)
+		(exclude_from_sim yes)
+		(in_bom no)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "a2f0c70c-fbcf-49c4-a466-61d1dfee55c4")
+		(property "Reference" "H30"
+			(at 41.91 93.9799 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "LED_#"
+			(at 41.91 96.5199 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "SynthStuff:MountingHole_LED_3mm"
+			(at 39.37 95.25 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 39.37 95.25 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Mounting Hole without connection"
+			(at 39.37 95.25 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(instances
+			(project "VCO mki Panel"
+				(path "/1ac843a2-b018-4f05-9c7c-f861332ffc39"
+					(reference "H30")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "SynthStuff:MountingHole_Pot")
+		(at 139.7 41.91 0)
+		(unit 1)
+		(exclude_from_sim yes)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "ac564d2f-daa6-4dad-b897-85b638eaa4ab")
+		(property "Reference" "H8"
+			(at 142.24 38.0999 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "Pulse Width"
+			(at 142.24 40.6399 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "SynthStuff:Pot_Cutout_Medium"
+			(at 139.7 41.91 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 139.7 41.91 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Pot Mounting Hole"
+			(at 142.24 43.1799 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "1"
+			(uuid "7b449bdf-a7a7-406d-bd9c-222a09fc10d8")
+		)
+		(instances
+			(project "VCO mki Panel"
+				(path "/1ac843a2-b018-4f05-9c7c-f861332ffc39"
+					(reference "H8")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Mechanical:MountingHole")
+		(at 177.8 24.13 0)
+		(unit 1)
+		(exclude_from_sim yes)
+		(in_bom no)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "ae8a63c6-78be-465a-9ebe-cae59814fdc3")
+		(property "Reference" "H22"
+			(at 180.34 22.8599 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "Calib 2"
+			(at 180.34 25.3999 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "MountingHole:MountingHole_2.2mm_M2_DIN965"
+			(at 177.8 24.13 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 177.8 24.13 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Mounting Hole without connection"
+			(at 177.8 24.13 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(instances
+			(project "VCO mki Panel"
+				(path "/1ac843a2-b018-4f05-9c7c-f861332ffc39"
+					(reference "H22")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Mechanical:MountingHole")
+		(at 26.67 95.25 0)
+		(unit 1)
+		(exclude_from_sim yes)
+		(in_bom no)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "ba28e588-56d4-4e08-8ffd-fd900d7b3a8d")
+		(property "Reference" "H29"
+			(at 29.21 93.9799 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "LED_b"
+			(at 29.21 96.5199 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "SynthStuff:MountingHole_LED_3mm"
+			(at 26.67 95.25 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 26.67 95.25 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Mounting Hole without connection"
+			(at 26.67 95.25 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(instances
+			(project ""
+				(path "/1ac843a2-b018-4f05-9c7c-f861332ffc39"
+					(reference "H29")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "SynthStuff:MountingHole_Jack6.35mm_v2")
+		(at 109.22 99.06 0)
+		(unit 1)
+		(exclude_from_sim yes)
+		(in_bom no)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "cc345c76-83cf-4028-8540-dde352b6a848")
+		(property "Reference" "H18"
+			(at 111.76 96.5199 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "Exp FM"
+			(at 111.76 99.0599 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "SynthStuff:Jack_6.35mm_Cutout_v3"
+			(at 109.22 99.06 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 109.22 99.06 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Jack 6.35mm"
+			(at 111.76 101.5999 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "1"
+			(uuid "54f70fe1-bccc-4072-9012-e73f7b25ca31")
+		)
+		(instances
+			(project "VCO mki Panel"
+				(path "/1ac843a2-b018-4f05-9c7c-f861332ffc39"
+					(reference "H18")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Mechanical:MountingHole")
+		(at 30.48 105.41 0)
+		(unit 1)
+		(exclude_from_sim yes)
+		(in_bom no)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "cc397711-f9b7-4bf9-b370-9b4358ba3ece")
+		(property "Reference" "H32"
+			(at 33.02 104.1399 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "LED_-1"
+			(at 33.02 106.6799 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "SynthStuff:MountingHole_LED_3mm"
+			(at 30.48 105.41 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 30.48 105.41 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Mounting Hole without connection"
+			(at 30.48 105.41 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(instances
+			(project "VCO mki Panel"
+				(path "/1ac843a2-b018-4f05-9c7c-f861332ffc39"
+					(reference "H32")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "SynthStuff:MountingHole_Rails")
+		(at 59.69 44.45 0)
+		(unit 1)
+		(exclude_from_sim yes)
+		(in_bom no)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "d698629c-4ae5-4408-9de5-e04ce225745f")
+		(property "Reference" "H4"
+			(at 62.23 41.9099 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "MountingHole_Rails"
+			(at 62.23 44.4499 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "SynthStuff:MountingHole_Rails"
+			(at 59.69 44.45 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 59.69 44.45 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Mounting Hole with connection"
+			(at 59.69 44.45 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "cd9756db-4f3f-49d4-a502-2d2e6afbab7c")
+		)
+		(instances
+			(project "VCO mki Panel"
+				(path "/1ac843a2-b018-4f05-9c7c-f861332ffc39"
+					(reference "H4")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "SynthStuff:MountingHole_Jack6.35mm_Output_v2")
+		(at 81.28 110.49 0)
+		(unit 1)
+		(exclude_from_sim yes)
+		(in_bom no)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "ed07e434-6e64-4b58-845c-f078e0f769a6")
+		(property "Reference" "H13"
+			(at 83.82 107.9499 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "Sin"
+			(at 83.82 110.4899 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "SynthStuff:Jack_6.35mm_Cutout_Output_v6"
+			(at 81.28 110.49 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 81.28 110.49 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Jack 6.35mm Output"
+			(at 83.82 113.0299 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "1"
+			(uuid "c16319fc-3abf-49d6-bf5e-99f7aac30257")
+		)
+		(instances
+			(project "VCO mki Panel"
+				(path "/1ac843a2-b018-4f05-9c7c-f861332ffc39"
+					(reference "H13")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "SynthStuff:MountingHole_Pot")
+		(at 106.68 41.91 0)
+		(unit 1)
+		(exclude_from_sim yes)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "f64664ac-5367-4ee0-ad2a-6b42bbe261c3")
+		(property "Reference" "H7"
+			(at 109.22 38.0999 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "Fine"
+			(at 109.22 40.6399 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "SynthStuff:Pot_Cutout_Medium_v2"
+			(at 106.68 41.91 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 106.68 41.91 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Pot Mounting Hole"
+			(at 109.22 43.1799 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "1"
+			(uuid "3c7eef94-3fa9-4652-b800-f08d8f5ad68f")
+		)
+		(instances
+			(project "VCO mki Panel"
+				(path "/1ac843a2-b018-4f05-9c7c-f861332ffc39"
+					(reference "H7")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Mechanical:MountingHole")
+		(at 19.05 105.41 0)
+		(unit 1)
+		(exclude_from_sim yes)
+		(in_bom no)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "f8f9d06d-50b0-42d1-a0c9-2e3035ac2ad7")
+		(property "Reference" "H31"
+			(at 21.59 104.1399 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "LED_-2"
+			(at 21.59 106.6799 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "SynthStuff:MountingHole_LED_3mm"
+			(at 19.05 105.41 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 19.05 105.41 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Mounting Hole without connection"
+			(at 19.05 105.41 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(instances
+			(project "VCO mki Panel"
+				(path "/1ac843a2-b018-4f05-9c7c-f861332ffc39"
+					(reference "H31")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Mechanical:MountingHole")
+		(at 53.34 105.41 0)
+		(unit 1)
+		(exclude_from_sim yes)
+		(in_bom no)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "fd2578f0-31e4-4576-8b92-3cbafd49b608")
+		(property "Reference" "H34"
+			(at 55.88 104.1399 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "LED_+1"
+			(at 55.88 106.6799 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "SynthStuff:MountingHole_LED_3mm"
+			(at 53.34 105.41 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 53.34 105.41 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Mounting Hole without connection"
+			(at 53.34 105.41 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(instances
+			(project "VCO mki Panel"
+				(path "/1ac843a2-b018-4f05-9c7c-f861332ffc39"
+					(reference "H34")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(sheet_instances
+		(path "/"
+			(page "1")
+		)
+	)
+)
