@@ -1,0 +1,819 @@
+(kicad_sch
+	(version 20231120)
+	(generator "eeschema")
+	(generator_version "8.0")
+	(uuid "fefed352-c100-4617-bbfb-c55e7427b122")
+	(paper "A4")
+	(title_block
+		(title "VCO mki PCB")
+		(date "2024-06-16")
+		(rev "1")
+		(company "DMH")
+	)
+	(lib_symbols)
+	(junction
+		(at 139.7 104.14)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "b4150a62-d03d-4399-9964-9646e9b8ce01")
+	)
+	(junction
+		(at 82.55 104.14)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "dace370e-e0fe-4f28-945e-6655bb4d87f9")
+	)
+	(wire
+		(pts
+			(xy 76.2 68.58) (xy 72.39 68.58)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "01c08f84-72b0-40f5-b6f9-8e4ae4850269")
+	)
+	(wire
+		(pts
+			(xy 27.94 53.34) (xy 19.05 53.34)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "16470fa5-038c-4bc2-a313-78630471685c")
+	)
+	(wire
+		(pts
+			(xy 22.86 114.3) (xy 22.86 92.71)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "1648d9d1-914d-403e-9aa9-1adec5b15260")
+	)
+	(wire
+		(pts
+			(xy 20.32 63.5) (xy 27.94 63.5)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "1d305caf-b9fc-4a2c-aebd-759dd0001a86")
+	)
+	(wire
+		(pts
+			(xy 208.28 109.22) (xy 210.82 109.22)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "271d9041-a936-4378-8806-de270d14220a")
+	)
+	(wire
+		(pts
+			(xy 194.31 104.14) (xy 194.31 63.5)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "2d349714-dc26-4cd0-bb15-d50f22018ae9")
+	)
+	(wire
+		(pts
+			(xy 208.28 92.71) (xy 208.28 109.22)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "2d631e1d-818d-42bb-98d6-bdb495cdc045")
+	)
+	(wire
+		(pts
+			(xy 27.94 124.46) (xy 20.32 124.46)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "2f4cfcc1-d598-470d-a073-21879506dc49")
+	)
+	(wire
+		(pts
+			(xy 25.4 104.14) (xy 27.94 104.14)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "3a7d66b4-c726-4ac6-bb00-7d58b11742a8")
+	)
+	(wire
+		(pts
+			(xy 25.4 73.66) (xy 25.4 104.14)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "49c7cc6a-1a62-46f0-b61a-f97dd1320021")
+	)
+	(wire
+		(pts
+			(xy 71.12 109.22) (xy 76.2 109.22)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "4fdf004f-ebaa-43c7-aeb4-3ff4b7ec6786")
+	)
+	(wire
+		(pts
+			(xy 139.7 58.42) (xy 139.7 104.14)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "5731a6bb-0c7a-42f5-97ce-484b62c12e7c")
+	)
+	(wire
+		(pts
+			(xy 139.7 104.14) (xy 133.35 104.14)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "5a7f2d4f-2e38-4185-954a-92e8c3d1bf87")
+	)
+	(wire
+		(pts
+			(xy 19.05 129.54) (xy 27.94 129.54)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "77aa938b-3705-47f5-94a3-bda5fc3c320a")
+	)
+	(wire
+		(pts
+			(xy 21.59 58.42) (xy 27.94 58.42)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "80ede917-eca0-407e-b04e-4421d8381427")
+	)
+	(wire
+		(pts
+			(xy 22.86 92.71) (xy 208.28 92.71)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "8395f86e-408d-4c8b-91fc-631a67ea8783")
+	)
+	(wire
+		(pts
+			(xy 27.94 68.58) (xy 24.13 68.58)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "8e0fc03c-1b5c-4a85-b8c4-4a84bdee81a0")
+	)
+	(wire
+		(pts
+			(xy 71.12 104.14) (xy 82.55 104.14)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "966dbaae-318d-4563-92c4-2c100af2b594")
+	)
+	(wire
+		(pts
+			(xy 72.39 58.42) (xy 139.7 58.42)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "96d4d5e4-37f9-4c36-a3ef-707fbf5a0d98")
+	)
+	(wire
+		(pts
+			(xy 24.13 109.22) (xy 27.94 109.22)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "98f949a5-afd5-494f-8189-451114363be5")
+	)
+	(wire
+		(pts
+			(xy 27.94 73.66) (xy 25.4 73.66)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "99c345e8-66bb-4048-8e07-cd2b29159e6f")
+	)
+	(wire
+		(pts
+			(xy 139.7 104.14) (xy 149.86 104.14)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "9a0a0fbf-6827-40b9-806d-4ce558d8927e")
+	)
+	(wire
+		(pts
+			(xy 82.55 104.14) (xy 91.44 104.14)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "9dca28f5-2ff0-4154-9b0c-22ad391c8a2d")
+	)
+	(wire
+		(pts
+			(xy 82.55 53.34) (xy 72.39 53.34)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "9f7ae9e8-0ff7-4925-9cb3-959f497abc68")
+	)
+	(wire
+		(pts
+			(xy 21.59 119.38) (xy 21.59 58.42)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a88dc871-e0d3-4111-9a4f-f1ef1311b5eb")
+	)
+	(wire
+		(pts
+			(xy 24.13 68.58) (xy 24.13 109.22)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b0db6804-0db5-4e2b-92c2-aec309c21d9c")
+	)
+	(wire
+		(pts
+			(xy 19.05 53.34) (xy 19.05 129.54)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b5a606bc-36fa-46c9-8b63-5971d171d6c2")
+	)
+	(wire
+		(pts
+			(xy 20.32 124.46) (xy 20.32 63.5)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b873b483-0770-460f-8479-e796304b1a88")
+	)
+	(wire
+		(pts
+			(xy 76.2 109.22) (xy 76.2 68.58)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "be22cc39-61ce-4fa0-ba8f-5e3c41a796d6")
+	)
+	(wire
+		(pts
+			(xy 82.55 104.14) (xy 82.55 53.34)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c85d5af9-6271-47c0-b8b5-8c8fa94a46e3")
+	)
+	(wire
+		(pts
+			(xy 27.94 119.38) (xy 21.59 119.38)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "cf832c74-570e-4ff4-94eb-11504c90c4da")
+	)
+	(wire
+		(pts
+			(xy 27.94 114.3) (xy 22.86 114.3)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e7284f74-761f-47b6-bc50-766e3eb2f6e2")
+	)
+	(wire
+		(pts
+			(xy 194.31 63.5) (xy 72.39 63.5)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ed07543e-bb53-406c-b900-5062145e625f")
+	)
+	(wire
+		(pts
+			(xy 190.5 104.14) (xy 194.31 104.14)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "fdfc894d-eab6-431b-97ac-d0372bce9395")
+	)
+	(sheet
+		(at 91.44 99.06)
+		(size 41.91 35.56)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "0e77ed5b-450a-412c-a492-589f053c9c73")
+		(property "Sheetname" "Triangle Shaper"
+			(at 91.44 98.3484 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "Triangle_Shaper.kicad_sch"
+			(at 91.44 135.2046 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(pin "Triangle Out" output
+			(at 133.35 104.14 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+			(uuid "ed3b3b0e-21ab-4159-a9ad-b916bbdd04b1")
+		)
+		(pin "Sawtooth In" input
+			(at 91.44 104.14 180)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+			(uuid "7a4d55d5-18fd-4404-9434-a376becf7e1e")
+		)
+		(instances
+			(project "VCO mki PCB"
+				(path "/fefed352-c100-4617-bbfb-c55e7427b122"
+					(page "4")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 149.86 99.06)
+		(size 40.64 35.56)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "5d4fa276-24f5-484f-b50d-2ebe5f0666ef")
+		(property "Sheetname" "Sine Shaper"
+			(at 149.86 98.3484 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "Sine_Shaper.kicad_sch"
+			(at 149.86 135.2046 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(pin "Sine Out" output
+			(at 190.5 104.14 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+			(uuid "4e7d8e5c-d30f-487a-ac52-f5373e18a275")
+		)
+		(pin "Triangle In" input
+			(at 149.86 104.14 180)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+			(uuid "dbcf1a8e-35d1-44ba-90d9-0ca3416153c0")
+		)
+		(instances
+			(project "VCO mki PCB"
+				(path "/fefed352-c100-4617-bbfb-c55e7427b122"
+					(page "5")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 27.94 99.06)
+		(size 43.18 35.56)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "681eb850-910f-47de-ab28-b72b47bdbc38")
+		(property "Sheetname" "Core"
+			(at 27.94 98.3484 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "Core.kicad_sch"
+			(at 27.94 135.2046 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(pin "Lin FM In" input
+			(at 27.94 104.14 180)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+			(uuid "43d23922-787e-4c75-98bf-30345378a269")
+		)
+		(pin "Exp FM In" input
+			(at 27.94 109.22 180)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+			(uuid "4a27f0e6-6def-4d41-ae0c-edd3d1fe7669")
+		)
+		(pin "Bus CV In" input
+			(at 27.94 114.3 180)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+			(uuid "34c2701f-65d9-4475-9ff1-6f6cc4292815")
+		)
+		(pin "V{slash}Oct In" input
+			(at 27.94 119.38 180)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+			(uuid "7a1d9b33-46af-4019-b6e0-0405ede3f318")
+		)
+		(pin "PW Mod In" input
+			(at 27.94 124.46 180)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+			(uuid "1220e251-f380-4a2f-b6b0-c2b38ea44d56")
+		)
+		(pin "Sawtooth Out" output
+			(at 71.12 104.14 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+			(uuid "4fb91045-8f96-48bb-bd00-e4edd4059b04")
+		)
+		(pin "Square Out" output
+			(at 71.12 109.22 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+			(uuid "c6d47251-25c1-495f-92cc-478da062d89a")
+		)
+		(pin "Sync In" input
+			(at 27.94 129.54 180)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+			(uuid "945dbb46-849f-479c-8528-b54111952478")
+		)
+		(instances
+			(project "VCO mki PCB"
+				(path "/fefed352-c100-4617-bbfb-c55e7427b122"
+					(page "3")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 210.82 101.6)
+		(size 45.72 27.94)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "8c00d0a7-76b0-49e2-9ff5-6f2afc72327a")
+		(property "Sheetname" "Power"
+			(at 210.82 100.8884 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "Power.kicad_sch"
+			(at 210.82 130.1246 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(pin "Bus CV" output
+			(at 210.82 109.22 180)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+			(uuid "35abe730-510a-40dc-becd-239164019608")
+		)
+		(instances
+			(project "VCO mki PCB"
+				(path "/fefed352-c100-4617-bbfb-c55e7427b122"
+					(page "7")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 27.94 49.53)
+		(size 44.45 33.02)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "ebf99e09-ad52-47dc-8eb5-ada2d4a92b7c")
+		(property "Sheetname" "Inpus and Outputs"
+			(at 27.94 48.8184 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "Inputs_and_Outputs.kicad_sch"
+			(at 27.94 83.1346 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(pin "Sync In Jack" output
+			(at 27.94 53.34 180)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+			(uuid "c4a32d23-12a5-453a-9bd7-230e8ecfeef9")
+		)
+		(pin "V{slash}Oct In Jack" output
+			(at 27.94 58.42 180)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+			(uuid "a36ddf97-184c-4b32-b049-7100c1f1dd4d")
+		)
+		(pin "PW Mod In Jack" output
+			(at 27.94 63.5 180)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+			(uuid "8d27594c-cbf4-47c2-aa77-bf0ebb87cb4c")
+		)
+		(pin "Exp FM In Jack" output
+			(at 27.94 68.58 180)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+			(uuid "49366128-2c6d-457a-9883-7ed8177c3654")
+		)
+		(pin "Lin FM In Jack" output
+			(at 27.94 73.66 180)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+			(uuid "d1b4639d-9276-4502-83d0-33298346bb08")
+		)
+		(pin "Sawtooth Out Jack" input
+			(at 72.39 53.34 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+			(uuid "07083444-b73e-4c76-9e23-6efffd5d7e05")
+		)
+		(pin "Triangle Out Jack" input
+			(at 72.39 58.42 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+			(uuid "3ebc24dd-d726-4884-8aad-3dd50a19ec1d")
+		)
+		(pin "Sine Out Jack" input
+			(at 72.39 63.5 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+			(uuid "63ddb257-652a-4d57-a0a8-a8b145f342fa")
+		)
+		(pin "Square Out Jack" input
+			(at 72.39 68.58 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+			(uuid "9ad95280-66a4-449e-b74f-f8ba13cf7d53")
+		)
+		(instances
+			(project "VCO mki PCB"
+				(path "/fefed352-c100-4617-bbfb-c55e7427b122"
+					(page "2")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 209.55 30.48)
+		(size 41.91 40.64)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "ec8b77a2-f589-4806-8224-6b0ccc79bab4")
+		(property "Sheetname" "Tuner"
+			(at 209.55 29.7684 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "Tuner.kicad_sch"
+			(at 209.55 71.7046 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(instances
+			(project "VCO mki PCB"
+				(path "/fefed352-c100-4617-bbfb-c55e7427b122"
+					(page "6")
+				)
+			)
+		)
+	)
+	(sheet_instances
+		(path "/"
+			(page "1")
+		)
+	)
+)
