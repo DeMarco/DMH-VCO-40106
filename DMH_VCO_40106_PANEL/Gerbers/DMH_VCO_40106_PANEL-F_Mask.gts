@@ -1,17 +1,17 @@
 G04 #@! TF.GenerationSoftware,KiCad,Pcbnew,8.0.3*
-G04 #@! TF.CreationDate,2024-06-29T18:44:13+02:00*
+G04 #@! TF.CreationDate,2024-06-29T21:24:43+02:00*
 G04 #@! TF.ProjectId,DMH_VCO_40106_PANEL,444d485f-5643-44f5-9f34-303130365f50,1*
 G04 #@! TF.SameCoordinates,Original*
 G04 #@! TF.FileFunction,Soldermask,Top*
 G04 #@! TF.FilePolarity,Negative*
 %FSLAX46Y46*%
 G04 Gerber Fmt 4.6, Leading zero omitted, Abs format (unit mm)*
-G04 Created by KiCad (PCBNEW 8.0.3) date 2024-06-29 18:44:13*
+G04 Created by KiCad (PCBNEW 8.0.3) date 2024-06-29 21:24:43*
 %MOMM*%
 %LPD*%
 G01*
 G04 APERTURE LIST*
-%ADD10C,2.600000*%
+%ADD10C,2.900000*%
 %ADD11C,13.000000*%
 %ADD12C,0.500000*%
 %ADD13C,12.000000*%
