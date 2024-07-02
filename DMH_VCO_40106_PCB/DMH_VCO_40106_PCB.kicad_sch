@@ -414,7 +414,7 @@
 			(uuid "7a4d55d5-18fd-4404-9434-a376becf7e1e")
 		)
 		(instances
-			(project "VCO mki PCB"
+			(project "DMH_VCO_40106_PCB"
 				(path "/fefed352-c100-4617-bbfb-c55e7427b122"
 					(page "4")
 				)
@@ -472,7 +472,7 @@
 			(uuid "dbcf1a8e-35d1-44ba-90d9-0ca3416153c0")
 		)
 		(instances
-			(project "VCO mki PCB"
+			(project "DMH_VCO_40106_PCB"
 				(path "/fefed352-c100-4617-bbfb-c55e7427b122"
 					(page "5")
 				)
@@ -590,7 +590,7 @@
 			(uuid "945dbb46-849f-479c-8528-b54111952478")
 		)
 		(instances
-			(project "VCO mki PCB"
+			(project "DMH_VCO_40106_PCB"
 				(path "/fefed352-c100-4617-bbfb-c55e7427b122"
 					(page "3")
 				)
@@ -638,7 +638,7 @@
 			(uuid "35abe730-510a-40dc-becd-239164019608")
 		)
 		(instances
-			(project "VCO mki PCB"
+			(project "DMH_VCO_40106_PCB"
 				(path "/fefed352-c100-4617-bbfb-c55e7427b122"
 					(page "7")
 				)
@@ -766,7 +766,7 @@
 			(uuid "9ad95280-66a4-449e-b74f-f8ba13cf7d53")
 		)
 		(instances
-			(project "VCO mki PCB"
+			(project "DMH_VCO_40106_PCB"
 				(path "/fefed352-c100-4617-bbfb-c55e7427b122"
 					(page "2")
 				)
@@ -804,7 +804,7 @@
 			)
 		)
 		(instances
-			(project "VCO mki PCB"
+			(project "DMH_VCO_40106_PCB"
 				(path "/fefed352-c100-4617-bbfb-c55e7427b122"
 					(page "6")
 				)
