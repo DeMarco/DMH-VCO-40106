@@ -4278,6 +4278,50 @@
 		)
 		(uuid "fefbc9ef-487f-4711-84fa-fa4668063071")
 	)
+	(circle
+		(center 83.82 113.03)
+		(radius 6.8392)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(fill
+			(type none)
+		)
+		(uuid 0ebad27a-2b59-4b0f-a226-1a0db307c860)
+	)
+	(circle
+		(center 21.59 44.45)
+		(radius 5.6796)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(fill
+			(type none)
+		)
+		(uuid 39165d86-ba24-4f26-a39b-a36c41f539fb)
+	)
+	(text "used 2k for now"
+		(exclude_from_sim no)
+		(at 83.058 104.648 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "4867adaf-e0db-43b9-a426-0194b0d8b551")
+	)
+	(text "used 2 68k in parallel for now"
+		(exclude_from_sim no)
+		(at 34.29 51.562 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "fa3ae6a7-9876-491c-b8f9-58b3c9484965")
+	)
 	(hierarchical_label "Exp FM In"
 		(shape input)
 		(at 25.4 133.35 180)
