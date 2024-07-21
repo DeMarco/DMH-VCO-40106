@@ -5,10 +5,10 @@
 	(uuid "fefed352-c100-4617-bbfb-c55e7427b122")
 	(paper "A4")
 	(title_block
-		(title "VCO mki PCB")
+		(title "VCO 40106 PCB")
 		(date "2024-06-16")
 		(rev "1")
-		(company "DMH")
+		(company "DMH Instruments")
 	)
 	(lib_symbols)
 	(junction
@@ -45,16 +45,6 @@
 	)
 	(wire
 		(pts
-			(xy 22.86 114.3) (xy 22.86 92.71)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "1648d9d1-914d-403e-9aa9-1adec5b15260")
-	)
-	(wire
-		(pts
 			(xy 20.32 63.5) (xy 27.94 63.5)
 		)
 		(stroke
@@ -82,16 +72,6 @@
 			(type default)
 		)
 		(uuid "2d349714-dc26-4cd0-bb15-d50f22018ae9")
-	)
-	(wire
-		(pts
-			(xy 208.28 92.71) (xy 208.28 109.22)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "2d631e1d-818d-42bb-98d6-bdb495cdc045")
 	)
 	(wire
 		(pts
@@ -155,6 +135,16 @@
 	)
 	(wire
 		(pts
+			(xy 208.28 78.74) (xy 208.28 109.22)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "6d974107-604b-4ea4-9968-6b4d45a71e44")
+	)
+	(wire
+		(pts
 			(xy 19.05 129.54) (xy 27.94 129.54)
 		)
 		(stroke
@@ -172,16 +162,6 @@
 			(type default)
 		)
 		(uuid "80ede917-eca0-407e-b04e-4421d8381427")
-	)
-	(wire
-		(pts
-			(xy 22.86 92.71) (xy 208.28 92.71)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "8395f86e-408d-4c8b-91fc-631a67ea8783")
 	)
 	(wire
 		(pts
@@ -275,6 +255,16 @@
 	)
 	(wire
 		(pts
+			(xy 208.28 78.74) (xy 72.39 78.74)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ac9df649-9bc3-4673-92b9-8def27a12952")
+	)
+	(wire
+		(pts
 			(xy 24.13 68.58) (xy 24.13 109.22)
 		)
 		(stroke
@@ -332,16 +322,6 @@
 			(type default)
 		)
 		(uuid "cf832c74-570e-4ff4-94eb-11504c90c4da")
-	)
-	(wire
-		(pts
-			(xy 27.94 114.3) (xy 22.86 114.3)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "e7284f74-761f-47b6-bc50-766e3eb2f6e2")
 	)
 	(wire
 		(pts
@@ -509,7 +489,7 @@
 				(justify left top)
 			)
 		)
-		(pin "Lin FM In" input
+		(pin "Exp FM In 2" input
 			(at 27.94 104.14 180)
 			(effects
 				(font
@@ -519,7 +499,7 @@
 			)
 			(uuid "43d23922-787e-4c75-98bf-30345378a269")
 		)
-		(pin "Exp FM In" input
+		(pin "Exp FM In 1" input
 			(at 27.94 109.22 180)
 			(effects
 				(font
@@ -528,16 +508,6 @@
 				(justify left)
 			)
 			(uuid "4a27f0e6-6def-4d41-ae0c-edd3d1fe7669")
-		)
-		(pin "Bus CV In" input
-			(at 27.94 114.3 180)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-			(uuid "34c2701f-65d9-4475-9ff1-6f6cc4292815")
 		)
 		(pin "V{slash}Oct In" input
 			(at 27.94 119.38 180)
@@ -705,7 +675,7 @@
 			)
 			(uuid "8d27594c-cbf4-47c2-aa77-bf0ebb87cb4c")
 		)
-		(pin "Exp FM In Jack" output
+		(pin "Exp FM In 1 Jack" output
 			(at 27.94 68.58 180)
 			(effects
 				(font
@@ -715,7 +685,7 @@
 			)
 			(uuid "49366128-2c6d-457a-9883-7ed8177c3654")
 		)
-		(pin "Lin FM In Jack" output
+		(pin "Exp FM In 2 Jack" output
 			(at 27.94 73.66 180)
 			(effects
 				(font
@@ -764,6 +734,16 @@
 				(justify right)
 			)
 			(uuid "9ad95280-66a4-449e-b74f-f8ba13cf7d53")
+		)
+		(pin "Bus CV normalled" input
+			(at 72.39 78.74 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+			(uuid "db78b539-cbbd-4089-9597-3a20931c92ce")
 		)
 		(instances
 			(project "DMH_VCO_40106_PCB"

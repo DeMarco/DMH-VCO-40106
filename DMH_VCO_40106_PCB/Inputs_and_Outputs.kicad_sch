@@ -4,6 +4,9 @@
 	(generator_version "8.0")
 	(uuid "196cc310-b383-4a22-994d-921791864e58")
 	(paper "A4")
+	(title_block
+		(company "DMH Instruments")
+	)
 	(lib_symbols
 		(symbol "SynthStuff:TS_Jack_6.35mm_Sw"
 			(exclude_from_sim no)
@@ -367,10 +370,6 @@
 		(uuid "e1595305-84cf-417f-9aef-4311e85e764b")
 	)
 	(no_connect
-		(at 68.58 77.47)
-		(uuid "e8c1b170-feba-433a-a93f-be4af86fff56")
-	)
-	(no_connect
 		(at 124.46 115.57)
 		(uuid "f48d41ce-481f-4475-a284-d0b8d2e15223")
 	)
@@ -443,6 +442,16 @@
 			(type default)
 		)
 		(uuid "6667513c-981e-403e-bea6-70a7d61ae036")
+	)
+	(wire
+		(pts
+			(xy 76.2 80.01) (xy 72.39 80.01)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "66758bcc-35a2-4146-8a67-782430a38a44")
 	)
 	(wire
 		(pts
@@ -523,6 +532,16 @@
 			(type default)
 		)
 		(uuid "94c14a50-4500-4e56-a960-731170240832")
+	)
+	(wire
+		(pts
+			(xy 72.39 80.01) (xy 72.39 77.47)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "9fad4fd9-dcf8-4975-8c22-c3bcc81b82ec")
 	)
 	(wire
 		(pts
@@ -644,6 +663,16 @@
 		)
 		(uuid "f0869524-21ef-4753-9f60-6cc9bdba3fca")
 	)
+	(wire
+		(pts
+			(xy 72.39 77.47) (xy 68.58 77.47)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f9f7ebaa-e1df-455f-a9be-f3553a6d9956")
+	)
 	(hierarchical_label "Triangle Out Jack"
 		(shape input)
 		(at 133.35 74.93 0)
@@ -656,7 +685,7 @@
 		)
 		(uuid "0a34938c-8ba7-47e1-ba43-fa9ab2c16888")
 	)
-	(hierarchical_label "Lin FM In Jack"
+	(hierarchical_label "Exp FM In 2 Jack"
 		(shape output)
 		(at 76.2 113.03 0)
 		(fields_autoplaced yes)
@@ -704,6 +733,18 @@
 		)
 		(uuid "45e560ce-6d42-4346-831c-f04146bfed43")
 	)
+	(hierarchical_label "Bus CV normalled"
+		(shape input)
+		(at 76.2 80.01 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "4b3553ac-a4a4-4060-b744-e10263c7aaa9")
+	)
 	(hierarchical_label "Sine Out Jack"
 		(shape input)
 		(at 133.35 55.88 0)
@@ -716,7 +757,7 @@
 		)
 		(uuid "76b53ebf-53b3-4322-abea-14768a81317b")
 	)
-	(hierarchical_label "Exp FM In Jack"
+	(hierarchical_label "Exp FM In 1 Jack"
 		(shape output)
 		(at 76.2 93.98 0)
 		(fields_autoplaced yes)

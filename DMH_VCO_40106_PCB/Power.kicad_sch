@@ -4,6 +4,9 @@
 	(generator_version "8.0")
 	(uuid "c442bfa8-d56e-40d4-b2aa-f2c6a2d200f3")
 	(paper "A4")
+	(title_block
+		(company "DMH Instruments")
+	)
 	(lib_symbols
 		(symbol "4xxx:40106"
 			(pin_names

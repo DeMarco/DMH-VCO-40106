@@ -4,6 +4,9 @@
 	(generator_version "8.0")
 	(uuid "b578acbf-4aef-460c-95a5-ee9605328a89")
 	(paper "A4")
+	(title_block
+		(company "DMH Instruments")
+	)
 	(lib_symbols
 		(symbol "4xxx:40106"
 			(pin_names
@@ -2863,6 +2866,12 @@
 		(uuid "08f16d58-ed15-4500-a51f-d34b0ae83f98")
 	)
 	(junction
+		(at 82.55 129.54)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "2a2975ae-7e64-478b-8539-55c789703f6b")
+	)
+	(junction
 		(at 100.33 100.33)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -2965,12 +2974,6 @@
 		(uuid "c4ecfdce-6512-4d84-b8fc-1069a8acd56f")
 	)
 	(junction
-		(at 63.5 120.65)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "cb3a3f58-721b-4d67-b041-85d11125a784")
-	)
-	(junction
 		(at 172.72 71.12)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -2981,12 +2984,6 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "d422d8f8-e13e-4112-aab9-1d5701fb4960")
-	)
-	(junction
-		(at 82.55 130.81)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "d42a37f0-31c1-4529-b1b0-1857568f304a")
 	)
 	(wire
 		(pts
@@ -3017,16 +3014,6 @@
 			(type default)
 		)
 		(uuid "04d5561b-dcbd-4535-8ddc-89e9f0bf2085")
-	)
-	(wire
-		(pts
-			(xy 87.63 130.81) (xy 82.55 130.81)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "05ed6d97-cfab-4854-99db-0cec4df7ca5a")
 	)
 	(wire
 		(pts
@@ -3250,7 +3237,7 @@
 	)
 	(wire
 		(pts
-			(xy 38.1 120.65) (xy 40.64 120.65)
+			(xy 38.1 107.95) (xy 40.64 107.95)
 		)
 		(stroke
 			(width 0)
@@ -3440,16 +3427,6 @@
 	)
 	(wire
 		(pts
-			(xy 82.55 118.11) (xy 82.55 120.65)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "536dd33b-e317-4826-aa05-d477b74340f9")
-	)
-	(wire
-		(pts
 			(xy 130.81 113.03) (xy 130.81 115.57)
 		)
 		(stroke
@@ -3460,7 +3437,7 @@
 	)
 	(wire
 		(pts
-			(xy 25.4 120.65) (xy 30.48 120.65)
+			(xy 25.4 107.95) (xy 30.48 107.95)
 		)
 		(stroke
 			(width 0)
@@ -3500,16 +3477,6 @@
 	)
 	(wire
 		(pts
-			(xy 25.4 107.95) (xy 30.48 107.95)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "63254bf7-81d5-46e4-bfe4-fb1811bd798d")
-	)
-	(wire
-		(pts
 			(xy 33.02 39.37) (xy 36.83 39.37)
 		)
 		(stroke
@@ -3537,16 +3504,6 @@
 			(type default)
 		)
 		(uuid "6a3bdfa8-2eec-4fc3-9134-49c3fac1fde8")
-	)
-	(wire
-		(pts
-			(xy 86.36 124.46) (xy 87.63 124.46)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "6a923452-dbec-4030-9bef-df84c8233720")
 	)
 	(wire
 		(pts
@@ -3600,16 +3557,6 @@
 	)
 	(wire
 		(pts
-			(xy 82.55 128.27) (xy 82.55 130.81)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "72a39cfe-df50-4199-ab33-2c947fcaec38")
-	)
-	(wire
-		(pts
 			(xy 153.67 74.93) (xy 153.67 77.47)
 		)
 		(stroke
@@ -3620,23 +3567,23 @@
 	)
 	(wire
 		(pts
-			(xy 63.5 107.95) (xy 63.5 120.65)
+			(xy 82.55 129.54) (xy 82.55 132.08)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "73d70821-c7ef-43fd-96ef-7ba7d9a49a0e")
+	)
+	(wire
+		(pts
+			(xy 63.5 107.95) (xy 63.5 133.35)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
 		(uuid "743be25a-67e6-4612-9d29-13d906601984")
-	)
-	(wire
-		(pts
-			(xy 63.5 120.65) (xy 63.5 133.35)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "779fcd9b-5fb3-461d-833e-c712bcb3bdcd")
 	)
 	(wire
 		(pts
@@ -4030,6 +3977,16 @@
 	)
 	(wire
 		(pts
+			(xy 82.55 118.11) (xy 82.55 120.65)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c7b90ec6-cad5-4b43-af6f-ceea10c475ab")
+	)
+	(wire
+		(pts
 			(xy 190.5 29.21) (xy 181.61 29.21)
 		)
 		(stroke
@@ -4057,16 +4014,6 @@
 			(type default)
 		)
 		(uuid "d1a066cd-8cf7-4d28-acb0-cc8bae66383b")
-	)
-	(wire
-		(pts
-			(xy 82.55 130.81) (xy 82.55 132.08)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "d6a24621-5b81-4114-83ef-9cdb73a68bd4")
 	)
 	(wire
 		(pts
@@ -4170,6 +4117,16 @@
 	)
 	(wire
 		(pts
+			(xy 82.55 128.27) (xy 82.55 129.54)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e6e1e978-0793-4d4e-ad7f-709f62dfa7f3")
+	)
+	(wire
+		(pts
 			(xy 38.1 152.4) (xy 40.64 152.4)
 		)
 		(stroke
@@ -4210,16 +4167,6 @@
 	)
 	(wire
 		(pts
-			(xy 87.63 124.46) (xy 87.63 130.81)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "eeebb0fc-8354-4475-b1fc-732656545174")
-	)
-	(wire
-		(pts
 			(xy 38.1 133.35) (xy 40.64 133.35)
 		)
 		(stroke
@@ -4227,6 +4174,16 @@
 			(type default)
 		)
 		(uuid "f12e0476-ca12-4439-bbba-9226f312b951")
+	)
+	(wire
+		(pts
+			(xy 78.74 124.46) (xy 78.74 129.54)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f44ef6ab-f740-4828-b9b9-c88bc0a32c1b")
 	)
 	(wire
 		(pts
@@ -4240,13 +4197,13 @@
 	)
 	(wire
 		(pts
-			(xy 38.1 107.95) (xy 40.64 107.95)
+			(xy 78.74 129.54) (xy 82.55 129.54)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "fa1fb003-6b09-4d3f-aeea-dcfc86291f68")
+		(uuid "fbcfcb1c-d71e-4e82-a8d0-ec8a4e2fd66b")
 	)
 	(wire
 		(pts
@@ -4260,23 +4217,13 @@
 	)
 	(wire
 		(pts
-			(xy 48.26 120.65) (xy 63.5 120.65)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "fd8084d3-ff94-4c24-8174-321305e91580")
-	)
-	(wire
-		(pts
 			(xy 48.26 107.95) (xy 63.5 107.95)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "fefbc9ef-487f-4711-84fa-fa4668063071")
+		(uuid "fd8084d3-ff94-4c24-8174-321305e91580")
 	)
 	(circle
 		(center 83.82 113.03)
@@ -4291,6 +4238,18 @@
 		(uuid 0ebad27a-2b59-4b0f-a226-1a0db307c860)
 	)
 	(circle
+		(center 176.022 80.772)
+		(radius 6.8392)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(fill
+			(type none)
+		)
+		(uuid 1ff8bbd6-1d59-42b5-8ac5-baac6cc7c35d)
+	)
+	(circle
 		(center 21.59 44.45)
 		(radius 5.6796)
 		(stroke
@@ -4302,7 +4261,63 @@
 		)
 		(uuid 39165d86-ba24-4f26-a39b-a36c41f539fb)
 	)
-	(text "used 2k for now"
+	(circle
+		(center 57.15 152.4)
+		(radius 6.8392)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(fill
+			(type none)
+		)
+		(uuid b3c6fcd8-3a15-4ec1-af78-dcce543e595f)
+	)
+	(circle
+		(center 57.912 134.112)
+		(radius 6.8392)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(fill
+			(type none)
+		)
+		(uuid c06b1642-8502-463d-9861-ddcd239a003d)
+	)
+	(circle
+		(center 153.162 69.342)
+		(radius 6.8392)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(fill
+			(type none)
+		)
+		(uuid d4adb3d3-ecfb-444c-9c62-edbf6d0f33fc)
+	)
+	(text "used 100k for now"
+		(exclude_from_sim no)
+		(at 154.432 76.962 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "09690317-5714-412a-a1bf-9b2a232140d1")
+	)
+	(text "used 100k for now"
+		(exclude_from_sim no)
+		(at 57.658 161.036 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "3f5982df-e20e-481e-b762-05db38f3a9f6")
+	)
+	(text "used 1k + 510R for now"
 		(exclude_from_sim no)
 		(at 83.058 104.648 0)
 		(effects
@@ -4311,6 +4326,46 @@
 			)
 		)
 		(uuid "4867adaf-e0db-43b9-a426-0194b0d8b551")
+	)
+	(text "Cermet trimpots pinout:\nwhen viewing the trimpot from above,\n1 = left = fully CCW\n2 = middle\n3 = rigth = fully CW"
+		(exclude_from_sim no)
+		(at 92.202 149.098 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "67f720f6-9a75-490f-bca9-4bca511e7ac3")
+	)
+	(text "used 10k for now,\nmight need trimpot"
+		(exclude_from_sim no)
+		(at 171.958 83.82 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "9897344e-1de7-4a91-8b37-57a4ed105914")
+	)
+	(text "RD09 pots pinout:\nwhen viewing the pot from above and the pins are on the south side,\n1 = right = fully CW\n2 = middle\n3 = left = fully CCW"
+		(exclude_from_sim no)
+		(at 62.484 19.05 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "a21d1940-3de9-4795-a44e-603b4169a4e7")
+	)
+	(text "used 100k for now"
+		(exclude_from_sim no)
+		(at 58.42 142.24 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "c331c931-0da8-4e3f-b69b-e0fc46b1553e")
 	)
 	(text "used 2 68k in parallel for now"
 		(exclude_from_sim no)
@@ -4322,7 +4377,7 @@
 		)
 		(uuid "fa3ae6a7-9876-491c-b8f9-58b3c9484965")
 	)
-	(hierarchical_label "Exp FM In"
+	(hierarchical_label "Exp FM In 1"
 		(shape input)
 		(at 25.4 133.35 180)
 		(fields_autoplaced yes)
@@ -4372,7 +4427,7 @@
 	)
 	(hierarchical_label "V{slash}Oct In"
 		(shape input)
-		(at 25.4 120.65 180)
+		(at 25.4 107.95 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -4394,7 +4449,7 @@
 		)
 		(uuid "d19995fb-4eb3-4e66-b711-644716aef3e7")
 	)
-	(hierarchical_label "Lin FM In"
+	(hierarchical_label "Exp FM In 2"
 		(shape input)
 		(at 25.4 152.4 180)
 		(fields_autoplaced yes)
@@ -4405,18 +4460,6 @@
 			(justify right)
 		)
 		(uuid "f292de43-822b-4f07-8dce-619c8b3837d0")
-	)
-	(hierarchical_label "Bus CV In"
-		(shape input)
-		(at 25.4 107.95 180)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right)
-		)
-		(uuid "fe4c21ad-9b5e-4ce4-aeb1-b17bec5daa87")
 	)
 	(symbol
 		(lib_id "Device:R_US")
@@ -5698,74 +5741,6 @@
 		)
 	)
 	(symbol
-		(lib_id "Device:Thermistor_US")
-		(at 44.45 107.95 90)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "440c0130-a339-43d6-8302-cae0a36429c0")
-		(property "Reference" "TH3"
-			(at 44.45 101.6 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "10k"
-			(at 44.45 104.14 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "Resistor_THT:R_Axial_DIN0204_L3.6mm_D1.6mm_P5.08mm_Horizontal"
-			(at 44.45 107.95 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 44.45 107.95 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Thermistor, temperature dependent resistor, US symbol"
-			(at 44.45 107.95 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "2"
-			(uuid "507c40e3-ae10-4176-9205-87e3eaa62db4")
-		)
-		(pin "1"
-			(uuid "bd4cb79e-a3c4-450f-8c69-5a8177b60f28")
-		)
-		(instances
-			(project "VCO mki PCB"
-				(path "/fefed352-c100-4617-bbfb-c55e7427b122/681eb850-910f-47de-ab28-b72b47bdbc38"
-					(reference "TH3")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "Device:R_US")
 		(at 153.67 49.53 270)
 		(unit 1)
@@ -5835,7 +5810,7 @@
 	)
 	(symbol
 		(lib_id "Device:R_US")
-		(at 34.29 120.65 90)
+		(at 34.29 107.95 90)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -5844,7 +5819,7 @@
 		(fields_autoplaced yes)
 		(uuid "54227056-63ef-4bd9-81a5-a1b42b4cf8a2")
 		(property "Reference" "R7"
-			(at 34.29 114.3 90)
+			(at 34.29 101.6 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5852,7 +5827,7 @@
 			)
 		)
 		(property "Value" "100k"
-			(at 34.29 116.84 90)
+			(at 34.29 104.14 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5860,7 +5835,7 @@
 			)
 		)
 		(property "Footprint" "Resistor_THT:R_Axial_DIN0204_L3.6mm_D1.6mm_P5.08mm_Horizontal"
-			(at 34.544 119.634 90)
+			(at 34.544 106.934 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5869,7 +5844,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 34.29 120.65 0)
+			(at 34.29 107.95 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5878,7 +5853,7 @@
 			)
 		)
 		(property "Description" "Resistor, US symbol"
-			(at 34.29 120.65 0)
+			(at 34.29 107.95 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6384,7 +6359,7 @@
 	)
 	(symbol
 		(lib_id "Device:R_Potentiometer_Trim_US")
-		(at 82.55 124.46 0)
+		(at 82.55 124.46 180)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -6392,7 +6367,7 @@
 		(dnp no)
 		(uuid "6d52a498-9f38-4108-b7ea-3c5d9215c1c6")
 		(property "Reference" "RV5"
-			(at 80.01 123.1899 0)
+			(at 85.09 125.7301 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6401,7 +6376,7 @@
 			)
 		)
 		(property "Value" "1k"
-			(at 80.01 125.7299 0)
+			(at 85.09 123.1901 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6428,7 +6403,7 @@
 			)
 		)
 		(property "Description" "V/Oct Calibration"
-			(at 73.914 124.46 90)
+			(at 91.186 124.46 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8313,7 +8288,7 @@
 	)
 	(symbol
 		(lib_id "Device:Thermistor_US")
-		(at 44.45 120.65 90)
+		(at 44.45 107.95 90)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -8322,7 +8297,7 @@
 		(fields_autoplaced yes)
 		(uuid "d6ff5a2e-6143-44eb-b840-fe7bc7c4124e")
 		(property "Reference" "TH4"
-			(at 44.45 114.3 90)
+			(at 44.45 101.6 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8330,7 +8305,7 @@
 			)
 		)
 		(property "Value" "10k"
-			(at 44.45 116.84 90)
+			(at 44.45 104.14 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8338,7 +8313,7 @@
 			)
 		)
 		(property "Footprint" "Resistor_THT:R_Axial_DIN0204_L3.6mm_D1.6mm_P5.08mm_Horizontal"
-			(at 44.45 120.65 0)
+			(at 44.45 107.95 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8347,7 +8322,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 44.45 120.65 0)
+			(at 44.45 107.95 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8356,7 +8331,7 @@
 			)
 		)
 		(property "Description" "Thermistor, temperature dependent resistor, US symbol"
-			(at 44.45 120.65 0)
+			(at 44.45 107.95 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8776,74 +8751,6 @@
 			(project "VCO mki PCB"
 				(path "/fefed352-c100-4617-bbfb-c55e7427b122/681eb850-910f-47de-ab28-b72b47bdbc38"
 					(reference "TH2")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:R_US")
-		(at 34.29 107.95 90)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "f1ab2bb6-93af-4fbf-b195-1ca0d4d3b73d")
-		(property "Reference" "R6"
-			(at 34.29 101.6 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "100k"
-			(at 34.29 104.14 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "Resistor_THT:R_Axial_DIN0204_L3.6mm_D1.6mm_P5.08mm_Horizontal"
-			(at 34.544 106.934 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 34.29 107.95 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Resistor, US symbol"
-			(at 34.29 107.95 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "2"
-			(uuid "609e400e-06c9-4e38-8cab-2d3cdcf43e42")
-		)
-		(pin "1"
-			(uuid "fab9ba80-b6b4-4a10-887f-4d9bd80cbebf")
-		)
-		(instances
-			(project "VCO mki PCB"
-				(path "/fefed352-c100-4617-bbfb-c55e7427b122/681eb850-910f-47de-ab28-b72b47bdbc38"
-					(reference "R6")
 					(unit 1)
 				)
 			)

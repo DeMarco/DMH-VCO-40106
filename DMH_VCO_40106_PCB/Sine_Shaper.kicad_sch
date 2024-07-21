@@ -4,6 +4,9 @@
 	(generator_version "8.0")
 	(uuid "cb45d4f1-54a6-4ec3-8efc-8d594b175645")
 	(paper "A4")
+	(title_block
+		(company "DMH Instruments")
+	)
 	(lib_symbols
 		(symbol "Amplifier_Operational:TL072"
 			(pin_names
