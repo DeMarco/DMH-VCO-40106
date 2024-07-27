@@ -1847,7 +1847,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Potentiometer_THT:Potentiometer_Bourns_3296W_Vertical"
 			(at 120.65 115.57 0)
 			(effects
 				(font
@@ -2332,7 +2332,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Potentiometer_THT:Potentiometer_Bourns_3296W_Vertical"
 			(at 82.55 87.63 0)
 			(effects
 				(font
