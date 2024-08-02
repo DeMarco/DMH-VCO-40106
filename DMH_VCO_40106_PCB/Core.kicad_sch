@@ -4458,16 +4458,6 @@
 		)
 		(uuid "a21d1940-3de9-4795-a44e-603b4169a4e7")
 	)
-	(text "used 2 68k in parallel for now"
-		(exclude_from_sim no)
-		(at 34.29 51.562 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-		)
-		(uuid "fa3ae6a7-9876-491c-b8f9-58b3c9484965")
-	)
 	(hierarchical_label "Exp FM In 1"
 		(shape input)
 		(at 25.4 127 180)
@@ -6252,7 +6242,7 @@
 				)
 			)
 		)
-		(property "Value" "1k5"
+		(property "Value" "3k3"
 			(at 111.76 114.3 90)
 			(effects
 				(font
@@ -7553,7 +7543,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "2.2nF"
+		(property "Value" "10nF"
 			(at 161.29 110.4899 0)
 			(effects
 				(font
@@ -8516,7 +8506,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "470R"
+		(property "Value" "510R"
 			(at 120.65 138.4299 0)
 			(effects
 				(font
