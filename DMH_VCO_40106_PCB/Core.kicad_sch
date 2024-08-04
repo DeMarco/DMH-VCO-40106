@@ -2896,6 +2896,12 @@
 		(uuid "3f4e7280-9597-4d6e-abf4-5697e7370793")
 	)
 	(junction
+		(at 72.39 83.82)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "41764420-cee3-48fa-861c-32b2bab0ff4a")
+	)
+	(junction
 		(at 36.83 88.9)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -2960,12 +2966,6 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "814bf1cb-0f24-43e1-8347-dd59c37c0dfa")
-	)
-	(junction
-		(at 72.39 82.55)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "84ddafda-8077-40fd-b1c6-7b2b7a4e3d3a")
 	)
 	(junction
 		(at 217.17 29.21)
@@ -3193,7 +3193,7 @@
 	)
 	(wire
 		(pts
-			(xy 36.83 88.9) (xy 43.18 88.9)
+			(xy 36.83 88.9) (xy 38.1 88.9)
 		)
 		(stroke
 			(width 0)
@@ -3343,13 +3343,23 @@
 	)
 	(wire
 		(pts
-			(xy 57.15 85.09) (xy 57.15 82.55)
+			(xy 52.07 85.09) (xy 52.07 83.82)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
 		(uuid "3000fa1e-1068-496b-acaa-743383072634")
+	)
+	(wire
+		(pts
+			(xy 72.39 60.96) (xy 72.39 83.82)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "31f60f70-9045-440d-8afe-9ec60a378745")
 	)
 	(wire
 		(pts
@@ -3373,7 +3383,7 @@
 	)
 	(wire
 		(pts
-			(xy 60.96 88.9) (xy 63.5 88.9)
+			(xy 55.88 88.9) (xy 58.42 88.9)
 		)
 		(stroke
 			(width 0)
@@ -3393,7 +3403,7 @@
 	)
 	(wire
 		(pts
-			(xy 48.26 107.95) (xy 50.8 107.95)
+			(xy 60.96 107.95) (xy 63.5 107.95)
 		)
 		(stroke
 			(width 0)
@@ -3643,7 +3653,7 @@
 	)
 	(wire
 		(pts
-			(xy 35.56 107.95) (xy 40.64 107.95)
+			(xy 35.56 107.95) (xy 53.34 107.95)
 		)
 		(stroke
 			(width 0)
@@ -3703,6 +3713,16 @@
 	)
 	(wire
 		(pts
+			(xy 72.39 83.82) (xy 72.39 107.95)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "6799fb50-82d3-46ef-bdca-37572cc3e532")
+	)
+	(wire
+		(pts
 			(xy 176.53 100.33) (xy 179.07 100.33)
 		)
 		(stroke
@@ -3753,23 +3773,13 @@
 	)
 	(wire
 		(pts
-			(xy 63.5 88.9) (xy 63.5 91.44)
+			(xy 58.42 88.9) (xy 58.42 91.44)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
 		(uuid "7489f03c-e2f9-420b-a7e1-ddd96d8cc303")
-	)
-	(wire
-		(pts
-			(xy 71.12 82.55) (xy 72.39 82.55)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "75f43099-1c80-4747-8181-4a2b5d796a0c")
 	)
 	(wire
 		(pts
@@ -3823,7 +3833,7 @@
 	)
 	(wire
 		(pts
-			(xy 57.15 82.55) (xy 63.5 82.55)
+			(xy 52.07 83.82) (xy 53.34 83.82)
 		)
 		(stroke
 			(width 0)
@@ -3873,7 +3883,7 @@
 	)
 	(wire
 		(pts
-			(xy 63.5 69.85) (xy 63.5 71.12)
+			(xy 62.23 69.85) (xy 62.23 71.12)
 		)
 		(stroke
 			(width 0)
@@ -4023,16 +4033,6 @@
 	)
 	(wire
 		(pts
-			(xy 72.39 82.55) (xy 72.39 107.95)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "996a96ed-c462-4a53-8c34-e2bed1aed997")
-	)
-	(wire
-		(pts
 			(xy 72.39 110.49) (xy 72.39 116.84)
 		)
 		(stroke
@@ -4100,6 +4100,16 @@
 			(type default)
 		)
 		(uuid "a111b246-97e1-43ca-9dfd-b8c8da83a1a1")
+	)
+	(wire
+		(pts
+			(xy 60.96 83.82) (xy 63.5 83.82)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a3cd1f07-e2b5-4228-ba61-97a8e517dad8")
 	)
 	(wire
 		(pts
@@ -4273,6 +4283,16 @@
 	)
 	(wire
 		(pts
+			(xy 71.12 83.82) (xy 72.39 83.82)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b40e3e70-fa20-489e-b19a-9eba0b57769c")
+	)
+	(wire
+		(pts
 			(xy 41.91 54.61) (xy 41.91 73.66)
 		)
 		(stroke
@@ -4403,7 +4423,7 @@
 	)
 	(wire
 		(pts
-			(xy 58.42 69.85) (xy 63.5 69.85)
+			(xy 58.42 69.85) (xy 62.23 69.85)
 		)
 		(stroke
 			(width 0)
@@ -4643,16 +4663,6 @@
 	)
 	(wire
 		(pts
-			(xy 72.39 60.96) (xy 72.39 82.55)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "f36e7e88-16f3-432a-9aa3-ee9260743e69")
-	)
-	(wire
-		(pts
 			(xy 36.83 88.9) (xy 36.83 90.17)
 		)
 		(stroke
@@ -4673,7 +4683,7 @@
 	)
 	(wire
 		(pts
-			(xy 50.8 88.9) (xy 53.34 88.9)
+			(xy 45.72 88.9) (xy 48.26 88.9)
 		)
 		(stroke
 			(width 0)
@@ -4713,7 +4723,7 @@
 	)
 	(wire
 		(pts
-			(xy 58.42 107.95) (xy 72.39 107.95)
+			(xy 71.12 107.95) (xy 72.39 107.95)
 		)
 		(stroke
 			(width 0)
@@ -5613,7 +5623,7 @@
 	)
 	(symbol
 		(lib_id "Device:R_US")
-		(at 46.99 88.9 270)
+		(at 41.91 88.9 270)
 		(mirror x)
 		(unit 1)
 		(exclude_from_sim no)
@@ -5622,7 +5632,7 @@
 		(dnp no)
 		(uuid "287a1fd3-0ad4-4e71-b6bc-de5063f79b85")
 		(property "Reference" "R42"
-			(at 44.704 83.312 90)
+			(at 39.624 83.312 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5631,7 +5641,7 @@
 			)
 		)
 		(property "Value" "100k"
-			(at 44.704 85.852 90)
+			(at 39.624 85.852 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5640,7 +5650,7 @@
 			)
 		)
 		(property "Footprint" "Resistor_THT:R_Axial_DIN0204_L3.6mm_D1.6mm_P5.08mm_Horizontal"
-			(at 46.736 87.884 90)
+			(at 41.656 87.884 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5649,7 +5659,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 46.99 88.9 0)
+			(at 41.91 88.9 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5658,7 +5668,7 @@
 			)
 		)
 		(property "Description" "Resistor, US symbol"
-			(at 46.99 88.9 0)
+			(at 41.91 88.9 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6395,6 +6405,74 @@
 		)
 	)
 	(symbol
+		(lib_id "Device:Thermistor_US")
+		(at 67.31 83.82 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "3f17333f-43d2-4425-b9e6-4f573e157716")
+		(property "Reference" "TH3"
+			(at 67.31 77.47 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "10k"
+			(at 67.31 80.01 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Resistor_THT:R_Axial_DIN0204_L3.6mm_D1.6mm_P5.08mm_Horizontal"
+			(at 67.31 83.82 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 67.31 83.82 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Thermistor, temperature dependent resistor, US symbol"
+			(at 67.31 83.82 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "12861d75-8047-4463-b04e-eaca7f004204")
+		)
+		(pin "1"
+			(uuid "8b569f96-ee2e-4dea-bc4d-d8229d47ccab")
+		)
+		(instances
+			(project "DMH_VCO_40106_PCB"
+				(path "/fefed352-c100-4617-bbfb-c55e7427b122/681eb850-910f-47de-ab28-b72b47bdbc38"
+					(reference "TH3")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "power:+12V")
 		(at 129.54 86.36 0)
 		(unit 1)
@@ -6596,7 +6674,7 @@
 	)
 	(symbol
 		(lib_id "Device:R_US")
-		(at 44.45 107.95 90)
+		(at 57.15 107.95 90)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -6605,7 +6683,7 @@
 		(fields_autoplaced yes)
 		(uuid "54227056-63ef-4bd9-81a5-a1b42b4cf8a2")
 		(property "Reference" "R7"
-			(at 44.45 101.6 90)
+			(at 57.15 101.6 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6613,7 +6691,7 @@
 			)
 		)
 		(property "Value" "100k"
-			(at 44.45 104.14 90)
+			(at 57.15 104.14 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6621,7 +6699,7 @@
 			)
 		)
 		(property "Footprint" "Resistor_THT:R_Axial_DIN0204_L3.6mm_D1.6mm_P5.08mm_Horizontal"
-			(at 44.704 106.934 90)
+			(at 57.404 106.934 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6630,7 +6708,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 44.45 107.95 0)
+			(at 57.15 107.95 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6639,7 +6717,7 @@
 			)
 		)
 		(property "Description" "Resistor, US symbol"
-			(at 44.45 107.95 0)
+			(at 57.15 107.95 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8700,7 +8778,7 @@
 	)
 	(symbol
 		(lib_id "Device:R_Potentiometer_Trim_US")
-		(at 57.15 88.9 90)
+		(at 52.07 88.9 90)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -8708,7 +8786,7 @@
 		(dnp no)
 		(uuid "aad5f486-f28b-4bf3-a898-786ee2e7c8fb")
 		(property "Reference" "RV12"
-			(at 54.864 92.456 90)
+			(at 49.784 92.456 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8717,7 +8795,7 @@
 			)
 		)
 		(property "Value" "50k"
-			(at 54.864 94.996 90)
+			(at 49.784 94.996 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8726,7 +8804,7 @@
 			)
 		)
 		(property "Footprint" "Resistor_THT:R_Axial_DIN0204_L3.6mm_D1.6mm_P5.08mm_Horizontal"
-			(at 57.15 88.9 0)
+			(at 52.07 88.9 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8735,7 +8813,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 57.15 88.9 0)
+			(at 52.07 88.9 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8744,7 +8822,7 @@
 			)
 		)
 		(property "Description" "Trim-potentiometer, US symbol"
-			(at 57.15 88.9 0)
+			(at 52.07 88.9 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8753,7 +8831,7 @@
 			)
 		)
 		(property "Function" "Centering"
-			(at 56.642 97.028 90)
+			(at 51.562 97.028 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8780,7 +8858,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 63.5 91.44 0)
+		(at 58.42 91.44 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -8788,7 +8866,7 @@
 		(dnp no)
 		(uuid "ab4f7bcd-9c8c-40e7-9655-4524b214aa62")
 		(property "Reference" "#PWR043"
-			(at 63.5 97.79 0)
+			(at 58.42 97.79 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8797,7 +8875,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 63.5 95.25 0)
+			(at 58.42 95.25 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8805,7 +8883,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 63.5 91.44 0)
+			(at 58.42 91.44 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8814,7 +8892,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 63.5 91.44 0)
+			(at 58.42 91.44 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8823,7 +8901,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 63.5 91.44 0)
+			(at 58.42 91.44 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9082,7 +9160,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 63.5 71.12 0)
+		(at 62.23 71.12 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -9090,7 +9168,7 @@
 		(dnp no)
 		(uuid "c14e6133-c287-442e-982d-a66fddf37b81")
 		(property "Reference" "#PWR01"
-			(at 63.5 77.47 0)
+			(at 62.23 77.47 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9099,7 +9177,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 63.5 74.93 0)
+			(at 62.23 74.93 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9107,7 +9185,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 63.5 71.12 0)
+			(at 62.23 71.12 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9116,7 +9194,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 63.5 71.12 0)
+			(at 62.23 71.12 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9125,7 +9203,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 63.5 71.12 0)
+			(at 62.23 71.12 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9778,7 +9856,7 @@
 	)
 	(symbol
 		(lib_id "Device:Thermistor_US")
-		(at 54.61 107.95 90)
+		(at 67.31 107.95 90)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -9787,7 +9865,7 @@
 		(fields_autoplaced yes)
 		(uuid "d6ff5a2e-6143-44eb-b840-fe7bc7c4124e")
 		(property "Reference" "TH4"
-			(at 54.61 101.6 90)
+			(at 67.31 101.6 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9795,7 +9873,7 @@
 			)
 		)
 		(property "Value" "10k"
-			(at 54.61 104.14 90)
+			(at 67.31 104.14 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9803,7 +9881,7 @@
 			)
 		)
 		(property "Footprint" "Resistor_THT:R_Axial_DIN0204_L3.6mm_D1.6mm_P5.08mm_Horizontal"
-			(at 54.61 107.95 0)
+			(at 67.31 107.95 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9812,7 +9890,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 54.61 107.95 0)
+			(at 67.31 107.95 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9821,7 +9899,7 @@
 			)
 		)
 		(property "Description" "Thermistor, temperature dependent resistor, US symbol"
-			(at 54.61 107.95 0)
+			(at 67.31 107.95 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10317,7 +10395,8 @@
 	)
 	(symbol
 		(lib_id "Device:R_US")
-		(at 67.31 82.55 270)
+		(at 57.15 83.82 270)
+		(mirror x)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -10325,7 +10404,7 @@
 		(dnp no)
 		(uuid "eec8db87-a26f-416a-a556-37a30194f425")
 		(property "Reference" "R43"
-			(at 65.024 88.138 90)
+			(at 54.864 78.232 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10334,7 +10413,7 @@
 			)
 		)
 		(property "Value" "1M"
-			(at 66.04 85.852 90)
+			(at 55.88 80.518 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10343,7 +10422,7 @@
 			)
 		)
 		(property "Footprint" "Resistor_THT:R_Axial_DIN0204_L3.6mm_D1.6mm_P5.08mm_Horizontal"
-			(at 67.056 83.566 90)
+			(at 56.896 82.804 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10352,7 +10431,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 67.31 82.55 0)
+			(at 57.15 83.82 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10361,7 +10440,7 @@
 			)
 		)
 		(property "Description" "Resistor, US symbol"
-			(at 67.31 82.55 0)
+			(at 57.15 83.82 0)
 			(effects
 				(font
 					(size 1.27 1.27)
