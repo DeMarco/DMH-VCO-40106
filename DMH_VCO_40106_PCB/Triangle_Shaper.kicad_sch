@@ -2000,6 +2000,28 @@
 		)
 		(uuid "f6e32c27-c83b-491f-a82b-b382d9ed2967")
 	)
+	(circle
+		(center 152.4 109.22)
+		(radius 6.35)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(fill
+			(type none)
+		)
+		(uuid 9c51b168-8c7e-4a24-b8d9-abe6051269ad)
+	)
+	(text "Used 2x 1uF for now"
+		(exclude_from_sim no)
+		(at 151.384 117.602 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "f010151e-01bc-458b-bf20-90105b48c503")
+	)
 	(text "Need an extra 1k here at the base of Q3?"
 		(exclude_from_sim no)
 		(at 81.534 112.014 0)
