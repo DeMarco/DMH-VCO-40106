@@ -8682,7 +8682,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "a9cb2ce3-f422-4397-ac16-407fdaf2dd99")
-		(property "Reference" "U4"
+		(property "Reference" "U3"
 			(at 111.76 95.25 0)
 			(effects
 				(font
@@ -8770,7 +8770,7 @@
 		(instances
 			(project "DMH_VCO_40106_PCB"
 				(path "/fefed352-c100-4617-bbfb-c55e7427b122/681eb850-910f-47de-ab28-b72b47bdbc38"
-					(reference "U4")
+					(reference "U3")
 					(unit 2)
 				)
 			)
@@ -9064,7 +9064,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "b79ce5b5-c227-46f6-99cc-09596ced13d9")
-		(property "Reference" "U4"
+		(property "Reference" "U3"
 			(at 83.82 97.79 0)
 			(effects
 				(font
@@ -9152,7 +9152,7 @@
 		(instances
 			(project "DMH_VCO_40106_PCB"
 				(path "/fefed352-c100-4617-bbfb-c55e7427b122/681eb850-910f-47de-ab28-b72b47bdbc38"
-					(reference "U4")
+					(reference "U3")
 					(unit 1)
 				)
 			)
