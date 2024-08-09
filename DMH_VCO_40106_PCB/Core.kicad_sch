@@ -3283,6 +3283,16 @@
 	)
 	(wire
 		(pts
+			(xy 66.04 88.9) (xy 66.04 93.98)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "2ac8901c-3e04-415a-89b4-3ed91fcc8d4b")
+	)
+	(wire
+		(pts
 			(xy 203.2 24.13) (xy 219.71 24.13)
 		)
 		(stroke
@@ -3490,6 +3500,16 @@
 			(type default)
 		)
 		(uuid "3f16481d-a2ca-42ce-a0ab-5a21931c5763")
+	)
+	(wire
+		(pts
+			(xy 68.58 93.98) (xy 68.58 92.71)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "3f45780b-b5ea-447a-872a-47663ab4739e")
 	)
 	(wire
 		(pts
@@ -3770,16 +3790,6 @@
 			(type default)
 		)
 		(uuid "7484ce42-8e99-441f-9561-d2dfe2b69f53")
-	)
-	(wire
-		(pts
-			(xy 58.42 88.9) (xy 58.42 91.44)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "7489f03c-e2f9-420b-a7e1-ddd96d8cc303")
 	)
 	(wire
 		(pts
@@ -4623,6 +4633,16 @@
 	)
 	(wire
 		(pts
+			(xy 66.04 93.98) (xy 68.58 93.98)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "eb513fc7-742d-4f94-aa3f-3c17fa79f812")
+	)
+	(wire
+		(pts
 			(xy 171.45 69.85) (xy 182.88 69.85)
 		)
 		(stroke
@@ -5101,6 +5121,72 @@
 			(project "VCO mki PCB"
 				(path "/fefed352-c100-4617-bbfb-c55e7427b122/681eb850-910f-47de-ab28-b72b47bdbc38"
 					(reference "TP3")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:+12V")
+		(at 68.58 92.71 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "145b540e-a886-48ef-87d9-0a1d9cd5a586")
+		(property "Reference" "#PWR02"
+			(at 68.58 96.52 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "+12V"
+			(at 68.58 87.63 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 68.58 92.71 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 68.58 92.71 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"+12V\""
+			(at 68.58 92.71 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "15223059-dd5e-45ff-861f-be4ffaa6c25c")
+		)
+		(instances
+			(project "DMH_VCO_40106_PCB"
+				(path "/fefed352-c100-4617-bbfb-c55e7427b122/681eb850-910f-47de-ab28-b72b47bdbc38"
+					(reference "#PWR02")
 					(unit 1)
 				)
 			)
@@ -7933,7 +8019,7 @@
 				(justify right)
 			)
 		)
-		(property "Value" "33k"
+		(property "Value" "47k"
 			(at 20.32 85.0899 0)
 			(effects
 				(font
@@ -8323,6 +8409,75 @@
 			(project "VCO mki PCB"
 				(path "/fefed352-c100-4617-bbfb-c55e7427b122/681eb850-910f-47de-ab28-b72b47bdbc38"
 					(reference "RV2")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R_US")
+		(at 62.23 88.9 270)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "967d79c8-3531-42b7-ae45-ee0a302d1adf")
+		(property "Reference" "R15"
+			(at 59.944 94.488 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "100k"
+			(at 59.944 91.948 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Resistor_THT:R_Axial_DIN0204_L3.6mm_D1.6mm_P5.08mm_Horizontal"
+			(at 61.976 89.916 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 62.23 88.9 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Resistor, US symbol"
+			(at 62.23 88.9 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "746ad979-cf34-493f-b977-078af5d30ef5")
+		)
+		(pin "1"
+			(uuid "3045ee28-c24b-4f09-9311-a57516b01566")
+		)
+		(instances
+			(project "DMH_VCO_40106_PCB"
+				(path "/fefed352-c100-4617-bbfb-c55e7427b122/681eb850-910f-47de-ab28-b72b47bdbc38"
+					(reference "R15")
 					(unit 1)
 				)
 			)
@@ -8794,7 +8949,7 @@
 				(justify right)
 			)
 		)
-		(property "Value" "50k"
+		(property "Value" "100k"
 			(at 49.784 94.996 90)
 			(effects
 				(font
@@ -8851,71 +9006,6 @@
 			(project "VCO mki PCB"
 				(path "/fefed352-c100-4617-bbfb-c55e7427b122/681eb850-910f-47de-ab28-b72b47bdbc38"
 					(reference "RV12")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "power:GND")
-		(at 58.42 91.44 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "ab4f7bcd-9c8c-40e7-9655-4524b214aa62")
-		(property "Reference" "#PWR043"
-			(at 58.42 97.79 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "GND"
-			(at 58.42 95.25 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 58.42 91.44 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 58.42 91.44 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 58.42 91.44 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "fea73dd6-c6e4-497d-8ac2-e35cdb5ce900")
-		)
-		(instances
-			(project "DMH_VCO_40106_PCB"
-				(path "/fefed352-c100-4617-bbfb-c55e7427b122/681eb850-910f-47de-ab28-b72b47bdbc38"
-					(reference "#PWR043")
 					(unit 1)
 				)
 			)

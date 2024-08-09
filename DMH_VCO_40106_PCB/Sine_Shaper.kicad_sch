@@ -1281,12 +1281,6 @@
 		)
 	)
 	(junction
-		(at 176.53 76.2)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "04a5dfe3-587d-42ed-8aec-ae17ba7d622c")
-	)
-	(junction
 		(at 132.08 100.33)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -1309,6 +1303,12 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "a51c19e9-fb96-4bd7-bc64-a84546b9a279")
+	)
+	(junction
+		(at 176.53 76.2)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "b32b34c1-7607-4a6d-b12e-44eebfe68d1f")
 	)
 	(junction
 		(at 97.79 87.63)
@@ -1468,13 +1468,13 @@
 	)
 	(wire
 		(pts
-			(xy 176.53 76.2) (xy 181.61 76.2)
+			(xy 186.69 76.2) (xy 189.23 76.2)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "467cc7ff-e768-4fea-8e4d-dd2b28faa7d5")
+		(uuid "477310c6-4857-4841-abc3-a001f7f4d302")
 	)
 	(wire
 		(pts
@@ -1585,6 +1585,16 @@
 			(type default)
 		)
 		(uuid "8c222b7e-4580-4677-9032-160308dbfb74")
+	)
+	(wire
+		(pts
+			(xy 176.53 76.2) (xy 179.07 76.2)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "8f4e966f-ceb1-4079-8a2e-5cfd23234908")
 	)
 	(wire
 		(pts
@@ -1798,7 +1808,7 @@
 	)
 	(hierarchical_label "Sine Out"
 		(shape output)
-		(at 181.61 76.2 0)
+		(at 189.23 76.2 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -2022,6 +2032,74 @@
 			(project "VCO mki PCB"
 				(path "/fefed352-c100-4617-bbfb-c55e7427b122/5d4fa276-24f5-484f-b50d-2ebe5f0666ef"
 					(reference "RV10")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R_US")
+		(at 182.88 76.2 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "41cd66b2-03ca-4167-ad38-dc9b3c69bf5b")
+		(property "Reference" "R44"
+			(at 182.88 69.85 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "1k"
+			(at 182.88 72.39 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 183.134 75.184 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 182.88 76.2 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Resistor, US symbol"
+			(at 182.88 76.2 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "efd0808d-aea7-4d22-92cc-423fd4f8a684")
+		)
+		(pin "1"
+			(uuid "9b3536ba-f653-4ab1-b06f-572ac7143dd7")
+		)
+		(instances
+			(project "DMH_VCO_40106_PCB"
+				(path "/fefed352-c100-4617-bbfb-c55e7427b122/5d4fa276-24f5-484f-b50d-2ebe5f0666ef"
+					(reference "R44")
 					(unit 1)
 				)
 			)

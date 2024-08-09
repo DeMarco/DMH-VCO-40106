@@ -2000,16 +2000,6 @@
 		)
 		(uuid "f6e32c27-c83b-491f-a82b-b382d9ed2967")
 	)
-	(text "Need an extra 1k here at the base of Q3?"
-		(exclude_from_sim no)
-		(at 81.534 112.014 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-		)
-		(uuid "fe34ed66-1e23-4a8c-9f54-57c0eadd2152")
-	)
 	(hierarchical_label "Triangle Out"
 		(shape output)
 		(at 203.2 96.52 0)
