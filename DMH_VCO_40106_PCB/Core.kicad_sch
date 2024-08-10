@@ -2890,12 +2890,6 @@
 		(uuid "35772588-b310-402d-95d1-bb62a12f9b7d")
 	)
 	(junction
-		(at 237.49 26.67)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "3f4e7280-9597-4d6e-abf4-5697e7370793")
-	)
-	(junction
 		(at 72.39 83.82)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -2942,6 +2936,12 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "6df9aa69-897d-44dd-bb06-07c119dab42c")
+	)
+	(junction
+		(at 256.54 29.21)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "70171f73-44ab-4640-a654-e74961ee8beb")
 	)
 	(junction
 		(at 157.48 86.36)
@@ -2992,10 +2992,22 @@
 		(uuid "abcdb0d0-94b4-4cc5-a632-23de5d93fa17")
 	)
 	(junction
+		(at 236.22 39.37)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "aef33c93-4399-40cf-91ad-e2edd5d71c21")
+	)
+	(junction
 		(at 199.39 74.93)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "b097906f-dd00-4f76-b6f5-68782aae8008")
+	)
+	(junction
+		(at 236.22 26.67)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "b2c032ce-264d-4a89-90e1-3af74635a05a")
 	)
 	(junction
 		(at 257.81 67.31)
@@ -3093,7 +3105,7 @@
 	)
 	(wire
 		(pts
-			(xy 231.14 39.37) (xy 237.49 39.37)
+			(xy 231.14 39.37) (xy 236.22 39.37)
 		)
 		(stroke
 			(width 0)
@@ -3473,6 +3485,16 @@
 	)
 	(wire
 		(pts
+			(xy 255.27 29.21) (xy 256.54 29.21)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "3ace2b98-d1ab-45bf-9980-8809d83c9c6c")
+	)
+	(wire
+		(pts
 			(xy 101.6 88.9) (xy 106.68 88.9)
 		)
 		(stroke
@@ -3513,13 +3535,33 @@
 	)
 	(wire
 		(pts
-			(xy 237.49 39.37) (xy 237.49 26.67)
+			(xy 236.22 39.37) (xy 236.22 26.67)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
 		(uuid "3fb06f23-d65f-4728-a42c-c276aa1b5e35")
+	)
+	(wire
+		(pts
+			(xy 266.7 29.21) (xy 269.24 29.21)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "40f17130-43b2-4274-afe3-6529ec430576")
+	)
+	(wire
+		(pts
+			(xy 256.54 36.83) (xy 238.76 36.83)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "417ec504-9f6a-4b2e-8072-2ba0e6d11579")
 	)
 	(wire
 		(pts
@@ -3533,17 +3575,7 @@
 	)
 	(wire
 		(pts
-			(xy 247.65 26.67) (xy 251.46 26.67)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "42135583-605c-4ddd-bce7-9b53731384aa")
-	)
-	(wire
-		(pts
-			(xy 234.95 26.67) (xy 237.49 26.67)
+			(xy 234.95 26.67) (xy 236.22 26.67)
 		)
 		(stroke
 			(width 0)
@@ -3580,6 +3612,16 @@
 			(type default)
 		)
 		(uuid "48a7a74a-e082-42b3-8f43-383e5dd4b26d")
+	)
+	(wire
+		(pts
+			(xy 238.76 31.75) (xy 240.03 31.75)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "4b21b5b0-a684-4847-87ea-4d724623a123")
 	)
 	(wire
 		(pts
@@ -3633,6 +3675,16 @@
 	)
 	(wire
 		(pts
+			(xy 236.22 45.72) (xy 236.22 39.37)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "53004a1f-330a-4417-bfda-349c14c2abcb")
+	)
+	(wire
+		(pts
 			(xy 199.39 74.93) (xy 210.82 74.93)
 		)
 		(stroke
@@ -3670,6 +3722,16 @@
 			(type default)
 		)
 		(uuid "573aaa49-0223-423a-8319-539129ff85a3")
+	)
+	(wire
+		(pts
+			(xy 256.54 29.21) (xy 256.54 36.83)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "5b05447c-f06e-4234-88c6-a2218d9383a1")
 	)
 	(wire
 		(pts
@@ -4053,16 +4115,6 @@
 	)
 	(wire
 		(pts
-			(xy 237.49 26.67) (xy 240.03 26.67)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "9a94c58b-e3fb-4ac9-acdb-c9c344b5bdf4")
-	)
-	(wire
-		(pts
 			(xy 162.56 26.67) (xy 160.02 26.67)
 		)
 		(stroke
@@ -4130,6 +4182,16 @@
 			(type default)
 		)
 		(uuid "a612a969-9f70-4699-a9c7-cdac7283bfc1")
+	)
+	(wire
+		(pts
+			(xy 256.54 29.21) (xy 259.08 29.21)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a721b4ea-b3dc-420f-9590-82afc4aaa199")
 	)
 	(wire
 		(pts
@@ -4303,6 +4365,16 @@
 	)
 	(wire
 		(pts
+			(xy 238.76 36.83) (xy 238.76 31.75)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b4915a1e-b748-4e34-b2a7-e38f46c44021")
+	)
+	(wire
+		(pts
 			(xy 41.91 54.61) (xy 41.91 73.66)
 		)
 		(stroke
@@ -4363,6 +4435,16 @@
 	)
 	(wire
 		(pts
+			(xy 236.22 45.72) (xy 269.24 45.72)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "bc49c3b7-4a19-4dfc-b580-a8ca672a8165")
+	)
+	(wire
+		(pts
 			(xy 199.39 49.53) (xy 199.39 67.31)
 		)
 		(stroke
@@ -4370,6 +4452,16 @@
 			(type default)
 		)
 		(uuid "bec5b0ea-2486-44bb-89ad-f64af9aa7802")
+	)
+	(wire
+		(pts
+			(xy 236.22 26.67) (xy 240.03 26.67)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "bf303c05-9593-4bbc-8898-9d741b626ec4")
 	)
 	(wire
 		(pts
@@ -4773,6 +4865,18 @@
 		)
 		(uuid "a21d1940-3de9-4795-a44e-603b4169a4e7")
 	)
+	(hierarchical_label "Sawtooth"
+		(shape output)
+		(at 269.24 45.72 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "1557c1f1-32d3-468e-9e67-6f8d6e289c0d")
+	)
 	(hierarchical_label "Exp FM In 1"
 		(shape input)
 		(at 35.56 115.57 180)
@@ -4787,7 +4891,7 @@
 	)
 	(hierarchical_label "Sawtooth Out"
 		(shape output)
-		(at 251.46 26.67 0)
+		(at 269.24 29.21 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -5865,7 +5969,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "68k"
+		(property "Value" "47k"
 			(at 233.68 72.3899 0)
 			(effects
 				(font
@@ -6753,6 +6857,110 @@
 			(project "VCO mki PCB"
 				(path "/fefed352-c100-4617-bbfb-c55e7427b122/681eb850-910f-47de-ab28-b72b47bdbc38"
 					(reference "R13")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Amplifier_Operational:TL074")
+		(at 247.65 29.21 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "535a57b4-c457-4560-a01a-7f0d3b470dfc")
+		(property "Reference" "U4"
+			(at 247.65 19.05 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "TL074"
+			(at 247.65 21.59 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 246.38 26.67 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "http://www.ti.com/lit/ds/symlink/tl071.pdf"
+			(at 248.92 24.13 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Quad Low-Noise JFET-Input Operational Amplifiers, DIP-14/SOIC-14"
+			(at 247.65 29.21 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "7"
+			(uuid "0d0343e9-5dda-4f53-bebb-bc50dec74b1c")
+		)
+		(pin "6"
+			(uuid "c73f43b0-91a6-42f1-9254-d789821f2f08")
+		)
+		(pin "5"
+			(uuid "beb56675-52d9-4155-bba8-b9c550ad21e9")
+		)
+		(pin "9"
+			(uuid "8cc14d95-8ce0-4509-8f41-e4e8ffb7a988")
+		)
+		(pin "1"
+			(uuid "5b326f57-cf5c-4786-93ca-467f81cc420d")
+		)
+		(pin "12"
+			(uuid "e4b26047-dee7-48ca-92fe-66be4df89015")
+		)
+		(pin "2"
+			(uuid "6a4b5d1e-d0d5-436c-94e3-3784679afd88")
+		)
+		(pin "3"
+			(uuid "2423ca11-469e-47fc-bb9f-49e97895d4e4")
+		)
+		(pin "11"
+			(uuid "f4bc383b-e2e3-4982-8def-52373bea52e9")
+		)
+		(pin "4"
+			(uuid "de6ca57c-8b9c-458a-ae47-299ef7b859a1")
+		)
+		(pin "8"
+			(uuid "cf9b0a7f-44ff-413e-a247-d42c7da5f4bf")
+		)
+		(pin "13"
+			(uuid "bbffd6a7-4723-41db-8328-5c5adaf948c2")
+		)
+		(pin "10"
+			(uuid "8d0bf586-ccf0-4aa4-865d-9f3b4bfc02c1")
+		)
+		(pin "14"
+			(uuid "bada2a8c-089a-4884-91cf-79c9e726dbb3")
+		)
+		(instances
+			(project ""
+				(path "/fefed352-c100-4617-bbfb-c55e7427b122/681eb850-910f-47de-ab28-b72b47bdbc38"
+					(reference "U4")
 					(unit 1)
 				)
 			)
@@ -7666,7 +7874,7 @@
 				)
 			)
 		)
-		(property "Value" "100k"
+		(property "Value" "68k"
 			(at 227.33 35.56 90)
 			(effects
 				(font
@@ -8224,7 +8432,7 @@
 				(justify right)
 			)
 		)
-		(property "Value" "47k"
+		(property "Value" "18k"
 			(at 210.82 41.9099 0)
 			(effects
 				(font
@@ -9013,7 +9221,7 @@
 	)
 	(symbol
 		(lib_id "Device:R_US")
-		(at 243.84 26.67 270)
+		(at 262.89 29.21 270)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -9022,7 +9230,7 @@
 		(fields_autoplaced yes)
 		(uuid "b178ede8-dd0d-484d-9616-1fb79691ec3f")
 		(property "Reference" "R20"
-			(at 243.84 20.32 90)
+			(at 262.89 22.86 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9030,7 +9238,7 @@
 			)
 		)
 		(property "Value" "1k"
-			(at 243.84 22.86 90)
+			(at 262.89 25.4 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9038,7 +9246,7 @@
 			)
 		)
 		(property "Footprint" "Resistor_THT:R_Axial_DIN0204_L3.6mm_D1.6mm_P5.08mm_Horizontal"
-			(at 243.586 27.686 90)
+			(at 262.636 30.226 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9047,7 +9255,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 243.84 26.67 0)
+			(at 262.89 29.21 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9056,7 +9264,7 @@
 			)
 		)
 		(property "Description" "Resistor, US symbol"
-			(at 243.84 26.67 0)
+			(at 262.89 29.21 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10571,7 +10779,7 @@
 				)
 			)
 		)
-		(property "Value" "100k"
+		(property "Value" "68k"
 			(at 231.14 60.96 90)
 			(effects
 				(font
