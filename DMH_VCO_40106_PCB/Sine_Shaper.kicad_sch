@@ -777,7 +777,7 @@
 				)
 			)
 		)
-		(symbol "Transistor_BJT:2N3904"
+		(symbol "Transistor_BJT:BC548"
 			(pin_names
 				(offset 0) hide)
 			(exclude_from_sim no)
@@ -792,7 +792,7 @@
 					(justify left)
 				)
 			)
-			(property "Value" "2N3904"
+			(property "Value" "BC548"
 				(at 5.08 0 0)
 				(effects
 					(font
@@ -812,7 +812,7 @@
 					(hide yes)
 				)
 			)
-			(property "Datasheet" "https://www.onsemi.com/pub/Collateral/2N3903-D.PDF"
+			(property "Datasheet" "https://www.onsemi.com/pub/Collateral/BC550-D.pdf"
 				(at 0 0 0)
 				(effects
 					(font
@@ -822,7 +822,7 @@
 					(hide yes)
 				)
 			)
-			(property "Description" "0.2A Ic, 40V Vce, Small Signal NPN Transistor, TO-92"
+			(property "Description" "0.1A Ic, 30V Vce, Small Signal NPN Transistor, TO-92"
 				(at 0 0 0)
 				(effects
 					(font
@@ -849,7 +849,19 @@
 					(hide yes)
 				)
 			)
-			(symbol "2N3904_0_1"
+			(symbol "BC548_0_1"
+				(polyline
+					(pts
+						(xy 0 0) (xy 0.635 0)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
 				(polyline
 					(pts
 						(xy 0.635 0.635) (xy 2.54 2.54)
@@ -910,11 +922,11 @@
 					)
 				)
 			)
-			(symbol "2N3904_1_1"
+			(symbol "BC548_1_1"
 				(pin passive line
-					(at 2.54 -5.08 90)
+					(at 2.54 5.08 270)
 					(length 2.54)
-					(name "E"
+					(name "C"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -929,9 +941,9 @@
 						)
 					)
 				)
-				(pin passive line
+				(pin input line
 					(at -5.08 0 0)
-					(length 5.715)
+					(length 5.08)
 					(name "B"
 						(effects
 							(font
@@ -948,9 +960,9 @@
 					)
 				)
 				(pin passive line
-					(at 2.54 5.08 270)
+					(at 2.54 -5.08 90)
 					(length 2.54)
-					(name "C"
+					(name "E"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -2314,7 +2326,7 @@
 		)
 	)
 	(symbol
-		(lib_id "Transistor_BJT:2N3904")
+		(lib_id "Transistor_BJT:BC548")
 		(at 106.68 87.63 0)
 		(unit 1)
 		(exclude_from_sim no)
@@ -2332,7 +2344,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "2N3904"
+		(property "Value" "BC548"
 			(at 111.76 88.8999 0)
 			(effects
 				(font
@@ -2352,7 +2364,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "https://www.onsemi.com/pub/Collateral/2N3903-D.PDF"
+		(property "Datasheet" "https://www.onsemi.com/pub/Collateral/BC550-D.pdf"
 			(at 106.68 87.63 0)
 			(effects
 				(font
@@ -2362,7 +2374,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "0.2A Ic, 40V Vce, Small Signal NPN Transistor, TO-92"
+		(property "Description" "0.1A Ic, 30V Vce, Small Signal NPN Transistor, TO-92"
 			(at 106.68 87.63 0)
 			(effects
 				(font
@@ -2695,7 +2707,7 @@
 		)
 	)
 	(symbol
-		(lib_id "Transistor_BJT:2N3904")
+		(lib_id "Transistor_BJT:BC548")
 		(at 134.62 87.63 0)
 		(mirror y)
 		(unit 1)
@@ -2714,7 +2726,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "2N3904"
+		(property "Value" "BC548"
 			(at 129.54 88.8999 0)
 			(effects
 				(font
@@ -2734,7 +2746,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "https://www.onsemi.com/pub/Collateral/2N3903-D.PDF"
+		(property "Datasheet" "https://www.onsemi.com/pub/Collateral/BC550-D.pdf"
 			(at 134.62 87.63 0)
 			(effects
 				(font
@@ -2744,7 +2756,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "0.2A Ic, 40V Vce, Small Signal NPN Transistor, TO-92"
+		(property "Description" "0.1A Ic, 30V Vce, Small Signal NPN Transistor, TO-92"
 			(at 134.62 87.63 0)
 			(effects
 				(font
