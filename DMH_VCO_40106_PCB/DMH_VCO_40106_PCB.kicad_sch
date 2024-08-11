@@ -11,6 +11,12 @@
 		(company "DMH Instruments")
 	)
 	(lib_symbols)
+	(junction
+		(at 86.36 114.3)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "17264ba5-d4cd-4e8a-b480-b288ff89205f")
+	)
 	(wire
 		(pts
 			(xy 76.2 68.58) (xy 72.39 68.58)
@@ -103,6 +109,16 @@
 	)
 	(wire
 		(pts
+			(xy 209.55 53.34) (xy 86.36 53.34)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "537fb16d-c277-49f7-a7d6-63370ecc1161")
+	)
+	(wire
+		(pts
 			(xy 139.7 109.22) (xy 133.35 109.22)
 		)
 		(stroke
@@ -143,6 +159,16 @@
 	)
 	(wire
 		(pts
+			(xy 86.36 53.34) (xy 86.36 114.3)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "82251548-a6d7-4910-a0d8-f03b8487d2d1")
+	)
+	(wire
+		(pts
 			(xy 27.94 68.58) (xy 24.13 68.58)
 		)
 		(stroke
@@ -153,7 +179,7 @@
 	)
 	(wire
 		(pts
-			(xy 71.12 109.22) (xy 82.55 109.22)
+			(xy 71.12 109.22) (xy 81.28 109.22)
 		)
 		(stroke
 			(width 0)
@@ -193,7 +219,7 @@
 	)
 	(wire
 		(pts
-			(xy 82.55 53.34) (xy 72.39 53.34)
+			(xy 81.28 53.34) (xy 72.39 53.34)
 		)
 		(stroke
 			(width 0)
@@ -223,7 +249,7 @@
 	)
 	(wire
 		(pts
-			(xy 71.12 114.3) (xy 91.44 114.3)
+			(xy 71.12 114.3) (xy 86.36 114.3)
 		)
 		(stroke
 			(width 0)
@@ -263,6 +289,16 @@
 	)
 	(wire
 		(pts
+			(xy 86.36 114.3) (xy 91.44 114.3)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "bc8f90fa-5d14-462a-b097-969d646987ab")
+	)
+	(wire
+		(pts
 			(xy 76.2 104.14) (xy 76.2 68.58)
 		)
 		(stroke
@@ -283,7 +319,7 @@
 	)
 	(wire
 		(pts
-			(xy 82.55 109.22) (xy 82.55 53.34)
+			(xy 81.28 109.22) (xy 81.28 53.34)
 		)
 		(stroke
 			(width 0)
@@ -790,6 +826,16 @@
 				)
 				(justify left top)
 			)
+		)
+		(pin "Sawtooth In" input
+			(at 209.55 53.34 180)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+			(uuid "4a4d761b-2859-4b89-943f-7efebdcbe9ff")
 		)
 		(instances
 			(project "DMH_VCO_40106_PCB"
