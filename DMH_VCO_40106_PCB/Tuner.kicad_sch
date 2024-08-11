@@ -1948,6 +1948,14 @@
 		(color 0 0 0 0)
 		(uuid "d72af05d-db99-4627-a04f-ceba9464f9f0")
 	)
+	(no_connect
+		(at 180.34 120.65)
+		(uuid "9afd72a9-1984-49f6-966f-0faf7fd0c736")
+	)
+	(no_connect
+		(at 78.74 99.06)
+		(uuid "b2f053c2-6511-48a7-89f1-10260411dd00")
+	)
 	(wire
 		(pts
 			(xy 134.62 116.84) (xy 146.05 116.84)
