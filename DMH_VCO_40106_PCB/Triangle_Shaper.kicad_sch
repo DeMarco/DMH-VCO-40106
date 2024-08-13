@@ -2678,11 +2678,22 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Saw-Tri Calibration"
+		(property "Description" ""
 			(at 113.284 83.82 90)
 			(effects
 				(font
 					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Function" "Saw-Tri Calibration"
+			(at 113.284 84.074 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(bold yes)
+					(italic yes)
 				)
 			)
 		)
