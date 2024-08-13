@@ -2023,11 +2023,22 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Sine Symmetry"
+		(property "Description" ""
 			(at 120.904 106.68 90)
 			(effects
 				(font
 					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Function" "Sine Symmetry"
+			(at 120.65 105.918 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(bold yes)
+					(italic yes)
 				)
 			)
 		)
@@ -2680,11 +2691,22 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Sine Roundness"
+		(property "Description" ""
 			(at 82.55 96.266 90)
 			(effects
 				(font
 					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Function" "Sine Roundness"
+			(at 82.55 97.028 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(bold yes)
+					(italic yes)
 				)
 			)
 		)

@@ -5555,7 +5555,7 @@
 		)
 		(uuid "67f720f6-9a75-490f-bca9-4bca511e7ac3")
 	)
-	(text "RD09 pots pinout:\nwhen viewing the pot from above and the pins are on the south side,\n1 = right = fully CW\n2 = middle\n3 = left = fully CCW"
+	(text "RD90 pots pinout:\nwhen viewing the pot from above and the pins are on the south side,\n1 = right = fully CW\n2 = middle\n3 = left = fully CCW"
 		(exclude_from_sim no)
 		(at 16.002 20.32 0)
 		(effects
@@ -5706,11 +5706,22 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Fine Range"
+		(property "Description" ""
 			(at 43.434 61.214 90)
 			(effects
 				(font
 					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Function" "Fine Range"
+			(at 43.688 60.96 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(bold yes)
+					(italic yes)
 				)
 			)
 		)
@@ -6836,11 +6847,13 @@
 				(hide yes)
 			)
 		)
-		(property "Function" "PW balance"
-			(at 161.29 56.388 90)
+		(property "Function" "PW symmetry"
+			(at 161.29 58.166 90)
 			(effects
 				(font
 					(size 1.27 1.27)
+					(bold yes)
+					(italic yes)
 				)
 			)
 		)
@@ -8947,11 +8960,22 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Exp FM 1 Amt"
+		(property "Description" ""
 			(at 32.004 121.92 0)
 			(effects
 				(font
 					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Function" "Exp FM 1 Amt"
+			(at 32.004 121.92 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(bold yes)
+					(italic yes)
 				)
 			)
 		)
@@ -9019,11 +9043,22 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Pulse Width"
+		(property "Description" ""
 			(at 161.29 41.91 90)
 			(effects
 				(font
 					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Function" "Pulse Width"
+			(at 161.29 41.402 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(bold yes)
+					(italic yes)
 				)
 			)
 		)
@@ -9090,11 +9125,22 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "V/Oct Calibration"
+		(property "Description" ""
 			(at 112.268 132.08 90)
 			(effects
 				(font
 					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Function" "V/Oct Calibration"
+			(at 105.156 127 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(bold yes)
+					(italic yes)
 				)
 			)
 		)
@@ -9715,10 +9761,12 @@
 			)
 		)
 		(property "Function" "PWM Range"
-			(at 191.262 83.312 90)
+			(at 190.754 83.82 90)
 			(effects
 				(font
 					(size 1.27 1.27)
+					(bold yes)
+					(italic yes)
 				)
 			)
 		)
@@ -10330,11 +10378,22 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Fine"
+		(property "Description" ""
 			(at 32.004 69.85 0)
 			(effects
 				(font
 					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Function" "Fine"
+			(at 32.004 70.104 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(bold yes)
+					(italic yes)
 				)
 			)
 		)
@@ -11286,6 +11345,8 @@
 			(effects
 				(font
 					(size 1.27 1.27)
+					(bold yes)
+					(italic yes)
 				)
 			)
 		)
@@ -11742,11 +11803,22 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Coarse"
+		(property "Description" ""
 			(at 16.764 70.104 0)
 			(effects
 				(font
 					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Function" "Coarse"
+			(at 16.51 70.104 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(bold yes)
+					(italic yes)
 				)
 			)
 		)
@@ -11899,11 +11971,22 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Exp FM 2 Amt"
+		(property "Description" ""
 			(at 31.75 140.97 0)
 			(effects
 				(font
 					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Function" "Exp FM 2 Amt"
+			(at 32.004 140.97 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(bold yes)
+					(italic yes)
 				)
 			)
 		)
