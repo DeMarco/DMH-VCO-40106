@@ -473,19 +473,19 @@
 		)
 	)
 	(junction
-		(at 177.8 69.85)
+		(at 254 69.85)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "3516f09a-ea92-4b07-8423-8ca9e88f88c0")
 	)
 	(junction
-		(at 177.8 88.9)
+		(at 254 88.9)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "4336d08c-8f95-4b16-8919-2dca11f809db")
 	)
 	(junction
-		(at 177.8 50.8)
+		(at 254 50.8)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "46343213-eaed-4349-af1d-0efc6afa1e31")
@@ -515,7 +515,7 @@
 		(uuid "f55a9a3d-df96-44b6-878c-e3caa1fe4e91")
 	)
 	(no_connect
-		(at 137.16 36.83)
+		(at 213.36 36.83)
 		(uuid "2b632e0a-5475-487c-af6b-e5c263361ceb")
 	)
 	(no_connect
@@ -539,7 +539,7 @@
 		(uuid "abbc6334-3bd5-4287-9067-a91bd36f1981")
 	)
 	(no_connect
-		(at 137.16 74.93)
+		(at 213.36 74.93)
 		(uuid "c9ee23b5-c208-41ea-8a29-3f432ddeebcb")
 	)
 	(no_connect
@@ -547,11 +547,11 @@
 		(uuid "d7027788-6eb5-4bbc-9a12-a0f2c2d527cc")
 	)
 	(no_connect
-		(at 137.16 55.88)
+		(at 213.36 55.88)
 		(uuid "e1595305-84cf-417f-9aef-4311e85e764b")
 	)
 	(no_connect
-		(at 137.16 93.98)
+		(at 213.36 93.98)
 		(uuid "f48d41ce-481f-4475-a284-d0b8d2e15223")
 	)
 	(wire
@@ -616,7 +616,7 @@
 	)
 	(wire
 		(pts
-			(xy 137.16 34.29) (xy 146.05 34.29)
+			(xy 213.36 34.29) (xy 222.25 34.29)
 		)
 		(stroke
 			(width 0)
@@ -626,7 +626,7 @@
 	)
 	(wire
 		(pts
-			(xy 137.16 72.39) (xy 146.05 72.39)
+			(xy 213.36 72.39) (xy 222.25 72.39)
 		)
 		(stroke
 			(width 0)
@@ -676,7 +676,7 @@
 	)
 	(wire
 		(pts
-			(xy 177.8 88.9) (xy 177.8 118.11)
+			(xy 254 88.9) (xy 254 118.11)
 		)
 		(stroke
 			(width 0)
@@ -686,7 +686,7 @@
 	)
 	(wire
 		(pts
-			(xy 177.8 50.8) (xy 177.8 69.85)
+			(xy 254 50.8) (xy 254 69.85)
 		)
 		(stroke
 			(width 0)
@@ -696,7 +696,7 @@
 	)
 	(wire
 		(pts
-			(xy 137.16 69.85) (xy 177.8 69.85)
+			(xy 213.36 69.85) (xy 254 69.85)
 		)
 		(stroke
 			(width 0)
@@ -726,7 +726,7 @@
 	)
 	(wire
 		(pts
-			(xy 137.16 31.75) (xy 177.8 31.75)
+			(xy 213.36 31.75) (xy 254 31.75)
 		)
 		(stroke
 			(width 0)
@@ -746,7 +746,7 @@
 	)
 	(wire
 		(pts
-			(xy 177.8 31.75) (xy 177.8 50.8)
+			(xy 254 31.75) (xy 254 50.8)
 		)
 		(stroke
 			(width 0)
@@ -786,7 +786,7 @@
 	)
 	(wire
 		(pts
-			(xy 137.16 91.44) (xy 146.05 91.44)
+			(xy 213.36 91.44) (xy 222.25 91.44)
 		)
 		(stroke
 			(width 0)
@@ -806,7 +806,7 @@
 	)
 	(wire
 		(pts
-			(xy 137.16 50.8) (xy 177.8 50.8)
+			(xy 213.36 50.8) (xy 254 50.8)
 		)
 		(stroke
 			(width 0)
@@ -816,7 +816,7 @@
 	)
 	(wire
 		(pts
-			(xy 137.16 53.34) (xy 146.05 53.34)
+			(xy 213.36 53.34) (xy 222.25 53.34)
 		)
 		(stroke
 			(width 0)
@@ -846,7 +846,7 @@
 	)
 	(wire
 		(pts
-			(xy 137.16 88.9) (xy 177.8 88.9)
+			(xy 213.36 88.9) (xy 254 88.9)
 		)
 		(stroke
 			(width 0)
@@ -876,7 +876,7 @@
 	)
 	(wire
 		(pts
-			(xy 177.8 69.85) (xy 177.8 88.9)
+			(xy 254 69.85) (xy 254 88.9)
 		)
 		(stroke
 			(width 0)
@@ -936,7 +936,7 @@
 	)
 	(hierarchical_label "Triangle Out Jack"
 		(shape input)
-		(at 146.05 53.34 0)
+		(at 222.25 53.34 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -960,7 +960,7 @@
 	)
 	(hierarchical_label "Square Out Jack"
 		(shape input)
-		(at 146.05 72.39 0)
+		(at 222.25 72.39 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -972,7 +972,7 @@
 	)
 	(hierarchical_label "Sawtooth Out Jack"
 		(shape input)
-		(at 146.05 91.44 0)
+		(at 222.25 91.44 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -1008,7 +1008,7 @@
 	)
 	(hierarchical_label "Sine Out Jack"
 		(shape input)
-		(at 146.05 34.29 0)
+		(at 222.25 34.29 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -1616,7 +1616,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 177.8 118.11 0)
+		(at 254 118.11 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -1625,7 +1625,7 @@
 		(fields_autoplaced yes)
 		(uuid "c15c16a3-1246-4429-b84f-36daa16114ca")
 		(property "Reference" "#PWR06"
-			(at 177.8 124.46 0)
+			(at 254 124.46 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1634,7 +1634,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 177.8 123.19 0)
+			(at 254 123.19 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1642,7 +1642,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 177.8 118.11 0)
+			(at 254 118.11 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1651,7 +1651,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 177.8 118.11 0)
+			(at 254 118.11 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1660,7 +1660,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 177.8 118.11 0)
+			(at 254 118.11 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1682,7 +1682,7 @@
 	)
 	(symbol
 		(lib_id "SynthStuff:TS_Jack_6.35mm_Sw")
-		(at 132.08 91.44 0)
+		(at 208.28 91.44 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -1690,7 +1690,7 @@
 		(dnp no)
 		(uuid "c36821b3-1bbd-43f7-a40e-263258053c17")
 		(property "Reference" "J9"
-			(at 131.445 82.55 0)
+			(at 207.645 82.55 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1698,7 +1698,7 @@
 			)
 		)
 		(property "Value" "TS_Jack_6.35mm_Sw"
-			(at 131.445 85.09 0)
+			(at 207.645 85.09 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1706,7 +1706,7 @@
 			)
 		)
 		(property "Footprint" "SynthStuff:CUI_MJ-63052A"
-			(at 132.08 91.44 0)
+			(at 208.28 91.44 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1715,7 +1715,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 132.08 91.44 0)
+			(at 208.28 91.44 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1724,7 +1724,7 @@
 			)
 		)
 		(property "Description" "Audio Jack, 2 Poles (Mono / TS), Switched T Pole (Normalling), 6.35mm, 1/4inch"
-			(at 132.08 91.44 0)
+			(at 208.28 91.44 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1733,7 +1733,7 @@
 			)
 		)
 		(property "Function" "Sawtooth"
-			(at 121.412 91.44 0)
+			(at 197.612 91.44 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1828,7 +1828,7 @@
 	)
 	(symbol
 		(lib_id "SynthStuff:TS_Jack_6.35mm_Sw")
-		(at 132.08 53.34 0)
+		(at 208.28 53.34 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -1836,7 +1836,7 @@
 		(dnp no)
 		(uuid "e3dcf1d1-b55b-4da0-a71c-fe3b3303acf9")
 		(property "Reference" "J7"
-			(at 131.445 44.45 0)
+			(at 207.645 44.45 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1844,7 +1844,7 @@
 			)
 		)
 		(property "Value" "TS_Jack_6.35mm_Sw"
-			(at 131.445 46.99 0)
+			(at 207.645 46.99 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1852,7 +1852,7 @@
 			)
 		)
 		(property "Footprint" "SynthStuff:CUI_MJ-63052A"
-			(at 132.08 53.34 0)
+			(at 208.28 53.34 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1861,7 +1861,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 132.08 53.34 0)
+			(at 208.28 53.34 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1870,7 +1870,7 @@
 			)
 		)
 		(property "Description" "Audio Jack, 2 Poles (Mono / TS), Switched T Pole (Normalling), 6.35mm, 1/4inch"
-			(at 132.08 53.34 0)
+			(at 208.28 53.34 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1879,7 +1879,7 @@
 			)
 		)
 		(property "Function" "Triangle"
-			(at 121.92 53.34 0)
+			(at 198.12 53.34 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1908,7 +1908,7 @@
 	)
 	(symbol
 		(lib_id "SynthStuff:TS_Jack_6.35mm_Sw")
-		(at 132.08 72.39 0)
+		(at 208.28 72.39 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -1916,7 +1916,7 @@
 		(dnp no)
 		(uuid "e55dd232-e2c4-42d1-b92b-0a6fd9962f25")
 		(property "Reference" "J8"
-			(at 131.445 63.5 0)
+			(at 207.645 63.5 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1924,7 +1924,7 @@
 			)
 		)
 		(property "Value" "TS_Jack_6.35mm_Sw"
-			(at 131.445 66.04 0)
+			(at 207.645 66.04 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1932,7 +1932,7 @@
 			)
 		)
 		(property "Footprint" "SynthStuff:CUI_MJ-63052A"
-			(at 132.08 72.39 0)
+			(at 208.28 72.39 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1941,7 +1941,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 132.08 72.39 0)
+			(at 208.28 72.39 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1950,7 +1950,7 @@
 			)
 		)
 		(property "Description" "Audio Jack, 2 Poles (Mono / TS), Switched T Pole (Normalling), 6.35mm, 1/4inch"
-			(at 132.08 72.39 0)
+			(at 208.28 72.39 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1959,7 +1959,7 @@
 			)
 		)
 		(property "Function" "Square"
-			(at 122.174 72.39 0)
+			(at 198.374 72.39 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1988,7 +1988,7 @@
 	)
 	(symbol
 		(lib_id "SynthStuff:TS_Jack_6.35mm_Sw")
-		(at 132.08 34.29 0)
+		(at 208.28 34.29 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -1996,7 +1996,7 @@
 		(dnp no)
 		(uuid "fc6d9002-f21d-4c59-9715-6464617c9414")
 		(property "Reference" "J6"
-			(at 131.445 25.4 0)
+			(at 207.645 25.4 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2004,7 +2004,7 @@
 			)
 		)
 		(property "Value" "TS_Jack_6.35mm_Sw"
-			(at 131.445 27.94 0)
+			(at 207.645 27.94 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2012,7 +2012,7 @@
 			)
 		)
 		(property "Footprint" "SynthStuff:CUI_MJ-63052A"
-			(at 132.08 34.29 0)
+			(at 208.28 34.29 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2021,7 +2021,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 132.08 34.29 0)
+			(at 208.28 34.29 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2030,7 +2030,7 @@
 			)
 		)
 		(property "Description" "Audio Jack, 2 Poles (Mono / TS), Switched T Pole (Normalling), 6.35mm, 1/4inch"
-			(at 132.08 34.29 0)
+			(at 208.28 34.29 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2039,7 +2039,7 @@
 			)
 		)
 		(property "Function" "Sine"
-			(at 123.444 34.29 0)
+			(at 199.644 34.29 0)
 			(effects
 				(font
 					(size 1.27 1.27)
