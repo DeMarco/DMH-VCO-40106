@@ -5688,7 +5688,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Resistor_THT:R_Axial_DIN0204_L3.6mm_D1.6mm_P5.08mm_Horizontal"
+		(property "Footprint" "Potentiometer_THT:Potentiometer_Bourns_3296W_Vertical"
 			(at 46.99 60.96 0)
 			(effects
 				(font
@@ -6820,7 +6820,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "Resistor_THT:R_Axial_DIN0204_L3.6mm_D1.6mm_P5.08mm_Horizontal"
+		(property "Footprint" "Potentiometer_THT:Potentiometer_Bourns_3296W_Vertical"
 			(at 170.18 54.61 0)
 			(effects
 				(font
@@ -9733,7 +9733,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "Resistor_THT:R_Axial_DIN0204_L3.6mm_D1.6mm_P5.08mm_Horizontal"
+		(property "Footprint" "Potentiometer_THT:Potentiometer_Bourns_3296W_Vertical"
 			(at 199.39 83.82 0)
 			(effects
 				(font
@@ -11313,7 +11313,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "Resistor_THT:R_Axial_DIN0204_L3.6mm_D1.6mm_P5.08mm_Horizontal"
+		(property "Footprint" "Potentiometer_THT:Potentiometer_Bourns_3296W_Vertical"
 			(at 52.07 88.9 0)
 			(effects
 				(font

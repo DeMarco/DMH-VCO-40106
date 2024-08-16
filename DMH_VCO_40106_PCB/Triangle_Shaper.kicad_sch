@@ -2212,7 +2212,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Package_DIP:DIP-14_W7.62mm_Socket"
 			(at 180.34 93.98 0)
 			(effects
 				(font
