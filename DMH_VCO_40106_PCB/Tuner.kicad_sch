@@ -1775,7 +1775,7 @@
 				)
 			)
 		)
-		(symbol "Switch:SW_SPDT_321"
+		(symbol "SynthStuff:SW_SPDT_321_OnOff"
 			(pin_names
 				(offset 1) hide)
 			(exclude_from_sim no)
@@ -1789,7 +1789,7 @@
 					)
 				)
 			)
-			(property "Value" "SW_SPDT_321"
+			(property "Value" "SW_SPDT_321_OnOff"
 				(at 0 -5.08 0)
 				(effects
 					(font
@@ -1833,7 +1833,7 @@
 					(hide yes)
 				)
 			)
-			(symbol "SW_SPDT_321_0_1"
+			(symbol "SW_SPDT_321_OnOff_0_1"
 				(circle
 					(center -2.032 0)
 					(radius 0.4572)
@@ -1880,7 +1880,7 @@
 					)
 				)
 			)
-			(symbol "SW_SPDT_321_1_1"
+			(symbol "SW_SPDT_321_OnOff_1_1"
 				(rectangle
 					(start -3.175 3.81)
 					(end 3.175 -3.81)
@@ -1890,6 +1890,24 @@
 					)
 					(fill
 						(type background)
+					)
+				)
+				(text "Off\n"
+					(at -1.524 2.54 0)
+					(effects
+						(font
+							(size 1.27 1.27)
+							(color 0 255 255 1)
+						)
+					)
+				)
+				(text "On"
+					(at -1.524 -2.54 0)
+					(effects
+						(font
+							(size 1.27 1.27)
+							(color 0 255 255 1)
+						)
 					)
 				)
 				(pin passive line
@@ -3794,26 +3812,6 @@
 			(type default)
 		)
 		(uuid "fd6d8b68-ec84-4220-9260-1f7b4016bbf0")
-	)
-	(text "Off"
-		(exclude_from_sim no)
-		(at 202.946 76.454 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-		)
-		(uuid "0723d791-5697-47c8-8483-c9ae928ca8d3")
-	)
-	(text "On"
-		(exclude_from_sim no)
-		(at 202.946 81.28 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-		)
-		(uuid "7b6b51b6-2813-4c21-9d7a-b9ad9dbffc42")
 	)
 	(hierarchical_label "Sawtooth In"
 		(shape input)
@@ -5830,7 +5828,7 @@
 		)
 	)
 	(symbol
-		(lib_id "Switch:SW_SPDT_321")
+		(lib_id "SynthStuff:SW_SPDT_321_OnOff")
 		(at 204.47 78.74 0)
 		(unit 1)
 		(exclude_from_sim no)
@@ -5839,19 +5837,20 @@
 		(dnp no)
 		(uuid "b278054f-4c6b-43b2-9a42-89236a56461a")
 		(property "Reference" "SW3"
-			(at 204.47 69.85 0)
+			(at 204.47 72.898 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 			)
 		)
-		(property "Value" "SW_SPDT"
-			(at 204.47 72.39 0)
+		(property "Value" "SW_SPDT_321_OnOff"
+			(at 204.47 83.82 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(hide yes)
 			)
 		)
 		(property "Footprint" ""

@@ -49,7 +49,7 @@
 	)
 	(wire
 		(pts
-			(xy 208.28 110.49) (xy 210.82 110.49)
+			(xy 207.01 110.49) (xy 210.82 110.49)
 		)
 		(stroke
 			(width 0)
@@ -86,6 +86,16 @@
 			(type default)
 		)
 		(uuid "3a7d66b4-c726-4ac6-bb00-7d58b11742a8")
+	)
+	(wire
+		(pts
+			(xy 72.39 78.74) (xy 207.01 78.74)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "3f339ecc-f7b3-479d-a8a6-2b606ca655d0")
 	)
 	(wire
 		(pts
@@ -129,7 +139,7 @@
 	)
 	(wire
 		(pts
-			(xy 208.28 78.74) (xy 208.28 110.49)
+			(xy 207.01 78.74) (xy 207.01 110.49)
 		)
 		(stroke
 			(width 0)
@@ -236,16 +246,6 @@
 			(type default)
 		)
 		(uuid "a88dc871-e0d3-4111-9a4f-f1ef1311b5eb")
-	)
-	(wire
-		(pts
-			(xy 208.28 78.74) (xy 72.39 78.74)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "ac9df649-9bc3-4673-92b9-8def27a12952")
 	)
 	(wire
 		(pts
@@ -779,7 +779,7 @@
 			)
 			(uuid "9ad95280-66a4-449e-b74f-f8ba13cf7d53")
 		)
-		(pin "Bus CV normalled" input
+		(pin "Bus CV" input
 			(at 72.39 78.74 0)
 			(effects
 				(font
@@ -787,7 +787,7 @@
 				)
 				(justify right)
 			)
-			(uuid "db78b539-cbbd-4089-9597-3a20931c92ce")
+			(uuid "82df7e75-4d11-4d90-a171-3d7e53114198")
 		)
 		(instances
 			(project "DMH_VCO_40106_PCB"
