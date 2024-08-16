@@ -1423,8 +1423,20 @@
 		(uuid "fdf5b457-00c9-4c2c-8e3f-3d3556563e12")
 	)
 	(no_connect
+		(at 90.17 168.91)
+		(uuid "6bff8ec3-a236-4ca8-98f8-c026d25fee7b")
+	)
+	(no_connect
 		(at 148.59 168.91)
 		(uuid "aaba8a88-5ed7-4308-93ff-bbd5c3db1d8e")
+	)
+	(no_connect
+		(at 107.95 27.94)
+		(uuid "ea50ec8e-d2b7-428c-a7cf-84addd91e360")
+	)
+	(no_connect
+		(at 120.65 35.56)
+		(uuid "ece1c549-0121-4c73-8b6c-78f70848a399")
 	)
 	(wire
 		(pts
