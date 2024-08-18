@@ -5514,6 +5514,63 @@
 		)
 		(uuid "fd8084d3-ff94-4c24-8174-321305e91580")
 	)
+	(text_box "Moved R7=100k to Inputs and Outputs sheet"
+		(exclude_from_sim no)
+		(at 44.45 104.14 0)
+		(size 17.78 7.62)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(fill
+			(type none)
+		)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "5f819e7c-8db1-43df-a405-8ab0886ab8f5")
+	)
+	(text_box "Moved R20=1k to Inputs and Outputs sheet"
+		(exclude_from_sim no)
+		(at 259.08 20.32 0)
+		(size 17.78 7.62)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(fill
+			(type none)
+		)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "ea53b361-fbe4-4461-ad10-1ca4c3491ae0")
+	)
+	(text_box "Moved R21=1k to Inputs and Outputs sheet"
+		(exclude_from_sim no)
+		(at 260.35 58.42 0)
+		(size 17.78 7.62)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(fill
+			(type none)
+		)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "f143cf67-ae19-497a-8166-bfc27db674e6")
+	)
 	(text "Cermet trimpots pinout:\nwhen viewing the trimpot from above,\n1 = left = fully CCW\n2 = middle\n3 = rigth = fully CW"
 		(exclude_from_sim no)
 		(at 15.748 32.766 0)

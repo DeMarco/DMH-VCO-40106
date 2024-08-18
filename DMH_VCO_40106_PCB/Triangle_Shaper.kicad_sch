@@ -2072,6 +2072,25 @@
 		)
 		(uuid "fe316d21-0d20-425c-b904-6a758d24b8bd")
 	)
+	(text_box "Moved R28=1k to Inputs and Outputs sheet"
+		(exclude_from_sim no)
+		(at 212.09 90.17 0)
+		(size 17.78 7.62)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(fill
+			(type none)
+		)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "15ff5aa6-e5c4-4a54-86f7-4c936751a452")
+	)
 	(hierarchical_label "Triangle Out"
 		(shape output)
 		(at 222.25 99.06 0)

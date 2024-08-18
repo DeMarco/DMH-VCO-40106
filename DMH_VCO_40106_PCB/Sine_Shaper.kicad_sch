@@ -1808,6 +1808,25 @@
 		)
 		(uuid "fe3673f9-cf19-43a7-9cb4-34471c099360")
 	)
+	(text_box "Moved R44=1k to Inputs and Outputs sheet"
+		(exclude_from_sim no)
+		(at 179.07 67.31 0)
+		(size 17.78 7.62)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(fill
+			(type none)
+		)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "70d2ac81-a27e-4636-90c5-83815e179205")
+	)
 	(hierarchical_label "Sine Out"
 		(shape output)
 		(at 189.23 76.2 0)
