@@ -2064,17 +2064,7 @@
 	)
 	(wire
 		(pts
-			(xy 219.71 99.06) (xy 222.25 99.06)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "f99b6081-0a15-4c9a-b32d-c8c897dcd29e")
-	)
-	(wire
-		(pts
-			(xy 210.82 99.06) (xy 212.09 99.06)
+			(xy 210.82 99.06) (xy 222.25 99.06)
 		)
 		(stroke
 			(width 0)
@@ -2144,7 +2134,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Resistor_THT:R_Axial_DIN0204_L3.6mm_D1.6mm_P5.08mm_Horizontal"
+		(property "Footprint" "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P7.62mm_Horizontal"
 			(at 143.764 99.314 90)
 			(effects
 				(font
@@ -2318,7 +2308,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Resistor_THT:R_Axial_DIN0204_L3.6mm_D1.6mm_P5.08mm_Horizontal"
+		(property "Footprint" "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P7.62mm_Horizontal"
 			(at 122.936 95.504 90)
 			(effects
 				(font
@@ -2386,7 +2376,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Resistor_THT:R_Axial_DIN0204_L3.6mm_D1.6mm_P5.08mm_Horizontal"
+		(property "Footprint" "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P7.62mm_Horizontal"
 			(at 185.674 113.284 90)
 			(effects
 				(font
@@ -2456,7 +2446,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Resistor_THT:R_Axial_DIN0204_L3.6mm_D1.6mm_P5.08mm_Horizontal"
+		(property "Footprint" "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P7.62mm_Horizontal"
 			(at 172.466 118.364 90)
 			(effects
 				(font
@@ -2503,8 +2493,8 @@
 		(at 135.89 88.9 0)
 		(unit 1)
 		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
+		(in_bom no)
+		(on_board no)
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "55e57e7a-7799-4beb-a56d-e6b37c76182f")
@@ -2526,7 +2516,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "TestPoint:TestPoint_THTPad_2.0x2.0mm_Drill1.0mm"
 			(at 140.97 88.9 0)
 			(effects
 				(font
@@ -2553,6 +2543,15 @@
 				(hide yes)
 			)
 		)
+		(property "Function" ""
+			(at 135.89 88.9 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "badf788c-d5d9-4cd1-9850-39627679458c")
 		)
@@ -2560,74 +2559,6 @@
 			(project "VCO mki PCB"
 				(path "/fefed352-c100-4617-bbfb-c55e7427b122/0e77ed5b-450a-412c-a492-589f053c9c73"
 					(reference "TP5")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:R_US")
-		(at 215.9 99.06 90)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "5df398da-aaf2-44fe-966b-afb9bbda8a64")
-		(property "Reference" "R28"
-			(at 215.9 92.71 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "1k"
-			(at 215.9 95.25 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "Resistor_THT:R_Axial_DIN0204_L3.6mm_D1.6mm_P5.08mm_Horizontal"
-			(at 216.154 98.044 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 215.9 99.06 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Resistor, US symbol"
-			(at 215.9 99.06 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "2"
-			(uuid "5ffbf385-ab53-49f5-8ea9-288c5f899b4b")
-		)
-		(pin "1"
-			(uuid "b75f27d4-a84c-4e51-bc8d-5d4b3389845a")
-		)
-		(instances
-			(project "VCO mki PCB"
-				(path "/fefed352-c100-4617-bbfb-c55e7427b122/0e77ed5b-450a-412c-a492-589f053c9c73"
-					(reference "R28")
 					(unit 1)
 				)
 			)
@@ -2741,7 +2672,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Package_DIP:DIP-14_W7.62mm_Socket"
 			(at 200.66 96.52 0)
 			(effects
 				(font
@@ -2760,6 +2691,15 @@
 			)
 		)
 		(property "Description" "Quad Low-Noise JFET-Input Operational Amplifiers, DIP-14/SOIC-14"
+			(at 201.93 99.06 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Function" ""
 			(at 201.93 99.06 0)
 			(effects
 				(font
@@ -2847,7 +2787,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Package_TO_SOT_THT:TO-92_Inline"
+		(property "Footprint" "Package_TO_SOT_THT:TO-92_Inline_Wide"
 			(at 102.87 102.235 0)
 			(effects
 				(font
@@ -2923,7 +2863,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Resistor_THT:R_Axial_DIN0204_L3.6mm_D1.6mm_P5.08mm_Horizontal"
+		(property "Footprint" "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P7.62mm_Horizontal"
 			(at 163.576 108.204 90)
 			(effects
 				(font
@@ -2993,7 +2933,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_THT:C_Disc_D3.0mm_W2.0mm_P2.50mm"
 			(at 148.8948 104.14 0)
 			(effects
 				(font
@@ -3063,7 +3003,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Resistor_THT:R_Axial_DIN0204_L3.6mm_D1.6mm_P5.08mm_Horizontal"
+		(property "Footprint" "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P7.62mm_Horizontal"
 			(at 122.936 118.364 90)
 			(effects
 				(font
@@ -3110,8 +3050,8 @@
 		(at 149.86 88.9 0)
 		(unit 1)
 		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
+		(in_bom no)
+		(on_board no)
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "cb08fbdf-edaa-406a-9655-c723bfbe1919")
@@ -3133,7 +3073,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "TestPoint:TestPoint_THTPad_2.0x2.0mm_Drill1.0mm"
 			(at 154.94 88.9 0)
 			(effects
 				(font
@@ -3152,6 +3092,15 @@
 			)
 		)
 		(property "Description" "test point"
+			(at 149.86 88.9 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Function" ""
 			(at 149.86 88.9 0)
 			(effects
 				(font
@@ -3198,7 +3147,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_THT:C_Disc_D4.3mm_W1.9mm_P5.00mm"
 			(at 160.02 99.3648 0)
 			(effects
 				(font
@@ -3334,7 +3283,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Package_TO_SOT_THT:TO-92_Inline"
+		(property "Footprint" "Package_TO_SOT_THT:TO-92_Inline_Wide"
 			(at 124.46 108.585 0)
 			(effects
 				(font

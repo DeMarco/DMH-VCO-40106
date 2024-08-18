@@ -1480,16 +1480,6 @@
 	)
 	(wire
 		(pts
-			(xy 186.69 76.2) (xy 189.23 76.2)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "477310c6-4857-4841-abc3-a001f7f4d302")
-	)
-	(wire
-		(pts
 			(xy 97.79 87.63) (xy 97.79 90.17)
 		)
 		(stroke
@@ -1600,7 +1590,7 @@
 	)
 	(wire
 		(pts
-			(xy 176.53 76.2) (xy 179.07 76.2)
+			(xy 176.53 76.2) (xy 189.23 76.2)
 		)
 		(stroke
 			(width 0)
@@ -1870,7 +1860,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P7.62mm_Horizontal"
 			(at 144.526 94.234 90)
 			(effects
 				(font
@@ -1938,7 +1928,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P7.62mm_Horizontal"
 			(at 166.624 65.024 90)
 			(effects
 				(font
@@ -2062,74 +2052,6 @@
 	)
 	(symbol
 		(lib_id "Device:R_US")
-		(at 182.88 76.2 90)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "41cd66b2-03ca-4167-ad38-dc9b3c69bf5b")
-		(property "Reference" "R44"
-			(at 182.88 69.85 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "1k"
-			(at 182.88 72.39 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 183.134 75.184 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 182.88 76.2 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Resistor, US symbol"
-			(at 182.88 76.2 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "2"
-			(uuid "efd0808d-aea7-4d22-92cc-423fd4f8a684")
-		)
-		(pin "1"
-			(uuid "9b3536ba-f653-4ab1-b06f-572ac7143dd7")
-		)
-		(instances
-			(project "DMH_VCO_40106_PCB"
-				(path "/fefed352-c100-4617-bbfb-c55e7427b122/5d4fa276-24f5-484f-b50d-2ebe5f0666ef"
-					(reference "R44")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:R_US")
 		(at 120.65 100.33 90)
 		(unit 1)
 		(exclude_from_sim no)
@@ -2154,7 +2076,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P7.62mm_Horizontal"
 			(at 120.904 99.314 90)
 			(effects
 				(font
@@ -2224,7 +2146,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P7.62mm_Horizontal"
 			(at 98.806 94.234 90)
 			(effects
 				(font
@@ -2294,7 +2216,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P7.62mm_Horizontal"
 			(at 110.236 62.484 90)
 			(effects
 				(font
@@ -2364,7 +2286,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Package_TO_SOT_THT:TO-92_Inline"
+		(property "Footprint" "Package_TO_SOT_THT:TO-92_Inline_Wide"
 			(at 111.76 89.535 0)
 			(effects
 				(font
@@ -2757,7 +2679,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Package_TO_SOT_THT:TO-92_Inline"
+		(property "Footprint" "Package_TO_SOT_THT:TO-92_Inline_Wide"
 			(at 129.54 89.535 0)
 			(effects
 				(font
@@ -2833,7 +2755,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P7.62mm_Horizontal"
 			(at 119.634 125.476 90)
 			(effects
 				(font
@@ -2969,7 +2891,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P7.62mm_Horizontal"
 			(at 154.686 94.234 90)
 			(effects
 				(font
@@ -3105,7 +3027,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P7.62mm_Horizontal"
 			(at 133.096 62.484 90)
 			(effects
 				(font
