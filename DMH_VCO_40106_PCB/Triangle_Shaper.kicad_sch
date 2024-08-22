@@ -2248,6 +2248,15 @@
 				(hide yes)
 			)
 		)
+		(property "Function" ""
+			(at 181.61 96.52 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "5"
 			(uuid "c675ea04-eff9-4ea8-a07f-a946d354a69c")
 		)
@@ -2668,14 +2677,14 @@
 	(symbol
 		(lib_id "Amplifier_Operational:TL074")
 		(at 201.93 99.06 0)
-		(unit 2)
+		(unit 4)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "7fe2efe0-a7a7-485a-b4f6-7dd60ffac188")
-		(property "Reference" "U4"
+		(property "Reference" "U3"
 			(at 201.93 88.9 0)
 			(effects
 				(font
@@ -2772,8 +2781,8 @@
 		(instances
 			(project ""
 				(path "/fefed352-c100-4617-bbfb-c55e7427b122/0e77ed5b-450a-412c-a492-589f053c9c73"
-					(reference "U4")
-					(unit 2)
+					(reference "U3")
+					(unit 4)
 				)
 			)
 		)

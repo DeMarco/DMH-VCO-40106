@@ -6535,7 +6535,7 @@
 	(symbol
 		(lib_id "Amplifier_Operational:TL074")
 		(at 227.33 26.67 0)
-		(unit 2)
+		(unit 4)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
@@ -6577,6 +6577,15 @@
 			)
 		)
 		(property "Description" "Quad Low-Noise JFET-Input Operational Amplifiers, DIP-14/SOIC-14"
+			(at 227.33 26.67 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Function" ""
 			(at 227.33 26.67 0)
 			(effects
 				(font
@@ -6631,7 +6640,7 @@
 			(project "VCO mki PCB"
 				(path "/fefed352-c100-4617-bbfb-c55e7427b122/681eb850-910f-47de-ab28-b72b47bdbc38"
 					(reference "U2")
-					(unit 2)
+					(unit 4)
 				)
 			)
 		)
@@ -7392,7 +7401,7 @@
 	(symbol
 		(lib_id "Amplifier_Operational:TL074")
 		(at 170.18 24.13 0)
-		(unit 1)
+		(unit 3)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
@@ -7434,6 +7443,15 @@
 			)
 		)
 		(property "Description" "Quad Low-Noise JFET-Input Operational Amplifiers, DIP-14/SOIC-14"
+			(at 170.18 24.13 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Function" ""
 			(at 170.18 24.13 0)
 			(effects
 				(font
@@ -7488,7 +7506,7 @@
 			(project "VCO mki PCB"
 				(path "/fefed352-c100-4617-bbfb-c55e7427b122/681eb850-910f-47de-ab28-b72b47bdbc38"
 					(reference "U2")
-					(unit 1)
+					(unit 3)
 				)
 			)
 		)
@@ -7841,13 +7859,13 @@
 		(lib_id "Amplifier_Operational:TL074")
 		(at 45.72 177.8 0)
 		(mirror x)
-		(unit 3)
+		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
 		(uuid "4066f943-6481-4832-b81f-d42898a7d68a")
-		(property "Reference" "U4"
+		(property "Reference" "U3"
 			(at 45.72 187.96 0)
 			(effects
 				(font
@@ -7944,8 +7962,8 @@
 		(instances
 			(project ""
 				(path "/fefed352-c100-4617-bbfb-c55e7427b122/681eb850-910f-47de-ab28-b72b47bdbc38"
-					(reference "U4")
-					(unit 3)
+					(reference "U3")
+					(unit 1)
 				)
 			)
 		)
@@ -8153,7 +8171,7 @@
 	(symbol
 		(lib_id "Amplifier_Operational:TL074")
 		(at 247.65 29.21 0)
-		(unit 1)
+		(unit 3)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
@@ -8258,7 +8276,7 @@
 			(project ""
 				(path "/fefed352-c100-4617-bbfb-c55e7427b122/681eb850-910f-47de-ab28-b72b47bdbc38"
 					(reference "U4")
-					(unit 1)
+					(unit 3)
 				)
 			)
 		)
@@ -8541,14 +8559,14 @@
 		(lib_id "Amplifier_Operational:TL074")
 		(at 93.98 175.26 0)
 		(mirror x)
-		(unit 4)
+		(unit 2)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "60162863-7d07-47b4-845d-4dde9a48ec59")
-		(property "Reference" "U4"
+		(property "Reference" "U3"
 			(at 93.98 165.1 0)
 			(effects
 				(font
@@ -8645,8 +8663,8 @@
 		(instances
 			(project ""
 				(path "/fefed352-c100-4617-bbfb-c55e7427b122/681eb850-910f-47de-ab28-b72b47bdbc38"
-					(reference "U4")
-					(unit 4)
+					(reference "U3")
+					(unit 2)
 				)
 			)
 		)
@@ -11214,7 +11232,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "a9cb2ce3-f422-4397-ac16-407fdaf2dd99")
-		(property "Reference" "U3"
+		(property "Reference" "U2"
 			(at 111.76 95.25 0)
 			(effects
 				(font
@@ -11302,7 +11320,7 @@
 		(instances
 			(project "DMH_VCO_40106_PCB"
 				(path "/fefed352-c100-4617-bbfb-c55e7427b122/681eb850-910f-47de-ab28-b72b47bdbc38"
-					(reference "U3")
+					(reference "U2")
 					(unit 2)
 				)
 			)
@@ -11562,7 +11580,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "b79ce5b5-c227-46f6-99cc-09596ced13d9")
-		(property "Reference" "U3"
+		(property "Reference" "U2"
 			(at 83.82 97.79 0)
 			(effects
 				(font
@@ -11597,6 +11615,15 @@
 			)
 		)
 		(property "Description" "Quad Low-Noise JFET-Input Operational Amplifiers, DIP-14/SOIC-14"
+			(at 83.82 107.95 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Function" ""
 			(at 83.82 107.95 0)
 			(effects
 				(font
@@ -11650,7 +11677,7 @@
 		(instances
 			(project "DMH_VCO_40106_PCB"
 				(path "/fefed352-c100-4617-bbfb-c55e7427b122/681eb850-910f-47de-ab28-b72b47bdbc38"
-					(reference "U3")
+					(reference "U2")
 					(unit 1)
 				)
 			)
@@ -12135,7 +12162,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "d0dc4f7e-0808-42f3-8bb0-7a0e6e632468")
-		(property "Reference" "U2"
+		(property "Reference" "U4"
 			(at 247.65 57.15 0)
 			(effects
 				(font
@@ -12170,6 +12197,15 @@
 			)
 		)
 		(property "Description" "Quad Low-Noise JFET-Input Operational Amplifiers, DIP-14/SOIC-14"
+			(at 247.65 67.31 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Function" ""
 			(at 247.65 67.31 0)
 			(effects
 				(font
@@ -12223,7 +12259,7 @@
 		(instances
 			(project "VCO mki PCB"
 				(path "/fefed352-c100-4617-bbfb-c55e7427b122/681eb850-910f-47de-ab28-b72b47bdbc38"
-					(reference "U2")
+					(reference "U4")
 					(unit 4)
 				)
 			)
@@ -12368,13 +12404,13 @@
 	(symbol
 		(lib_id "Amplifier_Operational:TL074")
 		(at 218.44 64.77 0)
-		(unit 3)
+		(unit 2)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
 		(uuid "d4c88e63-bd9f-44cd-8283-689ad75cb600")
-		(property "Reference" "U2"
+		(property "Reference" "U4"
 			(at 218.44 54.61 0)
 			(effects
 				(font
@@ -12409,6 +12445,15 @@
 			)
 		)
 		(property "Description" "Quad Low-Noise JFET-Input Operational Amplifiers, DIP-14/SOIC-14"
+			(at 218.44 64.77 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Function" ""
 			(at 218.44 64.77 0)
 			(effects
 				(font
@@ -12462,8 +12507,8 @@
 		(instances
 			(project "VCO mki PCB"
 				(path "/fefed352-c100-4617-bbfb-c55e7427b122/681eb850-910f-47de-ab28-b72b47bdbc38"
-					(reference "U2")
-					(unit 3)
+					(reference "U4")
+					(unit 2)
 				)
 			)
 		)

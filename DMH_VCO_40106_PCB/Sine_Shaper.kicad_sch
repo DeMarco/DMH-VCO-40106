@@ -2357,13 +2357,13 @@
 		(lib_id "Amplifier_Operational:TL074")
 		(at 165.1 76.2 0)
 		(mirror x)
-		(unit 4)
+		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
 		(uuid "735f7316-da13-48ea-95c9-ea7e99c4ad0c")
-		(property "Reference" "U3"
+		(property "Reference" "U4"
 			(at 165.1 86.36 0)
 			(effects
 				(font
@@ -2398,6 +2398,15 @@
 			)
 		)
 		(property "Description" "Quad Low-Noise JFET-Input Operational Amplifiers, DIP-14/SOIC-14"
+			(at 165.1 76.2 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Function" ""
 			(at 165.1 76.2 0)
 			(effects
 				(font
@@ -2451,8 +2460,8 @@
 		(instances
 			(project ""
 				(path "/fefed352-c100-4617-bbfb-c55e7427b122/5d4fa276-24f5-484f-b50d-2ebe5f0666ef"
-					(reference "U3")
-					(unit 4)
+					(reference "U4")
+					(unit 1)
 				)
 			)
 		)

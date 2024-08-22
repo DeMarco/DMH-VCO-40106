@@ -5395,6 +5395,15 @@
 				(hide yes)
 			)
 		)
+		(property "Function" ""
+			(at 91.44 107.95 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "6"
 			(uuid "95fdc367-6613-4e55-873f-6eb60fcc4d49")
 		)
@@ -6593,6 +6602,15 @@
 			)
 		)
 		(property "Description" "Quad Low-Noise JFET-Input Operational Amplifiers, DIP-14/SOIC-14"
+			(at 66.04 107.95 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Function" ""
 			(at 66.04 107.95 0)
 			(effects
 				(font
