@@ -2198,7 +2198,7 @@
 	(symbol
 		(lib_id "Amplifier_Operational:TL074")
 		(at 181.61 96.52 0)
-		(unit 3)
+		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
@@ -2303,7 +2303,7 @@
 			(project ""
 				(path "/fefed352-c100-4617-bbfb-c55e7427b122/0e77ed5b-450a-412c-a492-589f053c9c73"
 					(reference "U3")
-					(unit 3)
+					(unit 1)
 				)
 			)
 		)
@@ -2677,7 +2677,7 @@
 	(symbol
 		(lib_id "Amplifier_Operational:TL074")
 		(at 201.93 99.06 0)
-		(unit 4)
+		(unit 2)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
@@ -2782,7 +2782,7 @@
 			(project ""
 				(path "/fefed352-c100-4617-bbfb-c55e7427b122/0e77ed5b-450a-412c-a492-589f053c9c73"
 					(reference "U3")
-					(unit 4)
+					(unit 2)
 				)
 			)
 		)

@@ -7859,7 +7859,7 @@
 		(lib_id "Amplifier_Operational:TL074")
 		(at 45.72 177.8 0)
 		(mirror x)
-		(unit 1)
+		(unit 3)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
@@ -7963,7 +7963,7 @@
 			(project ""
 				(path "/fefed352-c100-4617-bbfb-c55e7427b122/681eb850-910f-47de-ab28-b72b47bdbc38"
 					(reference "U3")
-					(unit 1)
+					(unit 3)
 				)
 			)
 		)
@@ -8559,7 +8559,7 @@
 		(lib_id "Amplifier_Operational:TL074")
 		(at 93.98 175.26 0)
 		(mirror x)
-		(unit 2)
+		(unit 4)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
@@ -8664,7 +8664,7 @@
 			(project ""
 				(path "/fefed352-c100-4617-bbfb-c55e7427b122/681eb850-910f-47de-ab28-b72b47bdbc38"
 					(reference "U3")
-					(unit 2)
+					(unit 4)
 				)
 			)
 		)
