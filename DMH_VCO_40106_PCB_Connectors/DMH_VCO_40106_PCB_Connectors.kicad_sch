@@ -1,0 +1,57 @@
+(kicad_sch
+	(version 20231120)
+	(generator "eeschema")
+	(generator_version "8.0")
+	(uuid "fefed352-c100-4617-bbfb-c55e7427b122")
+	(paper "A4")
+	(title_block
+		(title "VCO 40106 PCB")
+		(date "2024-06-16")
+		(rev "1")
+		(company "DMH Instruments")
+	)
+	(lib_symbols)
+	(sheet
+		(at 27.94 49.53)
+		(size 44.45 33.02)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "ebf99e09-ad52-47dc-8eb5-ada2d4a92b7c")
+		(property "Sheetname" "Inpus and Outputs"
+			(at 27.94 48.8184 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "Inputs_and_Outputs.kicad_sch"
+			(at 27.94 83.1346 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(instances
+			(project "DMH_VCO_40106_PCB_Connectors"
+				(path "/fefed352-c100-4617-bbfb-c55e7427b122"
+					(page "2")
+				)
+			)
+		)
+	)
+	(sheet_instances
+		(path "/"
+			(page "1")
+		)
+	)
+)

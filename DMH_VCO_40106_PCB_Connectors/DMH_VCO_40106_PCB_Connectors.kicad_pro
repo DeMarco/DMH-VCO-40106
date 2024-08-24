@@ -445,7 +445,7 @@
     "pinned_symbol_libs": []
   },
   "meta": {
-    "filename": "DMH_VCO_40106_PCB.kicad_pro",
+    "filename": "DMH_VCO_40106_PCB_Connectors.kicad_pro",
     "version": 1
   },
   "net_settings": {
@@ -666,26 +666,6 @@
     [
       "ebf99e09-ad52-47dc-8eb5-ada2d4a92b7c",
       "Inpus and Outputs"
-    ],
-    [
-      "681eb850-910f-47de-ab28-b72b47bdbc38",
-      "Core"
-    ],
-    [
-      "0e77ed5b-450a-412c-a492-589f053c9c73",
-      "Triangle Shaper"
-    ],
-    [
-      "5d4fa276-24f5-484f-b50d-2ebe5f0666ef",
-      "Sine Shaper"
-    ],
-    [
-      "ec8b77a2-f589-4806-8224-6b0ccc79bab4",
-      "Tuner"
-    ],
-    [
-      "8c00d0a7-76b0-49e2-9ff5-6f2afc72327a",
-      "Power"
     ]
   ],
   "text_variables": {}
