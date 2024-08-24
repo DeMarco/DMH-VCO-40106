@@ -334,9 +334,9 @@
 			)
 		)
 		(property "Function" "Exp FM"
-			(at 0 0 0)
+			(at 0 0 -0)
 			(unlocked yes)
-			(layer "F.Fab")
+			(layer "B.SilkS")
 			(uuid "105434cb-f695-4acc-b9c6-9920e305b221")
 			(effects
 				(font
@@ -344,6 +344,7 @@
 					(thickness 0.15)
 					(italic yes)
 				)
+				(justify mirror)
 			)
 		)
 		(property ki_fp_filters "Jack*")
@@ -711,9 +712,9 @@
 			)
 		)
 		(property "Function" "Sine"
-			(at 0 0 0)
+			(at 0 0 -0)
 			(unlocked yes)
-			(layer "F.Fab")
+			(layer "B.SilkS")
 			(uuid "9f58e4da-5874-4380-befc-64ed1fc9b6a6")
 			(effects
 				(font
@@ -721,6 +722,7 @@
 					(thickness 0.15)
 					(italic yes)
 				)
+				(justify mirror)
 			)
 		)
 		(property ki_fp_filters "Jack*")
@@ -1296,7 +1298,7 @@
 			)
 		)
 		(property "Value" "100k"
-			(at 0 9.86 90)
+			(at 2.75 8.25 90)
 			(layer "F.SilkS")
 			(uuid "55f90525-5834-48a5-a993-52828581fc78")
 			(effects
@@ -1346,9 +1348,9 @@
 			)
 		)
 		(property "Function" "Exp FM 1 Amt"
-			(at 0 0 90)
+			(at 2.5 2.5 0)
 			(unlocked yes)
-			(layer "F.Fab")
+			(layer "B.SilkS")
 			(uuid "75897ad6-9852-434a-852f-a134dff2e9f7")
 			(effects
 				(font
@@ -1356,6 +1358,7 @@
 					(thickness 0.15)
 					(italic yes)
 				)
+				(justify mirror)
 			)
 		)
 		(property ki_fp_filters "Potentiometer*")
@@ -1683,9 +1686,9 @@
 			)
 		)
 		(property "Function" "Sawtooth"
-			(at 0 0 0)
+			(at 0 0 -0)
 			(unlocked yes)
-			(layer "F.Fab")
+			(layer "B.SilkS")
 			(uuid "ae7069b5-f2ae-4148-b48a-f48ae3995f2b")
 			(effects
 				(font
@@ -1693,6 +1696,7 @@
 					(thickness 0.15)
 					(italic yes)
 				)
+				(justify mirror)
 			)
 		)
 		(property ki_fp_filters "Jack*")
@@ -2305,7 +2309,7 @@
 			)
 		)
 		(property "Value" "100k"
-			(at 0 9.86 90)
+			(at 2.725 8.25 90)
 			(layer "F.SilkS")
 			(uuid "761dc9e4-bdb6-4c40-9370-828e76211522")
 			(effects
@@ -2355,9 +2359,9 @@
 			)
 		)
 		(property "Function" "Pulse Width"
-			(at 0 0 90)
+			(at 2.475 2.5 0)
 			(unlocked yes)
-			(layer "F.Fab")
+			(layer "B.SilkS")
 			(uuid "838a0585-ef3b-4aa3-93b4-3fb7cd69f610")
 			(effects
 				(font
@@ -2365,6 +2369,7 @@
 					(thickness 0.15)
 					(italic yes)
 				)
+				(justify mirror)
 			)
 		)
 		(property ki_fp_filters "Potentiometer*")
@@ -2694,9 +2699,9 @@
 			)
 		)
 		(property "Function" "Bus CV On/Off"
-			(at 0 0 0)
+			(at 2.5 0.5 -90)
 			(unlocked yes)
-			(layer "F.Fab")
+			(layer "B.SilkS")
 			(uuid "e158772e-4b83-453c-a6e2-ab9ca855d198")
 			(effects
 				(font
@@ -2704,6 +2709,7 @@
 					(thickness 0.15)
 					(italic yes)
 				)
+				(justify mirror)
 			)
 		)
 		(path "/ebf99e09-ad52-47dc-8eb5-ada2d4a92b7c/512fab59-6683-4771-8d9c-c9c111d0b258")
@@ -2856,9 +2862,9 @@
 			)
 		)
 		(property "Function" "Square"
-			(at 0 0 0)
+			(at 0 0 -0)
 			(unlocked yes)
-			(layer "F.Fab")
+			(layer "B.SilkS")
 			(uuid "ff96335e-4eef-4aac-b756-3dfbbde61e06")
 			(effects
 				(font
@@ -2866,6 +2872,7 @@
 					(thickness 0.15)
 					(italic yes)
 				)
+				(justify mirror)
 			)
 		)
 		(property ki_fp_filters "Jack*")
@@ -3185,7 +3192,7 @@
 			)
 		)
 		(property "Value" "100k"
-			(at 0 9.86 90)
+			(at 2.75 8.25 90)
 			(layer "F.SilkS")
 			(uuid "772e0c1f-24a3-4813-b882-8b2ec6cc72c3")
 			(effects
@@ -3235,9 +3242,9 @@
 			)
 		)
 		(property "Function" "Exp FM 2 Amt"
-			(at 0 0 90)
+			(at 2.5 2.5 0)
 			(unlocked yes)
-			(layer "F.Fab")
+			(layer "B.SilkS")
 			(uuid "de7a53b1-6a4b-489d-9b6a-c226e8052405")
 			(effects
 				(font
@@ -3245,6 +3252,7 @@
 					(thickness 0.15)
 					(italic yes)
 				)
+				(justify mirror)
 			)
 		)
 		(property ki_fp_filters "Potentiometer*")
@@ -5599,9 +5607,9 @@
 			)
 		)
 		(property "Function" "Exp FM"
-			(at 0 0 0)
+			(at 0 0 -0)
 			(unlocked yes)
-			(layer "F.Fab")
+			(layer "B.SilkS")
 			(uuid "093f9108-be61-4475-bfd5-90769e7379a4")
 			(effects
 				(font
@@ -5609,6 +5617,7 @@
 					(thickness 0.15)
 					(italic yes)
 				)
+				(justify mirror)
 			)
 		)
 		(property ki_fp_filters "Jack*")
@@ -5976,9 +5985,9 @@
 			)
 		)
 		(property "Function" "Sync"
-			(at 0 0 0)
+			(at 0 0 -0)
 			(unlocked yes)
-			(layer "F.Fab")
+			(layer "B.SilkS")
 			(uuid "3dcf57aa-e5cd-4dab-b1a2-5de2ae3098ae")
 			(effects
 				(font
@@ -5986,6 +5995,7 @@
 					(thickness 0.15)
 					(italic yes)
 				)
+				(justify mirror)
 			)
 		)
 		(property ki_fp_filters "Jack*")
@@ -6355,9 +6365,9 @@
 			)
 		)
 		(property "Function" "Sync On/Off"
-			(at 0 0 0)
+			(at 2.25 0 -90)
 			(unlocked yes)
-			(layer "F.Fab")
+			(layer "B.SilkS")
 			(uuid "42de38b1-ba7e-4b4a-a2d3-56cd332088b3")
 			(effects
 				(font
@@ -6365,6 +6375,7 @@
 					(thickness 0.15)
 					(italic yes)
 				)
+				(justify mirror)
 			)
 		)
 		(path "/ebf99e09-ad52-47dc-8eb5-ada2d4a92b7c/ae01b39d-b8ce-4347-bea5-70b8aeb495ab")
@@ -6775,16 +6786,17 @@
 			)
 		)
 		(property "Function" "Tuner On/Off"
-			(at 0 0 0)
+			(at 2.5 1.25 -90)
 			(unlocked yes)
-			(layer "F.Fab")
-			(hide yes)
+			(layer "B.SilkS")
 			(uuid "f424247e-d64d-495e-a5ef-11928812ed5d")
 			(effects
 				(font
 					(size 1 1)
 					(thickness 0.15)
+					(italic yes)
 				)
+				(justify mirror)
 			)
 		)
 		(path "/ec8b77a2-f589-4806-8224-6b0ccc79bab4/b278054f-4c6b-43b2-9a42-89236a56461a")
@@ -6939,9 +6951,9 @@
 			)
 		)
 		(property "Function" "Fine"
-			(at 0 0 90)
+			(at 2.475 2.5 -0)
 			(unlocked yes)
-			(layer "F.Fab")
+			(layer "B.SilkS")
 			(uuid "3fd30aef-f8f2-48a8-8e06-72e970bd5875")
 			(effects
 				(font
@@ -6949,6 +6961,7 @@
 					(thickness 0.15)
 					(italic yes)
 				)
+				(justify mirror)
 			)
 		)
 		(property ki_fp_filters "Potentiometer*")
@@ -7497,7 +7510,7 @@
 			)
 		)
 		(property "Value" "100k"
-			(at 0 9.86 90)
+			(at 2.75 8.25 90)
 			(layer "F.SilkS")
 			(uuid "a5407bd5-2470-44b1-9317-7c5bd58f1c6b")
 			(effects
@@ -7534,9 +7547,9 @@
 			)
 		)
 		(property "Description" "PWM Amt"
-			(at 0 0 90)
+			(at 2.5 2.5 0)
 			(unlocked yes)
-			(layer "F.Fab")
+			(layer "B.SilkS")
 			(uuid "12c1ed9a-5eca-4e48-ae8e-7bed05148a4e")
 			(effects
 				(font
@@ -7544,6 +7557,7 @@
 					(thickness 0.15)
 					(italic yes)
 				)
+				(justify mirror)
 			)
 		)
 		(property ki_fp_filters "Potentiometer*")
@@ -8129,7 +8143,7 @@
 		(property "Function" "V/Oct"
 			(at 0 0 0)
 			(unlocked yes)
-			(layer "F.Fab")
+			(layer "B.SilkS")
 			(uuid "611077c7-8520-4dd0-a57a-2ddfad5a8ca9")
 			(effects
 				(font
@@ -8137,6 +8151,7 @@
 					(thickness 0.15)
 					(italic yes)
 				)
+				(justify mirror)
 			)
 		)
 		(property ki_fp_filters "Jack*")
@@ -8506,9 +8521,9 @@
 			)
 		)
 		(property "Function" "Coarse"
-			(at 0 0 90)
+			(at 2.5 2.55 -0)
 			(unlocked yes)
-			(layer "F.Fab")
+			(layer "B.SilkS")
 			(uuid "a8031b8b-47e3-4c46-9fb9-7b0048f24e97")
 			(effects
 				(font
@@ -8516,6 +8531,7 @@
 					(thickness 0.15)
 					(italic yes)
 				)
+				(justify mirror)
 			)
 		)
 		(property ki_fp_filters "Potentiometer*")
@@ -9514,9 +9530,9 @@
 			)
 		)
 		(property "Function" "Triangle"
-			(at 0 0 0)
+			(at 0 0 -0)
 			(unlocked yes)
-			(layer "F.Fab")
+			(layer "B.SilkS")
 			(uuid "8accbe41-7fd5-4b73-9bac-39b9faf26ac1")
 			(effects
 				(font
@@ -9524,6 +9540,7 @@
 					(thickness 0.15)
 					(italic yes)
 				)
+				(justify mirror)
 			)
 		)
 		(property ki_fp_filters "Jack*")
@@ -9891,9 +9908,9 @@
 			)
 		)
 		(property "Function" "PW Mod"
-			(at 0 0 0)
+			(at 0 0 -0)
 			(unlocked yes)
-			(layer "F.Fab")
+			(layer "B.SilkS")
 			(uuid "ba20dd26-e221-4916-97d2-661c732396ef")
 			(effects
 				(font
@@ -9901,6 +9918,7 @@
 					(thickness 0.15)
 					(italic yes)
 				)
+				(justify mirror)
 			)
 		)
 		(property ki_fp_filters "Jack*")
@@ -27058,7 +27076,7 @@
 		(descr "C, Disc series, Radial, pin pitch=2.50mm, , diameter*width=3*2mm^2, Capacitor")
 		(tags "C Disc series Radial pin pitch 2.50mm  diameter 3mm width 2mm Capacitor")
 		(property "Reference" "C15"
-			(at 1.25 2.25 360)
+			(at 1.25 2.25 0)
 			(layer "B.SilkS")
 			(uuid "8880169b-eff2-4488-8348-f559d199cefc")
 			(effects
@@ -27070,7 +27088,7 @@
 			)
 		)
 		(property "Value" "1nF"
-			(at 1.25 -2.25 360)
+			(at 1.25 -2.25 0)
 			(layer "B.SilkS")
 			(uuid "1e8c2992-f0d1-4557-bfc2-23297ee6aa0f")
 			(effects
@@ -27269,7 +27287,7 @@
 			(uuid "8d74668f-3643-4c4a-a119-0d4baf86c579")
 		)
 		(fp_text user "${REFERENCE}"
-			(at 1.25 0 360)
+			(at 1.25 0 0)
 			(layer "B.Fab")
 			(uuid "e9cbd5f7-b652-48b0-b89b-ba6c48f06457")
 			(effects
