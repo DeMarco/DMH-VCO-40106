@@ -2838,9 +2838,21 @@
 		)
 		(uuid "fee27678-e60e-448c-89b4-90edf964452d")
 	)
-	(text "Split into header and socket pair when\nmoving jacks to separate PCB project"
+	(rectangle
+		(start 46.99 13.97)
+		(end 201.93 121.92)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(fill
+			(type none)
+		)
+		(uuid 9866ebb1-3d7d-41c6-8737-a663b41105a1)
+	)
+	(text "Not placed in main PCB. See \"DMH_VCO_40106_PCB_Connectors\" project."
 		(exclude_from_sim no)
-		(at 78.232 148.844 0)
+		(at 165.1 120.396 0)
 		(effects
 			(font
 				(size 1.27 1.27)
