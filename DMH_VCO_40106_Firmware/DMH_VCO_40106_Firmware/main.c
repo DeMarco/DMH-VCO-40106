@@ -5,7 +5,20 @@
  * Author : Draycon
  */ 
 
+#include "definitions.h"
+#include <inttypes.h>
+#include <stdio.h>
+#include <stdlib.h>
 #include <avr/io.h>
+#include <avr/interrupt.h>
+#include <util/delay.h>
+
+void ioinit (void)
+{
+	DDRA = _BV()
+	
+	
+}
 
 
 int main(void)
