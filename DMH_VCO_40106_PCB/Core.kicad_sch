@@ -5582,7 +5582,7 @@
 		)
 		(uuid "67f720f6-9a75-490f-bca9-4bca511e7ac3")
 	)
-	(text "RD90 pots pinout:\nwhen viewing the pot from above and the pins are on the south side,\n1 = right = fully CW\n2 = middle\n3 = left = fully CCW"
+	(text "RD90 pots pinout:\nwhen viewing the pot from above and the pins are on the south side,\n1 = left = fully CCW\n2 = middle\n3 = right = fully CW"
 		(exclude_from_sim no)
 		(at 16.002 20.32 0)
 		(effects
@@ -8940,6 +8940,7 @@
 	(symbol
 		(lib_id "Device:R_Potentiometer_US")
 		(at 46.99 121.92 0)
+		(mirror x)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -8947,7 +8948,7 @@
 		(dnp no)
 		(uuid "6b9172ff-a1bd-449b-89ff-439171a9e7c7")
 		(property "Reference" "RV3"
-			(at 44.45 120.6499 0)
+			(at 44.45 123.1901 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8956,7 +8957,7 @@
 			)
 		)
 		(property "Value" "100k"
-			(at 44.45 123.1899 0)
+			(at 44.45 120.6501 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9022,7 +9023,6 @@
 	(symbol
 		(lib_id "Device:R_Potentiometer_US")
 		(at 170.18 44.45 0)
-		(mirror x)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -9030,7 +9030,7 @@
 		(dnp no)
 		(uuid "6c76a797-1492-418c-8b33-84bc3d97c3c5")
 		(property "Reference" "RV6"
-			(at 167.64 45.7201 0)
+			(at 167.64 43.1799 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9039,7 +9039,7 @@
 			)
 		)
 		(property "Value" "100k"
-			(at 167.64 43.1801 0)
+			(at 167.64 45.7199 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9066,7 +9066,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 161.29 41.91 90)
+			(at 161.29 46.99 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9075,7 +9075,7 @@
 			)
 		)
 		(property "Function" "Pulse Width"
-			(at 161.29 41.402 90)
+			(at 161.29 47.498 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10367,6 +10367,7 @@
 	(symbol
 		(lib_id "Device:R_Potentiometer_US")
 		(at 36.83 73.66 0)
+		(mirror x)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -10374,7 +10375,7 @@
 		(dnp no)
 		(uuid "95116ff5-e8ba-485c-9056-08caa02a2fef")
 		(property "Reference" "RV2"
-			(at 34.29 72.3899 0)
+			(at 34.29 74.9301 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10383,7 +10384,7 @@
 			)
 		)
 		(property "Value" "100k"
-			(at 34.29 74.9299 0)
+			(at 34.29 72.3901 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10410,7 +10411,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 32.004 69.85 0)
+			(at 32.004 77.47 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10419,7 +10420,7 @@
 			)
 		)
 		(property "Function" "Fine"
-			(at 32.004 70.104 0)
+			(at 32.004 77.216 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10740,6 +10741,7 @@
 	(symbol
 		(lib_id "Device:R_Potentiometer_US")
 		(at 182.88 74.93 0)
+		(mirror x)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -10747,7 +10749,7 @@
 		(dnp no)
 		(uuid "9e3c6581-eabd-4cea-8f93-0b06ac753de2")
 		(property "Reference" "RV7"
-			(at 180.34 73.6599 0)
+			(at 180.34 76.2001 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10756,7 +10758,7 @@
 			)
 		)
 		(property "Value" "100k"
-			(at 180.34 76.1999 0)
+			(at 180.34 73.6601 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10783,7 +10785,7 @@
 			)
 		)
 		(property "Description" "PWM Amt"
-			(at 185.42 80.518 90)
+			(at 185.42 69.342 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11751,6 +11753,7 @@
 	(symbol
 		(lib_id "Device:R_Potentiometer_US")
 		(at 22.86 73.66 0)
+		(mirror x)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -11758,7 +11761,7 @@
 		(dnp no)
 		(uuid "c62cbba0-ae25-4d6b-915e-7bf79b6ff4d4")
 		(property "Reference" "RV1"
-			(at 20.32 72.3899 0)
+			(at 20.32 74.9301 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11767,7 +11770,7 @@
 			)
 		)
 		(property "Value" "100k"
-			(at 20.32 74.9299 0)
+			(at 20.32 72.3901 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11794,7 +11797,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 16.764 70.104 0)
+			(at 16.764 77.216 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11803,7 +11806,7 @@
 			)
 		)
 		(property "Function" "Coarse"
-			(at 16.51 70.104 0)
+			(at 16.51 77.216 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11919,6 +11922,7 @@
 	(symbol
 		(lib_id "Device:R_Potentiometer_US")
 		(at 46.99 140.97 0)
+		(mirror x)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -11926,7 +11930,7 @@
 		(dnp no)
 		(uuid "c73e43ee-1467-4bd1-8894-cec8720a207b")
 		(property "Reference" "RV4"
-			(at 44.45 139.6999 0)
+			(at 44.45 142.2401 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11935,7 +11939,7 @@
 			)
 		)
 		(property "Value" "100k"
-			(at 44.45 142.2399 0)
+			(at 44.45 139.7001 0)
 			(effects
 				(font
 					(size 1.27 1.27)
