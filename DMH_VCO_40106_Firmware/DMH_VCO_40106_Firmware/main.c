@@ -13,6 +13,13 @@
 #include <avr/interrupt.h>
 #include <util/delay.h>
 
+
+void display_note (uint8_t note)
+{
+	
+	
+}
+
 void ioinit (void)
 {
 	DDRA = _BV()
