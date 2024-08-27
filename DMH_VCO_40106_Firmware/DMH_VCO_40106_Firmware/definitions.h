@@ -57,14 +57,14 @@
 #define LED_L_Red_OFF		PORTB &= ~_BV(LED_L_Red)
 
 
-#define SEG_A	PORTA1
-#define SEG_B	PORTA0
+#define SEG_A	PORTD6
+#define SEG_B	PORTD5
 #define SEG_C	PORTD4
 #define SEG_D	PORTD3
 #define SEG_E	PORTD2
 #define SEG_F	PORTD1
 #define SEG_G	PORTD0
-#define SEG_DP	PORTD5
+#define SEG_DP	PORTA0
 
 
 #define MOSI	PORTB5
