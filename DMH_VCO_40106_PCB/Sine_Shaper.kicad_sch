@@ -1590,7 +1590,7 @@
 	)
 	(wire
 		(pts
-			(xy 176.53 76.2) (xy 189.23 76.2)
+			(xy 176.53 76.2) (xy 179.07 76.2)
 		)
 		(stroke
 			(width 0)
@@ -1687,6 +1687,16 @@
 			(type default)
 		)
 		(uuid "aa14d37d-e0b3-453d-a319-e393325a4bfe")
+	)
+	(wire
+		(pts
+			(xy 186.69 76.2) (xy 189.23 76.2)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ac4fb535-6804-438a-aca6-37f14e443bd3")
 	)
 	(wire
 		(pts
@@ -1807,25 +1817,6 @@
 			(type default)
 		)
 		(uuid "fe3673f9-cf19-43a7-9cb4-34471c099360")
-	)
-	(text_box "Moved R44=1k to Inputs and Outputs sheet"
-		(exclude_from_sim no)
-		(at 179.07 67.31 0)
-		(size 17.78 7.62)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(fill
-			(type none)
-		)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left)
-		)
-		(uuid "70d2ac81-a27e-4636-90c5-83815e179205")
 	)
 	(hierarchical_label "Sine Out"
 		(shape output)
@@ -2820,6 +2811,74 @@
 			(project "VCO mki PCB"
 				(path "/fefed352-c100-4617-bbfb-c55e7427b122/5d4fa276-24f5-484f-b50d-2ebe5f0666ef"
 					(reference "R31")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R_US")
+		(at 182.88 76.2 270)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "c2051c01-8da0-4d6b-807f-a41004b4b0cb")
+		(property "Reference" "R44"
+			(at 182.88 69.85 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "1k"
+			(at 182.88 72.39 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P7.62mm_Horizontal"
+			(at 182.626 77.216 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 182.88 76.2 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Resistor, US symbol"
+			(at 182.88 76.2 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "f78d3d7d-4737-459a-815e-415eff0a63e7")
+		)
+		(pin "1"
+			(uuid "0ce3c9f8-465d-4f67-bd40-63567038c969")
+		)
+		(instances
+			(project "DMH_VCO_40106_PCB"
+				(path "/fefed352-c100-4617-bbfb-c55e7427b122/5d4fa276-24f5-484f-b50d-2ebe5f0666ef"
+					(reference "R44")
 					(unit 1)
 				)
 			)
