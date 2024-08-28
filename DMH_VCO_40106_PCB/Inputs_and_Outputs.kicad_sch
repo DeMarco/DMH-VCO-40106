@@ -437,176 +437,6 @@
 				)
 			)
 		)
-		(symbol "Device:R_US"
-			(pin_numbers hide)
-			(pin_names
-				(offset 0)
-			)
-			(exclude_from_sim no)
-			(in_bom yes)
-			(on_board yes)
-			(property "Reference" "R"
-				(at 2.54 0 90)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Value" "R_US"
-				(at -2.54 0 90)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Footprint" ""
-				(at 1.016 -0.254 90)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Datasheet" "~"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Description" "Resistor, US symbol"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "ki_keywords" "R res resistor"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "ki_fp_filters" "R_*"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(symbol "R_US_0_1"
-				(polyline
-					(pts
-						(xy 0 -2.286) (xy 0 -2.54)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 0 2.286) (xy 0 2.54)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 0 -0.762) (xy 1.016 -1.143) (xy 0 -1.524) (xy -1.016 -1.905) (xy 0 -2.286)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 0 0.762) (xy 1.016 0.381) (xy 0 0) (xy -1.016 -0.381) (xy 0 -0.762)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 0 2.286) (xy 1.016 1.905) (xy 0 1.524) (xy -1.016 1.143) (xy 0 0.762)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-			)
-			(symbol "R_US_1_1"
-				(pin passive line
-					(at 0 3.81 270)
-					(length 1.27)
-					(name "~"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 0 -3.81 90)
-					(length 1.27)
-					(name "~"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "2"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-			)
-		)
 		(symbol "SynthStuff:BackBone_Connector_10Pin"
 			(pin_names
 				(offset 1.016) hide)
@@ -1660,16 +1490,6 @@
 	)
 	(wire
 		(pts
-			(xy 184.15 95.25) (xy 184.15 55.88)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "07306187-9c39-4310-91b6-268cb2f70b93")
-	)
-	(wire
-		(pts
 			(xy 196.85 105.41) (xy 196.85 109.22)
 		)
 		(stroke
@@ -1677,6 +1497,16 @@
 			(type default)
 		)
 		(uuid "0ec16d19-3cd2-427a-8c37-caa2591c38e1")
+	)
+	(wire
+		(pts
+			(xy 189.23 82.55) (xy 189.23 100.33)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "11261652-5158-4558-98b0-6d0926ce9d1b")
 	)
 	(wire
 		(pts
@@ -1750,6 +1580,16 @@
 	)
 	(wire
 		(pts
+			(xy 184.15 44.45) (xy 184.15 95.25)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "1cac5c99-5b5b-4716-9ad4-8adbd9486349")
+	)
+	(wire
+		(pts
 			(xy 137.16 33.02) (xy 120.65 33.02)
 		)
 		(stroke
@@ -1780,7 +1620,7 @@
 	)
 	(wire
 		(pts
-			(xy 186.69 97.79) (xy 186.69 74.93)
+			(xy 186.69 63.5) (xy 186.69 97.79)
 		)
 		(stroke
 			(width 0)
@@ -1810,23 +1650,13 @@
 	)
 	(wire
 		(pts
-			(xy 102.87 58.42) (xy 102.87 153.67)
+			(xy 102.87 44.45) (xy 102.87 153.67)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
 		(uuid "25f36583-9456-4c91-87b1-1e0fec215123")
-	)
-	(wire
-		(pts
-			(xy 181.61 92.71) (xy 181.61 36.83)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "2ccf1181-80a8-4779-880e-cda94836bd96")
 	)
 	(wire
 		(pts
@@ -1837,16 +1667,6 @@
 			(type default)
 		)
 		(uuid "2e4bc42f-f312-4698-a5e8-790e186b099d")
-	)
-	(wire
-		(pts
-			(xy 189.23 87.63) (xy 189.23 82.55)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "314975a4-7dbc-47f1-ad7d-abaf14e6798a")
 	)
 	(wire
 		(pts
@@ -1957,16 +1777,6 @@
 			(type default)
 		)
 		(uuid "493ed8bb-d615-4d30-8644-ab613b123990")
-	)
-	(wire
-		(pts
-			(xy 102.87 44.45) (xy 102.87 50.8)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "4a8a86b6-f4b7-413d-a28a-b3b31b650e27")
 	)
 	(wire
 		(pts
@@ -2097,16 +1907,6 @@
 			(type default)
 		)
 		(uuid "7301e56a-8719-44f9-9e3c-542307654b84")
-	)
-	(wire
-		(pts
-			(xy 186.69 67.31) (xy 186.69 63.5)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "73507bd2-b4e3-4081-a330-fa05e7c5b6cd")
 	)
 	(wire
 		(pts
@@ -2410,7 +2210,7 @@
 	)
 	(wire
 		(pts
-			(xy 181.61 29.21) (xy 181.61 25.4)
+			(xy 181.61 25.4) (xy 181.61 92.71)
 		)
 		(stroke
 			(width 0)
@@ -2700,16 +2500,6 @@
 	)
 	(wire
 		(pts
-			(xy 184.15 48.26) (xy 184.15 44.45)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "eea41cf1-817e-4a3a-b27e-6b0ad5824a31")
-	)
-	(wire
-		(pts
 			(xy 107.95 82.55) (xy 69.85 82.55)
 		)
 		(stroke
@@ -2787,16 +2577,6 @@
 			(type default)
 		)
 		(uuid "f7f606f7-9561-4f04-8073-3288b2d27a65")
-	)
-	(wire
-		(pts
-			(xy 189.23 100.33) (xy 189.23 95.25)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "fa0803c3-0660-4336-8583-b6bc30756d7d")
 	)
 	(wire
 		(pts
@@ -3055,76 +2835,6 @@
 			(project "VCO mki PCB"
 				(path "/fefed352-c100-4617-bbfb-c55e7427b122/ebf99e09-ad52-47dc-8eb5-ada2d4a92b7c"
 					(reference "J1")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:R_US")
-		(at 189.23 91.44 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board no)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "2ab6b742-c3fb-4e3d-9d9f-cf097eee94fa")
-		(property "Reference" "R20"
-			(at 191.77 90.1699 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "1k"
-			(at 191.77 92.7099 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P7.62mm_Horizontal"
-			(at 190.246 91.694 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 189.23 91.44 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Resistor, US symbol"
-			(at 189.23 91.44 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "2"
-			(uuid "eccfb18f-fd57-4dec-9758-d01b8020fa5b")
-		)
-		(pin "1"
-			(uuid "3f9d34dc-7aca-46f0-94b8-ed825961b274")
-		)
-		(instances
-			(project "DMH_VCO_40106_PCB"
-				(path "/fefed352-c100-4617-bbfb-c55e7427b122/ebf99e09-ad52-47dc-8eb5-ada2d4a92b7c"
-					(reference "R20")
 					(unit 1)
 				)
 			)
@@ -3544,76 +3254,6 @@
 		)
 	)
 	(symbol
-		(lib_id "Device:R_US")
-		(at 181.61 33.02 180)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board no)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "85fe19d8-b2c7-4743-b604-7bbd058bbd4b")
-		(property "Reference" "R44"
-			(at 184.15 31.7499 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Value" "1k"
-			(at 184.15 34.2899 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Footprint" "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P7.62mm_Horizontal"
-			(at 180.594 32.766 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 181.61 33.02 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Resistor, US symbol"
-			(at 181.61 33.02 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "2"
-			(uuid "c10b1784-4fac-45ae-8f66-8fd479693ca7")
-		)
-		(pin "1"
-			(uuid "ada57e4e-1210-4b47-8b61-721de1b3ea73")
-		)
-		(instances
-			(project "DMH_VCO_40106_PCB"
-				(path "/fefed352-c100-4617-bbfb-c55e7427b122/ebf99e09-ad52-47dc-8eb5-ada2d4a92b7c"
-					(reference "R44")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "SynthStuff:TS_Jack_6.35mm_Sw")
 		(at 64.77 101.6 0)
 		(unit 1)
@@ -3915,146 +3555,6 @@
 			(project ""
 				(path "/fefed352-c100-4617-bbfb-c55e7427b122/ebf99e09-ad52-47dc-8eb5-ada2d4a92b7c"
 					(reference "J9")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:R_US")
-		(at 102.87 54.61 180)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board no)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "c7b6e03e-d1ae-4f23-9a0f-0c5e3ee36ab5")
-		(property "Reference" "R7"
-			(at 105.41 53.3399 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Value" "100k"
-			(at 105.41 55.8799 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Footprint" "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P7.62mm_Horizontal"
-			(at 101.854 54.356 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 102.87 54.61 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Resistor, US symbol"
-			(at 102.87 54.61 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "2"
-			(uuid "de99a624-7702-4544-b091-5eb493c672db")
-		)
-		(pin "1"
-			(uuid "76e38bfa-fc3b-4761-9e35-a9952945f941")
-		)
-		(instances
-			(project "DMH_VCO_40106_PCB"
-				(path "/fefed352-c100-4617-bbfb-c55e7427b122/ebf99e09-ad52-47dc-8eb5-ada2d4a92b7c"
-					(reference "R7")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:R_US")
-		(at 184.15 52.07 180)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board no)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "c8dc81a2-410c-44ee-a650-f3a6bc621b39")
-		(property "Reference" "R28"
-			(at 186.69 50.7999 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Value" "1k"
-			(at 186.69 53.3399 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Footprint" "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P7.62mm_Horizontal"
-			(at 183.134 51.816 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 184.15 52.07 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Resistor, US symbol"
-			(at 184.15 52.07 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "2"
-			(uuid "03bb3650-ed36-4228-8a91-6fb989ad3a98")
-		)
-		(pin "1"
-			(uuid "1f1a3778-53c4-4362-8844-d5205a3031bf")
-		)
-		(instances
-			(project "DMH_VCO_40106_PCB"
-				(path "/fefed352-c100-4617-bbfb-c55e7427b122/ebf99e09-ad52-47dc-8eb5-ada2d4a92b7c"
-					(reference "R28")
 					(unit 1)
 				)
 			)
@@ -4453,76 +3953,6 @@
 			(project ""
 				(path "/fefed352-c100-4617-bbfb-c55e7427b122/ebf99e09-ad52-47dc-8eb5-ada2d4a92b7c"
 					(reference "J8")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:R_US")
-		(at 186.69 71.12 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board no)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "e57d8f3c-1448-47c7-bcac-29ce44fa5967")
-		(property "Reference" "R21"
-			(at 189.23 69.8499 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "1k"
-			(at 189.23 72.3899 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P7.62mm_Horizontal"
-			(at 187.706 71.374 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 186.69 71.12 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Resistor, US symbol"
-			(at 186.69 71.12 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "2"
-			(uuid "1ec1405e-d5e5-4168-bbc7-291bc89f907d")
-		)
-		(pin "1"
-			(uuid "e432a2d7-3e2a-4d3f-b7d1-bf1f65fd5e9d")
-		)
-		(instances
-			(project "DMH_VCO_40106_PCB"
-				(path "/fefed352-c100-4617-bbfb-c55e7427b122/ebf99e09-ad52-47dc-8eb5-ada2d4a92b7c"
-					(reference "R21")
 					(unit 1)
 				)
 			)
