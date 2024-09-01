@@ -122,7 +122,48 @@ void display_note (uint8_t note)
 
 void ioinit (void)
 {
-	DDRA = _BV()
+	// Set PA0 as output
+	DDRA |= _BV(PORTA0);
+	
+	// Set PA1 as input
+	DDRA &= ~_BV(PORTA1);
+	
+	// Activate the PA1 pull-up resistor
+	PORTA |= _BV(PORTA1);
+	
+	// Set PB2 to PB7 ports as output, and PB0 and PB1 as input
+	DDRB = 0xFC;
+	
+	// Disable PB0 and PB1 pull-up resistors, so they can be used as Analog Inputs
+	PORTB &= ~_BV(PORTB0) & ~_BV(PORTB1);
+	
+	// Set all PD ports as output
+	DDRD = 0xEF;
+	
+	// Enable Analog Comparator Input Capture
+	ACSR |= _BV(ACIC);
+	
+	// Select Analog Comparator Interrupt on Rising Output Edge
+	//ACSR |= _BV(ACIS1) | _BV(ACIS0); //Not needed if I use the Timer/Counter1 Input Capture interrupt
+	
+	// Enable Analog Comparator Interrupt
+	//ACSR |= _BV(ACIE);
+	
+	// Select Rising Edge for the Timer/Counter1 Input Capture
+	TCCR1B |= _BV(ICES1);
+	
+	// Select clkio/8 as Timer/Counter1 clock source
+	/* Since the CPU is clocked at 8 MHz, the timer will increment at 1 MHz.
+	This means it will overflow (MAX = 65535) about every ~65.535 ms, or ~15.23 Hz.
+	This is lower than note C0, which is 16.35 Hz */
+	TCCR1B |= _BV(CS11);
+	
+	// Enable Timer/Counter1 Overflow interrupt
+	//TIMSK |= _BV(TOIE1); //Read and clear flag instead of handling the output
+	
+	// Enable Timer/Counter1 Input Capture interrupt
+	TIMSK |= _BV(ICIE1);
+	
 	
 	
 }
