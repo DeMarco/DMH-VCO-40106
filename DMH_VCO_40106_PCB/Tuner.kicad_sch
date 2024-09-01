@@ -2196,6 +2196,12 @@
 		(uuid "2053d37b-61c8-4acd-8d01-0506e3ca73f8")
 	)
 	(junction
+		(at 162.56 187.96)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "362a3165-d808-4a73-9d64-562a34e33c41")
+	)
+	(junction
 		(at 63.5 128.27)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -2256,12 +2262,6 @@
 		(uuid "9f5a2262-6d4e-4e96-b68a-82b6d284af7b")
 	)
 	(junction
-		(at 194.31 82.55)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "a8af892b-519a-47ab-a1bf-e3d8329dd533")
-	)
-	(junction
 		(at 162.56 133.35)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -2282,16 +2282,6 @@
 	(no_connect
 		(at 34.29 53.34)
 		(uuid "1f376744-11f7-4691-ad1e-af7c3641299b")
-	)
-	(wire
-		(pts
-			(xy 194.31 114.3) (xy 194.31 82.55)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "0049e89a-e825-406f-a10e-8021610e9731")
 	)
 	(wire
 		(pts
@@ -2525,7 +2515,7 @@
 	)
 	(wire
 		(pts
-			(xy 194.31 82.55) (xy 194.31 80.01)
+			(xy 194.31 80.01) (xy 194.31 114.3)
 		)
 		(stroke
 			(width 0)
@@ -2702,16 +2692,6 @@
 			(type default)
 		)
 		(uuid "3d44032f-76ca-4de0-b45f-684c40f1e9bb")
-	)
-	(wire
-		(pts
-			(xy 194.31 82.55) (xy 213.36 82.55)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "3e38fe50-fd5c-4a29-892c-81b54ef28ae5")
 	)
 	(wire
 		(pts
@@ -2895,13 +2875,13 @@
 	)
 	(wire
 		(pts
-			(xy 213.36 82.55) (xy 213.36 86.36)
+			(xy 162.56 187.96) (xy 162.56 190.5)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "61dad54d-6e79-4720-815e-ceb90cb45790")
+		(uuid "5f8c5a01-aa59-4f26-9c46-02df2a470b2c")
 	)
 	(wire
 		(pts
@@ -4243,6 +4223,72 @@
 			(project "DMH_VCO_40106_PCB"
 				(path "/fefed352-c100-4617-bbfb-c55e7427b122/ec8b77a2-f589-4806-8224-6b0ccc79bab4"
 					(reference "D5")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 162.56 190.5 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "2bf6632a-259f-4f50-ab94-843406660192")
+		(property "Reference" "#PWR012"
+			(at 162.56 196.85 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 162.56 195.58 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 162.56 190.5 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 162.56 190.5 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 162.56 190.5 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "13687e9b-c11a-43b9-a20f-b95dd6ddccb5")
+		)
+		(instances
+			(project "DMH_VCO_40106_PCB"
+				(path "/fefed352-c100-4617-bbfb-c55e7427b122/ec8b77a2-f589-4806-8224-6b0ccc79bab4"
+					(reference "#PWR012")
 					(unit 1)
 				)
 			)
@@ -6696,72 +6742,6 @@
 			(project ""
 				(path "/fefed352-c100-4617-bbfb-c55e7427b122/ec8b77a2-f589-4806-8224-6b0ccc79bab4"
 					(reference "D8")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "power:GND")
-		(at 213.36 86.36 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "f632838f-4a27-4a3c-820e-06ff25360459")
-		(property "Reference" "#PWR058"
-			(at 213.36 92.71 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "GND"
-			(at 213.36 91.44 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 213.36 86.36 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 213.36 86.36 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 213.36 86.36 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "fac5f5a7-9b54-4ac1-ac0b-5763ae5d71d4")
-		)
-		(instances
-			(project "DMH_VCO_40106_PCB"
-				(path "/fefed352-c100-4617-bbfb-c55e7427b122/ec8b77a2-f589-4806-8224-6b0ccc79bab4"
-					(reference "#PWR058")
 					(unit 1)
 				)
 			)

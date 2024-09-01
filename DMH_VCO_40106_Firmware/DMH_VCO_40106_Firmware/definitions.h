@@ -41,8 +41,8 @@
 #define LED_Sharp_ON		PORTB |= _BV(LED_Sharp)
 #define LED_Sharp_OFF		PORTB &= ~_BV(LED_Sharp)
 
-#define LED_R_Red_ON	PORTB |= _BV(LED_R_Red)
-#define LED_R_Red_OFF	PORTB &= ~_BV(LED_R_Red)
+#define LED_R_Red_ON		PORTB |= _BV(LED_R_Red)
+#define LED_R_Red_OFF		PORTB &= ~_BV(LED_R_Red)
 
 #define LED_R_Yellow_ON		PORTB |= _BV(LED_R_Yellow)
 #define LED_R_Yellow_OFF	PORTB &= ~_BV(LED_R_Yellow)
@@ -66,6 +66,7 @@
 #define SEG_G	PORTD0
 #define SEG_DP	PORTA0
 
+#define OnOff_SWITCH	PORTA1
 
 #define MOSI	PORTB5
 #define MISO	PORTB6
