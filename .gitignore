@@ -32,3 +32,4 @@ fp-info-cache
 
 # Microchip Studio 7
 *.atsuo
+/DMH_VCO_40106_Firmware/DMH_VCO_40106_Firmware/Debug
