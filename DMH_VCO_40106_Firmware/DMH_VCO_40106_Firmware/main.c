@@ -12,6 +12,8 @@
 #include <avr/io.h>
 #include <avr/interrupt.h>
 #include <util/delay.h>
+//#include "Frequency_table_uint16.h"
+#include "Frequency_table_float.h"
 
 void delay_s (uint8_t t)
 {
@@ -184,8 +186,14 @@ void ioinit (void)
 int main(void)
 {
     
-	
+	ioinit();
 	init_display();
+	
+	//uint16_t temp=0;
+	float temp=0.0;
+	
+	//temp = pgm_read_word(&frequency_table[3][4]);
+	temp = pgm_read_float(&frequency_table[3][4]);
 	
     while (1) 
     {
