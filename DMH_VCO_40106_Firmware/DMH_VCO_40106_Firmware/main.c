@@ -163,6 +163,14 @@ void ioinit (void)
 	// Enable Analog Comparator Interrupt
 	//ACSR |= _BV(ACIE);
 	
+	//Select clkio/1024 as Timer/Counter0 clock source
+	/* With the CPU running at 8 MHz, this will result in timer overflow at ~30,5 Hz rate.
+	Don't need to update the display more frequently than this. */
+	TCCR0B |= _BV(CS00) | _BV(CS02);
+	
+	// Enable Timer/Counter0 Overflow interrupt
+	TIMSK |= _BV(TOIE0);
+	
 	// Select Rising Edge for the Timer/Counter1 Input Capture
 	TCCR1B |= _BV(ICES1);
 	
@@ -172,13 +180,8 @@ void ioinit (void)
 	This is lower than note C0, which is 16.35 Hz */
 	TCCR1B |= _BV(CS11);
 	
-	// Enable Timer/Counter1 Overflow interrupt
-	//TIMSK |= _BV(TOIE1); //Read and clear flag instead of handling the output
-	
 	// Enable Timer/Counter1 Input Capture interrupt
 	TIMSK |= _BV(ICIE1);
-	
-	
 	
 }
 
