@@ -66,7 +66,8 @@
 #define SEG_G	PORTD0
 #define SEG_DP	PORTA0
 
-#define OnOff_SWITCH	PORTA1
+#define OnOff_SWITCH			PORTA1
+#define OnOff_SWITCH_STATUS		(PINA & 0x02)
 
 #define MOSI	PORTB5
 #define MISO	PORTB6
@@ -87,6 +88,8 @@
 #define	NOTE_A	10
 #define	NOTE_As	11
 #define	NOTE_B	12
+#define	NOTE_TOO_LOW	13
+#define	NOTE_TOO_HIGH	14
 
 
 #endif /* DEFINITIONS_H_ */

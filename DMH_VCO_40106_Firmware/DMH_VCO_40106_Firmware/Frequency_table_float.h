@@ -1,6 +1,10 @@
 #include <avr/pgmspace.h>
+
+#define NOTE_QUANTITY	97
+#define NOTE_MAX		NOTE_QUANTITY - 1
+
 // [note][limits]
-const float frequency_table[97][5] PROGMEM = {
+const float frequency_table[NOTE_QUANTITY][5] PROGMEM = {
 { 15.89		,	16.12	,	16.31	,	16.40	,	16.59	} ,
 { 16.84		,	17.08	,	17.28	,	17.38	,	17.58	} ,
 { 17.84		,	18.10	,	18.30	,	18.41	,	18.63	} ,

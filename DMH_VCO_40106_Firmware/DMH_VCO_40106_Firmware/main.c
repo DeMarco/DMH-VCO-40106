@@ -15,6 +15,15 @@
 //#include "Frequency_table_uint16.h"
 #include "Frequency_table_float.h"
 
+
+//////// GLOBAL VARIABLES ////////
+
+uint16_t event_timestamp = 0;
+
+
+
+/////// FUNCTIONS /////////
+
 void delay_s (uint8_t t)
 {
 	uint8_t i;
@@ -53,6 +62,42 @@ void init_display (void)
 	_delay_ms(500);
 	// Switch off DP
 	PORTA &= ~_BV(SEG_DP);
+}
+
+uint8_t calculate_note (uint16_t timestamp)
+{
+	float freq = 0.0, c_current = 0.0, c_next = 0.0;
+	uint8_t i, j;
+	
+	// Convert timestamp into wave frequency
+	freq = 1 / timestamp;
+	
+	// Check if frequency is within usable range
+	if(freq < pgm_read_float(&frequency_table[0][0]))
+	{
+		return NOTE_TOO_LOW;
+	}
+	else if(freq < pgm_read_float(&frequency_table[NOTE_MAX][4]))
+	{
+		return NOTE_TOO_HIGH;
+	}
+	
+	// Check which octave the frequency belongs to
+	for(i=0; i<97; i+=12)
+	{
+		c_current = pgm_read_float(&frequency_table[i][0]);
+		c_next = pgm_read_float(&frequency_table[i+12][0]);
+		if((freq >= c_current) && (freq < c_next))
+			break;
+	}
+	
+	// Check which note region the frequency belongs to
+	
+	
+	
+	// Check which accuracy level the frequency belongs to
+	
+	
 }
 
 void display_note (uint8_t note)
@@ -186,17 +231,70 @@ void ioinit (void)
 }
 
 
+ISR(TIMER0_OVF_vect)
+{
+	uint16_t buffered_timestamp = 0;
+	
+	if(OnOff_SWITCH_STATUS)
+	{
+		// Buffer event time stamp
+		buffered_timestamp = event_timestamp;
+		
+		// Calculate note to be displayed
+		
+		
+		// Update display
+		
+		
+		// Update accuracy LEDs
+		
+		
+	}
+	else
+	{
+		// Switch off all display segments
+		PORTD = 0x00;
+		
+		// Switch off all LEDs
+		PORTB &= 0x03;
+	}
+	
+}
+
+ISR(TIMER1_CAPT_vect)
+{
+	// Reset Timer1
+	TCNT1 = 0x0000;
+
+	// Check if Timer1 overflowed
+	if(TIFR & _BV(TOV1))
+	{
+		// Force frequency calculation to result in 1Hz
+		event_timestamp = 1;
+		
+		// Reset Timer1 overflow flag
+		TIFR &= ~_BV(TOV1);
+	}
+	else
+		// Save event time stamp
+		event_timestamp = ICR1;	
+	
+}
+
 int main(void)
 {
-    
+    cli();
+	
 	ioinit();
 	init_display();
 	
+	sei();
+	
 	//uint16_t temp=0;
-	float temp=0.0;
+	//float temp=0.0;
 	
 	//temp = pgm_read_word(&frequency_table[3][4]);
-	temp = pgm_read_float(&frequency_table[3][4]);
+	//temp = pgm_read_float(&frequency_table[3][4]);
 	
     while (1) 
     {
