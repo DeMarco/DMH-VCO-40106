@@ -56,6 +56,7 @@
 #define LED_L_Red_ON		PORTB |= _BV(LED_L_Red)
 #define LED_L_Red_OFF		PORTB &= ~_BV(LED_L_Red)
 
+#define ALL_LEDS_OFF		PORTB &= 0x03
 
 #define SEG_A	PORTD6
 #define SEG_B	PORTD5
@@ -66,8 +67,10 @@
 #define SEG_G	PORTD0
 #define SEG_DP	PORTA0
 
+#define ALL_SEGS_OFF	PORTD = 0x00
+
 #define OnOff_SWITCH			PORTA1
-#define OnOff_SWITCH_STATUS		(PINA & 0x02)
+#define OnOff_SWITCH_STATUS		(PINA & _BV(PINA1))
 
 #define MOSI	PORTB5
 #define MISO	PORTB6

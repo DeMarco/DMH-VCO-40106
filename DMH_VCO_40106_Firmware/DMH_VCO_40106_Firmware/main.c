@@ -75,15 +75,19 @@ uint8_t calculate_note (uint16_t timestamp)
 	// Check if frequency is within usable range
 	if(freq < pgm_read_float(&frequency_table[0][0]))
 	{
+		display_note(NOTE_TOO_LOW);
+		ALL_LEDS_OFF;
 		return NOTE_TOO_LOW;
 	}
-	else if(freq < pgm_read_float(&frequency_table[NOTE_MAX][4]))
+	else if(freq > pgm_read_float(&frequency_table[NOTE_MAX][4]))
 	{
+		display_note(NOTE_TOO_HIGH);
+		ALL_LEDS_OFF;
 		return NOTE_TOO_HIGH;
 	}
 	
 	// Check which octave the frequency belongs to
-	for(i=0; i<97; i+=12)
+	for(i=0; i<NOTE_QUANTITY; i+=12)
 	{
 		c_current = pgm_read_float(&frequency_table[i][0]);
 		c_next = pgm_read_float(&frequency_table[i+12][0]);
@@ -175,6 +179,16 @@ void display_note (uint8_t note)
 			PORTD = 0x17;
 			LED_Sharp_OFF;
 			break;
+			
+		case NOTE_TOO_LOW:
+			PORTD = 0x80;
+			LED_Sharp_OFF;
+			break;
+		
+		case NOTE_TOO_HIGH:
+			PORTD = 0x40;
+			LED_Sharp_OFF;
+			break;
 	}
 	
 }
@@ -234,6 +248,7 @@ void ioinit (void)
 ISR(TIMER0_OVF_vect)
 {
 	uint16_t buffered_timestamp = 0;
+	uint8_t note;
 	
 	if(OnOff_SWITCH_STATUS)
 	{
@@ -241,7 +256,7 @@ ISR(TIMER0_OVF_vect)
 		buffered_timestamp = event_timestamp;
 		
 		// Calculate note to be displayed
-		
+		note = calculate_note(buffered_timestamp);
 		
 		// Update display
 		
@@ -253,10 +268,10 @@ ISR(TIMER0_OVF_vect)
 	else
 	{
 		// Switch off all display segments
-		PORTD = 0x00;
+		ALL_SEGS_OFF;
 		
 		// Switch off all LEDs
-		PORTB &= 0x03;
+		ALL_LEDS_OFF;
 	}
 	
 }
