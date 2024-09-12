@@ -11,6 +11,7 @@
 #include <stdlib.h>
 #include <avr/io.h>
 #include <avr/interrupt.h>
+#include <avr/pgmspace.h>
 #include <util/delay.h>
 //#include "Frequency_table_uint16.h"
 #include "Frequency_table_float.h"
@@ -62,46 +63,6 @@ void init_display (void)
 	_delay_ms(500);
 	// Switch off DP
 	PORTA &= ~_BV(SEG_DP);
-}
-
-uint8_t calculate_note (uint16_t timestamp)
-{
-	float freq = 0.0, c_current = 0.0, c_next = 0.0;
-	uint8_t i, j;
-	
-	// Convert timestamp into wave frequency
-	freq = 1 / timestamp;
-	
-	// Check if frequency is within usable range
-	if(freq < pgm_read_float(&frequency_table[0][0]))
-	{
-		display_note(NOTE_TOO_LOW);
-		ALL_LEDS_OFF;
-		return NOTE_TOO_LOW;
-	}
-	else if(freq > pgm_read_float(&frequency_table[NOTE_MAX][4]))
-	{
-		display_note(NOTE_TOO_HIGH);
-		ALL_LEDS_OFF;
-		return NOTE_TOO_HIGH;
-	}
-	
-	// Check which octave the frequency belongs to
-	for(i=0; i<NOTE_QUANTITY; i+=12)
-	{
-		c_current = pgm_read_float(&frequency_table[i][0]);
-		c_next = pgm_read_float(&frequency_table[i+12][0]);
-		if((freq >= c_current) && (freq < c_next))
-			break;
-	}
-	
-	// Check which note region the frequency belongs to
-	
-	
-	
-	// Check which accuracy level the frequency belongs to
-	
-	
 }
 
 void display_note (uint8_t note)
@@ -193,6 +154,71 @@ void display_note (uint8_t note)
 	
 }
 
+void calculate_note (uint16_t timestamp)
+{
+	float freq = 0.0;
+	uint8_t i, j;
+	uint8_t note_number;
+	
+	// Convert timestamp into wave frequency
+	freq = 1 / timestamp;
+	
+	// Check if frequency is within usable range
+	if(freq < pgm_read_float(&frequency_table[1][0]))
+	{
+		display_note(NOTE_TOO_LOW);
+		ALL_LEDS_OFF;
+		return;
+	}
+	else if(freq >= pgm_read_float(&frequency_table[NOTE_MAX][0]))
+	{
+		display_note(NOTE_TOO_HIGH);
+		ALL_LEDS_OFF;
+		return;
+	}
+	
+	// Check which octave the frequency belongs to
+	i = 1;
+	while(!((freq >= pgm_read_float(&frequency_table[i][0]))) && (freq < pgm_read_float(&frequency_table[i+12][0])))
+	{
+		i+=12; // Go to the next octave
+	}
+	
+	// Check which note region the frequency belongs to
+	note_number = 1;
+	while(!((freq >= pgm_read_float(&frequency_table[i][0]))) && (freq < pgm_read_float(&frequency_table[i+1][0])))
+	{
+		i++;
+		note_number++;
+	}
+	
+	// Check which accuracy level the frequency belongs to
+	j = 0;
+	while(!((freq >= pgm_read_float(&frequency_table[i][j]))) && (freq < pgm_read_float(&frequency_table[i][j+1])))
+	{
+		j++;
+		if(j==4)
+			break;
+	}
+
+	// Display note and accuracy LED
+	display_note(note_number);
+	ALL_LEDS_OFF;
+	switch(j)
+	{
+		case 0:
+			LED_L_Red_ON;
+		case 1:
+			LED_L_Yellow_ON;
+		case 2:
+			LED_C_Green_ON;
+		case 3:
+			LED_R_Yellow_ON;
+		case 4:
+			LED_R_Red_ON;
+	}
+}
+
 void ioinit (void)
 {
 	// Set PA0 as output
@@ -248,7 +274,8 @@ void ioinit (void)
 ISR(TIMER0_OVF_vect)
 {
 	uint16_t buffered_timestamp = 0;
-	uint8_t note;
+	
+	sei(); //To allow nested interrupt handling
 	
 	if(OnOff_SWITCH_STATUS)
 	{
@@ -256,14 +283,7 @@ ISR(TIMER0_OVF_vect)
 		buffered_timestamp = event_timestamp;
 		
 		// Calculate note to be displayed
-		note = calculate_note(buffered_timestamp);
-		
-		// Update display
-		
-		
-		// Update accuracy LEDs
-		
-		
+		calculate_note(buffered_timestamp);		
 	}
 	else
 	{

@@ -79,18 +79,18 @@
 
 /* Note names */
 
-#define	NOTE_C	1
-#define	NOTE_Cs	2
-#define	NOTE_D	3
-#define	NOTE_Ds	4
-#define	NOTE_E	5
-#define	NOTE_F	6
-#define	NOTE_Fs	7
-#define	NOTE_G	8
-#define	NOTE_Gs	9
-#define	NOTE_A	10
-#define	NOTE_As	11
-#define	NOTE_B	12
+#define	NOTE_Cs	1
+#define	NOTE_D	2
+#define	NOTE_Ds	3
+#define	NOTE_E	4
+#define	NOTE_F	5
+#define	NOTE_Fs	6
+#define	NOTE_G	7
+#define	NOTE_Gs	8
+#define	NOTE_A	9
+#define	NOTE_As	10
+#define	NOTE_B	11
+#define	NOTE_C	12
 #define	NOTE_TOO_LOW	13
 #define	NOTE_TOO_HIGH	14
 

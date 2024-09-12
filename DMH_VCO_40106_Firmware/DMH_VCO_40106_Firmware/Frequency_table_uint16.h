@@ -1,6 +1,8 @@
-#include <avr/pgmspace.h>
+#define NOTE_QUANTITY	98
+#define NOTE_MAX		NOTE_QUANTITY - 1
+
 // [note][limits]
-const uint16_t frequency_table[97][5] PROGMEM = {
+const uint16_t frequency_table[NOTE_QUANTITY][5] PROGMEM = {
 { 159	,	161		,	163		,	164		,	166		} ,
 { 168	,	171		,	173		,	174		,	176		} ,
 { 178	,	181		,	183		,	184		,	186		} ,
@@ -97,5 +99,6 @@ const uint16_t frequency_table[97][5] PROGMEM = {
 { 34212	,	34706	,	35101	,	35305	,	35723	} ,
 { 36247	,	36770	,	37188	,	37404	,	37848	} ,
 { 38402	,	38956	,	39400	,	39628	,	40098	} ,
-{ 40685	,	41273	,	41743	,	41985	,	42482	}
+{ 40685	,	41273	,	41743	,	41985	,	42482	} ,
+{ 43105	,	43727	,	44225	,	44481	,	45009	}
 };
