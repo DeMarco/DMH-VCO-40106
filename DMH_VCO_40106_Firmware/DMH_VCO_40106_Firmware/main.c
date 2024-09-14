@@ -144,12 +144,17 @@ void display_note (uint8_t note)
 			break;
 			
 		case NOTE_TOO_LOW:
-			PORTD = 0x80;
+			PORTD = 0x08;
 			LED_Sharp_OFF;
 			break;
 		
 		case NOTE_TOO_HIGH:
 			PORTD = 0x40;
+			LED_Sharp_OFF;
+			break;
+		
+		default:
+			PORTD = 0x48;
 			LED_Sharp_OFF;
 			break;
 	}
