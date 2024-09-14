@@ -25,44 +25,46 @@ uint16_t event_timestamp = 0;
 
 /////// FUNCTIONS /////////
 
-void delay_s (uint8_t t)
-{
-	uint8_t i;
-
-	for (i = 0; i < 10*t; i++)
-		_delay_ms(100);
-}
-
 void init_display (void)
 {
-	// Switch off all segments except for DP
+	// Switch off all segments
 	PORTA &= ~_BV(SEG_DP);
-	PORTD &= 0x00;
+	ALL_SEGS_OFF;
 	
-	// Rotate all segments
-	delay_s(150);
-	PORTD &= _BV(SEG_F);
+	// Rotate all segments and LEDs
 	_delay_ms(150);
-	PORTD &= _BV(SEG_A);
+	PORTD |= _BV(SEG_F);
 	_delay_ms(150);
-	PORTD &= _BV(SEG_B);
+	PORTD |= _BV(SEG_A);
 	_delay_ms(150);
-	PORTD &= _BV(SEG_C);
+	PORTD |= _BV(SEG_B);
 	_delay_ms(150);
-	PORTD &= _BV(SEG_D);
+	PORTD |= _BV(SEG_C);
 	_delay_ms(150);
-	PORTD &= _BV(SEG_E);
+	PORTD |= _BV(SEG_D);
 	_delay_ms(150);
-	PORTD &= _BV(SEG_G);
+	PORTD |= _BV(SEG_E);
 	_delay_ms(150);
-	PORTD &= ~_BV(SEG_G);
+	PORTD |= _BV(SEG_G);
+	_delay_ms(150);
 	PORTA |= _BV(SEG_DP);
-	_delay_ms(500);
-	// Light up all segments
-	PORTD &= 0xEF;
-	_delay_ms(500);
-	// Switch off DP
-	PORTA &= ~_BV(SEG_DP);
+	_delay_ms(150);
+	LED_Sharp_ON;
+	_delay_ms(150);
+	LED_L_Red_ON;
+	_delay_ms(150);
+	LED_L_Yellow_ON;
+	_delay_ms(150);
+	LED_C_Green_ON;
+	_delay_ms(150);
+	LED_R_Yellow_ON;
+	_delay_ms(150);
+	LED_R_Red_ON;
+	_delay_ms(1000);
+	// Switch off all segments
+	ALL_SEGS_OFF;
+	// Switch off all LEDs
+	ALL_LEDS_OFF;
 }
 
 void display_note (uint8_t note)
@@ -237,7 +239,7 @@ void ioinit (void)
 	PORTB &= ~_BV(PORTB0) & ~_BV(PORTB1);
 	
 	// Set all PD ports as output
-	DDRD = 0xEF;
+	DDRD = 0xFF;
 	
 	// Enable Analog Comparator Input Capture
 	ACSR |= _BV(ACIC);
@@ -318,21 +320,20 @@ ISR(TIMER1_CAPT_vect)
 
 int main(void)
 {
-    cli();
+	
+	cli();
 	
 	ioinit();
 	init_display();
 	
 	sei();
 	
-	//uint16_t temp=0;
-	//float temp=0.0;
-	
-	//temp = pgm_read_word(&frequency_table[3][4]);
-	//temp = pgm_read_float(&frequency_table[3][4]);
-	
     while (1) 
     {
+		_delay_ms(1000);
+		PORTA &= ~_BV(SEG_DP);
+		_delay_ms(1000);
+		PORTA |= _BV(SEG_DP);
     }
 }
 
