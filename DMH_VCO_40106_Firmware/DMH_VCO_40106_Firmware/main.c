@@ -16,7 +16,6 @@
 //#include "Frequency_table_uint16.h"
 #include "Frequency_table_float.h"
 
-
 //////// GLOBAL VARIABLES ////////
 
 uint16_t event_timestamp = 0;
@@ -164,23 +163,29 @@ void display_note (uint8_t note)
 void calculate_note (uint16_t timestamp)
 {
 	float freq = 0.0;
+	float period_us = 0.0;
 	uint8_t i, j;
 	uint8_t note_number;
 	
 	// Convert timestamp into wave frequency
-	freq = 1 / timestamp;
+	period_us = timestamp / 1000.0;
+	period_us = period_us / 1000.0;
+	freq = 1.0 / period_us;
 	
 	// Check if frequency is within usable range
-	if(freq < pgm_read_float(&frequency_table[1][0]))
+	//if(freq < pgm_read_float(&frequency_table[1][0]))
+	if(freq < 300.0)
 	{
 		display_note(NOTE_TOO_LOW);
 		ALL_LEDS_OFF;
 		return;
 	}
-	else if(freq >= pgm_read_float(&frequency_table[NOTE_MAX][0]))
+	//else if(freq >= pgm_read_float(&frequency_table[NOTE_MAX][0]))
+	else if(freq >= 300.0)
 	{
 		display_note(NOTE_TOO_HIGH);
 		ALL_LEDS_OFF;
+		LED_C_Green_ON;
 		return;
 	}
 	
@@ -210,19 +215,35 @@ void calculate_note (uint16_t timestamp)
 
 	// Display note and accuracy LED
 	display_note(note_number);
-	ALL_LEDS_OFF;
+	LED_L_Red_OFF;
+	LED_L_Yellow_OFF;
+	LED_C_Green_OFF;
+	LED_R_Yellow_OFF;
+	LED_R_Red_OFF;
 	switch(j)
 	{
 		case 0:
 			LED_L_Red_ON;
+			break;
 		case 1:
 			LED_L_Yellow_ON;
+			break;
 		case 2:
 			LED_C_Green_ON;
+			break;
 		case 3:
 			LED_R_Yellow_ON;
+			break;
 		case 4:
 			LED_R_Red_ON;
+			break;
+		default:
+			LED_L_Red_ON;
+			LED_L_Yellow_ON;
+			LED_C_Green_ON;
+			LED_R_Yellow_ON;
+			LED_R_Red_ON;
+			break;			
 	}
 }
 
@@ -266,6 +287,9 @@ void ioinit (void)
 	// Select Rising Edge for the Timer/Counter1 Input Capture
 	TCCR1B |= _BV(ICES1);
 	
+	// Enable filter for the Timer/Counter1 Input Capture
+	//TCCR1B |= _BV(ICNC1);
+	
 	// Select clkio/8 as Timer/Counter1 clock source
 	/* Since the CPU is clocked at 8 MHz, the timer will increment at 1 MHz.
 	This means it will overflow (MAX = 65535) about every ~65.535 ms, or ~15.23 Hz.
@@ -275,6 +299,8 @@ void ioinit (void)
 	// Enable Timer/Counter1 Input Capture interrupt
 	TIMSK |= _BV(ICIE1);
 	
+	// Enable Timer/Counter1 Overflow interrupt
+	//TIMSK |= _BV(TOIE1);
 }
 
 
@@ -288,9 +314,13 @@ ISR(TIMER0_OVF_vect)
 	{
 		// Buffer event time stamp
 		buffered_timestamp = event_timestamp;
+		//buffered_timestamp = 1000;
 		
 		// Calculate note to be displayed
-		calculate_note(buffered_timestamp);		
+		calculate_note(buffered_timestamp);	
+		//calculate_note(2000);	
+		
+		//LED_C_Green_OFF;	
 	}
 	else
 	{
@@ -299,6 +329,7 @@ ISR(TIMER0_OVF_vect)
 		
 		// Switch off all LEDs
 		ALL_LEDS_OFF;
+		//LED_C_Green_ON;
 	}
 	
 }
@@ -308,19 +339,39 @@ ISR(TIMER1_CAPT_vect)
 	// Reset Timer1
 	TCNT1 = 0x0000;
 
+	
 	// Check if Timer1 overflowed
-	if(TIFR & _BV(TOV1))
+	/*if(TIFR & _BV(TOV1))
 	{
+		PINA |= _BV(PINA0);
+		
 		// Force frequency calculation to result in 1Hz
-		event_timestamp = 1;
+		event_timestamp = 10000;
 		
 		// Reset Timer1 overflow flag
 		TIFR &= ~_BV(TOV1);
 	}
 	else
+	{*/
 		// Save event time stamp
 		event_timestamp = ICR1;	
+		//PORTA &= ~_BV(SEG_DP);
+	//}
 	
+	//event_timestamp = 1000;	
+	//PORTD = 0xFF;
+}
+
+ISR(TIMER1_OVF_vect)
+{
+	static uint8_t count = 0;
+	
+	count++;
+	if(count==15)
+	{
+		PINA |= _BV(PINA0);
+		count=0;
+	}
 }
 
 int main(void)
@@ -329,16 +380,20 @@ int main(void)
 	cli();
 	
 	ioinit();
-	init_display();
+	//init_display();
 	
 	sei();
 	
     while (1) 
     {
+		/*
 		_delay_ms(1000);
 		PORTA &= ~_BV(SEG_DP);
 		_delay_ms(1000);
 		PORTA |= _BV(SEG_DP);
+		*/
+		//ALL_SEGS_OFF;
+		//event_timestamp = 2000;
     }
 }
 

@@ -11,12 +11,6 @@
 		(company "DMH Instruments")
 	)
 	(lib_symbols)
-	(junction
-		(at 86.36 114.3)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "17264ba5-d4cd-4e8a-b480-b288ff89205f")
-	)
 	(wire
 		(pts
 			(xy 76.2 68.58) (xy 72.39 68.58)
@@ -26,6 +20,16 @@
 			(type default)
 		)
 		(uuid "01c08f84-72b0-40f5-b6f9-8e4ae4850269")
+	)
+	(wire
+		(pts
+			(xy 86.36 119.38) (xy 86.36 53.34)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "14241325-1295-4914-b5c9-d2cdaf1a98b4")
 	)
 	(wire
 		(pts
@@ -79,6 +83,16 @@
 	)
 	(wire
 		(pts
+			(xy 71.12 119.38) (xy 86.36 119.38)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "3499f39a-39b8-4299-8091-fddfff9f0613")
+	)
+	(wire
+		(pts
 			(xy 25.4 104.14) (xy 27.94 104.14)
 		)
 		(stroke
@@ -116,16 +130,6 @@
 			(type default)
 		)
 		(uuid "4fdf004f-ebaa-43c7-aeb4-3ff4b7ec6786")
-	)
-	(wire
-		(pts
-			(xy 209.55 53.34) (xy 86.36 53.34)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "537fb16d-c277-49f7-a7d6-63370ecc1161")
 	)
 	(wire
 		(pts
@@ -169,16 +173,6 @@
 	)
 	(wire
 		(pts
-			(xy 86.36 53.34) (xy 86.36 114.3)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "82251548-a6d7-4910-a0d8-f03b8487d2d1")
-	)
-	(wire
-		(pts
 			(xy 27.94 68.58) (xy 24.13 68.58)
 		)
 		(stroke
@@ -186,6 +180,16 @@
 			(type default)
 		)
 		(uuid "8e0fc03c-1b5c-4a85-b8c4-4a84bdee81a0")
+	)
+	(wire
+		(pts
+			(xy 86.36 53.34) (xy 209.55 53.34)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "94deb7e9-2b3a-434c-aeca-41cb7eea71d7")
 	)
 	(wire
 		(pts
@@ -249,7 +253,7 @@
 	)
 	(wire
 		(pts
-			(xy 71.12 114.3) (xy 86.36 114.3)
+			(xy 71.12 114.3) (xy 91.44 114.3)
 		)
 		(stroke
 			(width 0)
@@ -286,16 +290,6 @@
 			(type default)
 		)
 		(uuid "b873b483-0770-460f-8479-e796304b1a88")
-	)
-	(wire
-		(pts
-			(xy 86.36 114.3) (xy 91.44 114.3)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "bc8f90fa-5d14-462a-b097-969d646987ab")
 	)
 	(wire
 		(pts
@@ -603,6 +597,16 @@
 			)
 			(uuid "c161a8c1-c238-45a5-ac9c-6a90fc1ab22b")
 		)
+		(pin "Square" output
+			(at 71.12 119.38 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+			(uuid "99814ff7-6eb4-4895-b676-8f19a7194502")
+		)
 		(instances
 			(project "DMH_VCO_40106_PCB"
 				(path "/fefed352-c100-4617-bbfb-c55e7427b122"
@@ -827,7 +831,7 @@
 				(justify left top)
 			)
 		)
-		(pin "Sawtooth In" input
+		(pin "Square In" input
 			(at 209.55 53.34 180)
 			(effects
 				(font
@@ -835,7 +839,7 @@
 				)
 				(justify left)
 			)
-			(uuid "4a4d761b-2859-4b89-943f-7efebdcbe9ff")
+			(uuid "fc8f126d-0709-4593-a908-821bc86a5bae")
 		)
 		(instances
 			(project "DMH_VCO_40106_PCB"

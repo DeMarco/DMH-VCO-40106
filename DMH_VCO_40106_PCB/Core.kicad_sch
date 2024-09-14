@@ -3249,6 +3249,12 @@
 		(uuid "0a21d8c9-c758-4f79-bce3-54c16ead8ebd")
 	)
 	(junction
+		(at 257.81 76.2)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "0d372f14-fd19-483a-a4ce-84b6da03ddcb")
+	)
+	(junction
 		(at 157.48 124.46)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -3663,6 +3669,16 @@
 			(type default)
 		)
 		(uuid "1ae4f7cf-7cda-44e2-a88d-b67229b9f7b0")
+	)
+	(wire
+		(pts
+			(xy 257.81 76.2) (xy 271.78 76.2)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "1b640aca-cc35-4416-8cb3-9711896f24c4")
 	)
 	(wire
 		(pts
@@ -5795,6 +5811,18 @@
 			(justify right)
 		)
 		(uuid "5532e339-7389-4639-92ca-577984a5f928")
+	)
+	(hierarchical_label "Square"
+		(shape output)
+		(at 271.78 76.2 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "730d6693-e327-467a-9dc0-a49626bc1700")
 	)
 	(hierarchical_label "V{slash}Oct In"
 		(shape input)
