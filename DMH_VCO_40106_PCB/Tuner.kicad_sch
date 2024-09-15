@@ -2117,10 +2117,6 @@
 		(color 0 0 0 0)
 		(uuid "cd19191b-b26d-4417-a7ec-a90d87d36207")
 	)
-	(no_connect
-		(at 34.29 53.34)
-		(uuid "1f376744-11f7-4691-ad1e-af7c3641299b")
-	)
 	(wire
 		(pts
 			(xy 163.83 72.39) (xy 175.26 72.39)
@@ -2223,16 +2219,6 @@
 	)
 	(wire
 		(pts
-			(xy 39.37 48.26) (xy 34.29 48.26)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "138e1337-ca23-4d72-b3ec-60f4b36358ae")
-	)
-	(wire
-		(pts
 			(xy 170.18 62.23) (xy 170.18 69.85)
 		)
 		(stroke
@@ -2263,7 +2249,7 @@
 	)
 	(wire
 		(pts
-			(xy 39.37 54.61) (xy 39.37 48.26)
+			(xy 29.21 57.15) (xy 29.21 53.34)
 		)
 		(stroke
 			(width 0)
@@ -2703,7 +2689,7 @@
 	)
 	(wire
 		(pts
-			(xy 19.05 87.63) (xy 48.26 87.63)
+			(xy 15.24 87.63) (xy 48.26 87.63)
 		)
 		(stroke
 			(width 0)
@@ -2720,6 +2706,16 @@
 			(type default)
 		)
 		(uuid "5f8c5a01-aa59-4f26-9c46-02df2a470b2c")
+	)
+	(wire
+		(pts
+			(xy 29.21 48.26) (xy 29.21 41.91)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "61cb3cc8-3c8b-4b51-866d-03cc35016497")
 	)
 	(wire
 		(pts
@@ -2753,7 +2749,7 @@
 	)
 	(wire
 		(pts
-			(xy 24.13 50.8) (xy 19.05 50.8)
+			(xy 16.51 50.8) (xy 15.24 50.8)
 		)
 		(stroke
 			(width 0)
@@ -2783,7 +2779,7 @@
 	)
 	(wire
 		(pts
-			(xy 19.05 50.8) (xy 19.05 87.63)
+			(xy 15.24 50.8) (xy 15.24 87.63)
 		)
 		(stroke
 			(width 0)
@@ -3353,6 +3349,16 @@
 	)
 	(wire
 		(pts
+			(xy 29.21 31.75) (xy 29.21 34.29)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c592a266-e810-45c0-afc1-4496a04c0a5c")
+	)
+	(wire
+		(pts
 			(xy 162.56 146.05) (xy 162.56 158.75)
 		)
 		(stroke
@@ -3603,6 +3609,16 @@
 	)
 	(wire
 		(pts
+			(xy 29.21 53.34) (xy 26.67 53.34)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f91f5461-fc9e-4c16-8170-5f1605f418d5")
+	)
+	(wire
+		(pts
 			(xy 127 175.26) (xy 127 177.8)
 		)
 		(stroke
@@ -3620,6 +3636,16 @@
 			(type default)
 		)
 		(uuid "fba67245-d0d9-43dc-8b8b-0b371021adb1")
+	)
+	(wire
+		(pts
+			(xy 26.67 48.26) (xy 29.21 48.26)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ffe2e34e-10b2-4e67-9932-4d65e653a582")
 	)
 	(hierarchical_label "Square In"
 		(shape input)
@@ -5403,7 +5429,8 @@
 	)
 	(symbol
 		(lib_id "SynthStuff:SW_SPDT_321_OnOff")
-		(at 29.21 50.8 0)
+		(at 21.59 50.8 0)
+		(mirror x)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -5411,7 +5438,7 @@
 		(dnp no)
 		(uuid "b278054f-4c6b-43b2-9a42-89236a56461a")
 		(property "Reference" "SW3"
-			(at 29.21 44.958 0)
+			(at 21.59 56.642 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5419,7 +5446,7 @@
 			)
 		)
 		(property "Value" "SW_SPDT_321_OnOff"
-			(at 29.21 55.88 0)
+			(at 21.59 45.72 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5428,7 +5455,7 @@
 			)
 		)
 		(property "Footprint" "SynthStuff:Toggle_Switch_THT"
-			(at 29.21 60.96 0)
+			(at 21.59 40.64 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5437,7 +5464,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 29.21 58.42 0)
+			(at 21.59 43.18 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5446,7 +5473,7 @@
 			)
 		)
 		(property "Description" "Switch, single pole double throw"
-			(at 29.21 50.8 0)
+			(at 21.59 50.8 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5455,7 +5482,7 @@
 			)
 		)
 		(property "Function" "Tuner On/Off"
-			(at 29.21 56.896 0)
+			(at 21.59 44.704 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5484,7 +5511,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 39.37 54.61 0)
+		(at 29.21 57.15 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -5493,7 +5520,7 @@
 		(fields_autoplaced yes)
 		(uuid "b36a9180-8e5d-46b1-94d5-443280120f11")
 		(property "Reference" "#PWR011"
-			(at 39.37 60.96 0)
+			(at 29.21 63.5 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5502,7 +5529,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 39.37 59.69 0)
+			(at 29.21 62.23 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5510,7 +5537,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 39.37 54.61 0)
+			(at 29.21 57.15 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5519,7 +5546,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 39.37 54.61 0)
+			(at 29.21 57.15 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5528,7 +5555,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 39.37 54.61 0)
+			(at 29.21 57.15 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5748,6 +5775,72 @@
 		)
 	)
 	(symbol
+		(lib_id "power:+5V")
+		(at 29.21 31.75 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "c3ad8d90-5af7-4053-bfd7-f82d04e55f07")
+		(property "Reference" "#PWR013"
+			(at 29.21 35.56 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "+5V"
+			(at 29.21 26.67 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 29.21 31.75 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 29.21 31.75 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"+5V\""
+			(at 29.21 31.75 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "f497efb6-4f66-46ab-9089-ee8cbbe1688d")
+		)
+		(instances
+			(project "DMH_VCO_40106_PCB"
+				(path "/fefed352-c100-4617-bbfb-c55e7427b122/ec8b77a2-f589-4806-8224-6b0ccc79bab4"
+					(reference "#PWR013")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Device:R_US")
 		(at 160.02 52.07 90)
 		(unit 1)
@@ -5809,6 +5902,74 @@
 			(project "DMH_VCO_40106_PCB"
 				(path "/fefed352-c100-4617-bbfb-c55e7427b122/ec8b77a2-f589-4806-8224-6b0ccc79bab4"
 					(reference "R62")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R_US")
+		(at 29.21 38.1 0)
+		(mirror y)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "ce09ed71-8c83-4e6f-a163-f7951acf3fb8")
+		(property "Reference" "R74"
+			(at 24.13 39.37 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "100k"
+			(at 24.13 36.83 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P7.62mm_Horizontal"
+			(at 28.194 38.354 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 29.21 38.1 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Resistor, US symbol"
+			(at 29.21 38.1 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "ee6230d1-19ad-422a-8be0-e1f406e049c6")
+		)
+		(pin "1"
+			(uuid "63028970-b455-428c-ae78-04af91cf50d3")
+		)
+		(instances
+			(project "DMH_VCO_40106_PCB"
+				(path "/fefed352-c100-4617-bbfb-c55e7427b122/ec8b77a2-f589-4806-8224-6b0ccc79bab4"
+					(reference "R74")
 					(unit 1)
 				)
 			)
