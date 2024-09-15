@@ -57,6 +57,8 @@
 #define LED_L_Red_OFF		PORTB &= ~_BV(LED_L_Red)
 
 #define ALL_LEDS_OFF		PORTB &= 0x03
+#define ACCURACY_LEDS_OFF	PORTB &= 0x07
+#define ACCURACY_LEDS_ON	PORTB |= 0xF8
 
 #define SEG_A	PORTD6
 #define SEG_B	PORTD5

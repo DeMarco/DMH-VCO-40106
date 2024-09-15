@@ -1,5 +1,6 @@
 #define NOTE_QUANTITY	98
 #define NOTE_MAX		NOTE_QUANTITY - 1
+#define NOTE_MIN		1
 
 // [note][limits]
 const uint16_t frequency_table[NOTE_QUANTITY][5] PROGMEM = {

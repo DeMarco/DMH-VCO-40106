@@ -113,14 +113,14 @@ void display_note (uint8_t note)
 			break;
 				
 		case NOTE_G:
-			//PORTD = _BV(SEG_A) | _BV(SEG_C) | _BV(SEG_D) | _BV(SEG_E) | _BV(SEG_F) | _BV(SEG_G) & ~_BV(SEG_B);
-			PORTD = 0x5F;
+			//PORTD = _BV(SEG_A) | _BV(SEG_C) | _BV(SEG_D) | _BV(SEG_E) | _BV(SEG_F) & ~_BV(SEG_G) & ~_BV(SEG_B);
+			PORTD = 0x5E;
 			LED_Sharp_OFF;
 			break;
 			
 		case NOTE_Gs:
-			//PORTD = _BV(SEG_A) | _BV(SEG_C) | _BV(SEG_D) | _BV(SEG_E) | _BV(SEG_F) | _BV(SEG_G) & ~_BV(SEG_B);
-			PORTD = 0x5F;
+			//PORTD = _BV(SEG_A) | _BV(SEG_C) | _BV(SEG_D) | _BV(SEG_E) | _BV(SEG_F) & ~_BV(SEG_G) & ~_BV(SEG_B);
+			PORTD = 0x5E;
 			LED_Sharp_ON;
 			break;
 			
@@ -138,7 +138,7 @@ void display_note (uint8_t note)
 			
 		case NOTE_B:
 			//PORTD = _BV(SEG_C) | _BV(SEG_D) | _BV(SEG_E) | _BV(SEG_F) | _BV(SEG_G) & ~_BV(SEG_A) & ~_BV(SEG_B);
-			PORTD = 0x17;
+			PORTD = 0x1F;
 			LED_Sharp_OFF;
 			break;
 			
@@ -173,32 +173,33 @@ void calculate_note (uint16_t timestamp)
 	freq = 1.0 / period_us;
 	
 	// Check if frequency is within usable range
-	//if(freq < pgm_read_float(&frequency_table[1][0]))
-	if(freq < 300.0)
+	if(freq < pgm_read_float(&frequency_table[NOTE_MIN][0]))
+	//if(freq < pgm_read_float(&frequency_table[48][2]))
+	//if(freq < 300.0)
 	{
 		display_note(NOTE_TOO_LOW);
 		ALL_LEDS_OFF;
 		return;
 	}
-	//else if(freq >= pgm_read_float(&frequency_table[NOTE_MAX][0]))
-	else if(freq >= 300.0)
+	else if(freq >= pgm_read_float(&frequency_table[NOTE_MAX][0]))
+	//else if(freq >= pgm_read_float(&frequency_table[88][4]))
+	//else if(freq >= 300.0)
 	{
 		display_note(NOTE_TOO_HIGH);
 		ALL_LEDS_OFF;
-		LED_C_Green_ON;
 		return;
 	}
 	
 	// Check which octave the frequency belongs to
 	i = 1;
-	while(!((freq >= pgm_read_float(&frequency_table[i][0]))) && (freq < pgm_read_float(&frequency_table[i+12][0])))
+	while(!(((freq >= pgm_read_float(&frequency_table[i][0]))) && (freq < pgm_read_float(&frequency_table[i+12][0]))))
 	{
 		i+=12; // Go to the next octave
 	}
 	
 	// Check which note region the frequency belongs to
 	note_number = 1;
-	while(!((freq >= pgm_read_float(&frequency_table[i][0]))) && (freq < pgm_read_float(&frequency_table[i+1][0])))
+	while(!(((freq >= pgm_read_float(&frequency_table[i][0]))) && (freq < pgm_read_float(&frequency_table[i+1][0]))))
 	{
 		i++;
 		note_number++;
@@ -206,7 +207,7 @@ void calculate_note (uint16_t timestamp)
 	
 	// Check which accuracy level the frequency belongs to
 	j = 0;
-	while(!((freq >= pgm_read_float(&frequency_table[i][j]))) && (freq < pgm_read_float(&frequency_table[i][j+1])))
+	while(!(((freq >= pgm_read_float(&frequency_table[i][j]))) && (freq < pgm_read_float(&frequency_table[i][j+1]))))
 	{
 		j++;
 		if(j==4)
@@ -215,11 +216,7 @@ void calculate_note (uint16_t timestamp)
 
 	// Display note and accuracy LED
 	display_note(note_number);
-	LED_L_Red_OFF;
-	LED_L_Yellow_OFF;
-	LED_C_Green_OFF;
-	LED_R_Yellow_OFF;
-	LED_R_Red_OFF;
+	ACCURACY_LEDS_OFF;	
 	switch(j)
 	{
 		case 0:
@@ -238,11 +235,7 @@ void calculate_note (uint16_t timestamp)
 			LED_R_Red_ON;
 			break;
 		default:
-			LED_L_Red_ON;
-			LED_L_Yellow_ON;
-			LED_C_Green_ON;
-			LED_R_Yellow_ON;
-			LED_R_Red_ON;
+			ACCURACY_LEDS_ON;
 			break;			
 	}
 }
@@ -255,11 +248,15 @@ void ioinit (void)
 	// Set PA1 as input
 	DDRA &= ~_BV(PORTA1);
 	
+	//_NOP();
+	
 	// Activate the PA1 pull-up resistor
 	PORTA |= _BV(PORTA1);
 	
 	// Set PB2 to PB7 ports as output, and PB0 and PB1 as input
 	DDRB = 0xFC;
+	
+	//_NOP();
 	
 	// Disable PB0 and PB1 pull-up resistors, so they can be used as Analog Inputs
 	PORTB &= ~_BV(PORTB0) & ~_BV(PORTB1);
@@ -288,7 +285,7 @@ void ioinit (void)
 	TCCR1B |= _BV(ICES1);
 	
 	// Enable filter for the Timer/Counter1 Input Capture
-	//TCCR1B |= _BV(ICNC1);
+	TCCR1B |= _BV(ICNC1);
 	
 	// Select clkio/8 as Timer/Counter1 clock source
 	/* Since the CPU is clocked at 8 MHz, the timer will increment at 1 MHz.
@@ -336,32 +333,33 @@ ISR(TIMER0_OVF_vect)
 
 ISR(TIMER1_CAPT_vect)
 {
-	// Reset Timer1
+	// Reset Timer1 quickly
 	TCNT1 = 0x0000;
 
 	
 	// Check if Timer1 overflowed
-	/*if(TIFR & _BV(TOV1))
+	if(TIFR & _BV(TOV1))
 	{
 		PINA |= _BV(PINA0);
 		
-		// Force frequency calculation to result in 1Hz
-		event_timestamp = 10000;
+		// Force frequency calculation to result in 15.26 Hz (lower than C0)
+		event_timestamp = 0xFFFF;
 		
 		// Reset Timer1 overflow flag
-		TIFR &= ~_BV(TOV1);
+		TIFR |= _BV(TOV1);
 	}
 	else
-	{*/
+	{
 		// Save event time stamp
 		event_timestamp = ICR1;	
-		//PORTA &= ~_BV(SEG_DP);
-	//}
+		PORTA &= ~_BV(SEG_DP);
+	}
 	
 	//event_timestamp = 1000;	
 	//PORTD = 0xFF;
 }
 
+/*
 ISR(TIMER1_OVF_vect)
 {
 	static uint8_t count = 0;
@@ -373,6 +371,7 @@ ISR(TIMER1_OVF_vect)
 		count=0;
 	}
 }
+*/
 
 int main(void)
 {
@@ -380,7 +379,7 @@ int main(void)
 	cli();
 	
 	ioinit();
-	//init_display();
+	init_display();
 	
 	sei();
 	
