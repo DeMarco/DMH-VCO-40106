@@ -248,15 +248,11 @@ void ioinit (void)
 	// Set PA1 as input
 	DDRA &= ~_BV(PORTA1);
 	
-	//_NOP();
-	
 	// Activate the PA1 pull-up resistor
 	PORTA |= _BV(PORTA1);
 	
 	// Set PB2 to PB7 ports as output, and PB0 and PB1 as input
 	DDRB = 0xFC;
-	
-	//_NOP();
 	
 	// Disable PB0 and PB1 pull-up resistors, so they can be used as Analog Inputs
 	PORTB &= ~_BV(PORTB0) & ~_BV(PORTB1);
