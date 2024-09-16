@@ -2231,7 +2231,7 @@
 				(hide yes)
 			)
 		)
-		(property "Function" "Exp FM"
+		(property "Function" "Exp FM 1"
 			(at 54.864 63.5 0)
 			(effects
 				(font
@@ -2549,7 +2549,7 @@
 				(hide yes)
 			)
 		)
-		(property "Function" "Exp FM"
+		(property "Function" "Exp FM 2"
 			(at 54.864 82.55 0)
 			(effects
 				(font

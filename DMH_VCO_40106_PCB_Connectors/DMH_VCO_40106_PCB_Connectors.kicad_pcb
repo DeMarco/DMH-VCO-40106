@@ -91,9 +91,9 @@
 			(layerselection 0x00010fc_ffffffff)
 			(plot_on_all_layers_selection 0x0000000_00000000)
 			(disableapertmacros no)
-			(usegerberextensions no)
-			(usegerberattributes yes)
-			(usegerberadvancedattributes yes)
+			(usegerberextensions yes)
+			(usegerberattributes no)
+			(usegerberadvancedattributes no)
 			(creategerberjobfile yes)
 			(dashed_line_dash_ratio 12.000000)
 			(dashed_line_gap_ratio 3.000000)
@@ -117,10 +117,10 @@
 			(plotfptext yes)
 			(plotinvisibletext no)
 			(sketchpadsonfab no)
-			(subtractmaskfromsilk no)
+			(subtractmaskfromsilk yes)
 			(outputformat 1)
 			(mirror no)
-			(drillshape 1)
+			(drillshape 0)
 			(scaleselection 1)
 			(outputdirectory "")
 		)
@@ -2103,7 +2103,7 @@
 				)
 			)
 		)
-		(property "Function" "Exp FM"
+		(property "Function" "Exp FM 1"
 			(at 0 0 0)
 			(unlocked yes)
 			(layer "B.SilkS")
@@ -2859,7 +2859,7 @@
 				)
 			)
 		)
-		(property "Function" "Exp FM"
+		(property "Function" "Exp FM 2"
 			(at 0 0 0)
 			(unlocked yes)
 			(layer "B.SilkS")
@@ -5540,13 +5540,26 @@
 		(uuid "40211ea7-3e36-4f36-9dc5-cec3386a4b46")
 	)
 	(gr_text "JLCJLCJLCJLC"
-		(at 100 236 0)
+		(at 142.75 236.25 0)
 		(layer "B.SilkS")
 		(uuid "50d51f40-3d9b-4826-a4f9-9ed667ed20e4")
 		(effects
 			(font
 				(size 1 1)
 				(thickness 0.15)
+			)
+			(justify mirror)
+		)
+	)
+	(gr_text "Mk1.1 - September 2024"
+		(at 138.25 234.25 0)
+		(layer "B.SilkS")
+		(uuid "aa19c6d3-e7b5-404c-b0b7-28ff0e6a8cd6")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.25)
+				(bold yes)
 			)
 			(justify mirror)
 		)
