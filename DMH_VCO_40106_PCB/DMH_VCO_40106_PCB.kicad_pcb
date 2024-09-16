@@ -46647,6 +46647,17 @@
 			)
 		)
 	)
+	(gr_rect
+		(start 137.75 195)
+		(end 147.75 197)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(fill solid)
+		(layer "B.SilkS")
+		(uuid "5256156f-f7c1-4306-a16e-7e64c0bd9b07")
+	)
 	(gr_circle
 		(center 137.5 206.25)
 		(end 142.25 206.25)
@@ -47674,20 +47685,8 @@
 		(layer "User.9")
 		(uuid "40211ea7-3e36-4f36-9dc5-cec3386a4b46")
 	)
-	(gr_text "JLCJLCJLCJLC"
-		(at 142.75 196.25 0)
-		(layer "B.SilkS")
-		(uuid "50d51f40-3d9b-4826-a4f9-9ed667ed20e4")
-		(effects
-			(font
-				(size 1 1)
-				(thickness 0.15)
-			)
-			(justify mirror)
-		)
-	)
 	(gr_text "Mk1.1 - September 2024"
-		(at 138.25 194.5 0)
+		(at 138.25 193.75 0)
 		(layer "B.SilkS")
 		(uuid "82568c4e-0f35-4a96-b616-849f564f391d")
 		(effects
