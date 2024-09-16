@@ -9,19 +9,17 @@
 #ifndef DEFINITIONS_H_
 #define DEFINITIONS_H_
 
-/* General definitions */
 
-#define HIGH		1
-#define LOW			0
-
-#define TRUE		1
-#define FALSE		0
-
-#define ENABLED		1
-#define DISABLED	0
+/*
+CPU clock calibration:
+Read the factory calibration value from the uC with read_calibration_byte.bat
+Type the found value below and modify it slightly until the tuner matches
+a reference tuner with enough precision.
+*/
+#define BETTER_RC_CALIB	0x4a
 
 
-/* CPU Clock */
+/* CPU Clock for the delay macros */
 
 #define F_CPU 8000000UL
 
@@ -38,27 +36,27 @@
 #define LED_L_Yellow	PORTB6
 #define LED_L_Red		PORTB7
 
-#define LED_Sharp_ON		PORTB |= _BV(LED_Sharp)
-#define LED_Sharp_OFF		PORTB &= ~_BV(LED_Sharp)
+#define LED_Sharp_ON()		PORTB |= _BV(LED_Sharp)
+#define LED_Sharp_OFF()		PORTB &= ~_BV(LED_Sharp)
 
-#define LED_R_Red_ON		PORTB |= _BV(LED_R_Red)
-#define LED_R_Red_OFF		PORTB &= ~_BV(LED_R_Red)
+#define LED_R_Red_ON()		PORTB |= _BV(LED_R_Red)
+#define LED_R_Red_OFF()		PORTB &= ~_BV(LED_R_Red)
 
-#define LED_R_Yellow_ON		PORTB |= _BV(LED_R_Yellow)
-#define LED_R_Yellow_OFF	PORTB &= ~_BV(LED_R_Yellow)
+#define LED_R_Yellow_ON()	PORTB |= _BV(LED_R_Yellow)
+#define LED_R_Yellow_OFF()	PORTB &= ~_BV(LED_R_Yellow)
 
-#define LED_C_Green_ON		PORTB |= _BV(LED_C_Green)
-#define LED_C_Green_OFF		PORTB &= ~_BV(LED_C_Green)
+#define LED_C_Green_ON()	PORTB |= _BV(LED_C_Green)
+#define LED_C_Green_OFF()	PORTB &= ~_BV(LED_C_Green)
 
-#define LED_L_Yellow_ON		PORTB |= _BV(LED_L_Yellow)
-#define LED_L_Yellow_OFF	PORTB &= ~_BV(LED_L_Yellow)
+#define LED_L_Yellow_ON()	PORTB |= _BV(LED_L_Yellow)
+#define LED_L_Yellow_OFF()	PORTB &= ~_BV(LED_L_Yellow)
 
-#define LED_L_Red_ON		PORTB |= _BV(LED_L_Red)
-#define LED_L_Red_OFF		PORTB &= ~_BV(LED_L_Red)
+#define LED_L_Red_ON()		PORTB |= _BV(LED_L_Red)
+#define LED_L_Red_OFF()		PORTB &= ~_BV(LED_L_Red)
 
-#define ALL_LEDS_OFF		PORTB &= 0x03
-#define ACCURACY_LEDS_OFF	PORTB &= 0x07
-#define ACCURACY_LEDS_ON	PORTB |= 0xF8
+#define ALL_LEDS_OFF()			PORTB &= 0x03
+#define ALL_ACCURACY_LEDS_OFF()	PORTB &= 0x07
+#define ALL_ACCURACY_LEDS_ON()	PORTB |= 0xF8
 
 #define SEG_A	PORTD6
 #define SEG_B	PORTD5
@@ -69,9 +67,9 @@
 #define SEG_G	PORTD0
 #define SEG_DP	PORTA0
 
-#define ALL_SEGS_OFF	PORTD = 0x00
+#define ALL_SEGS_OFF()	PORTD = 0x00
 
-#define OnOff_SWITCH			PORTA1
+#define OnOff_SWITCH()			PORTA1
 #define OnOff_SWITCH_STATUS		(PINA & _BV(PINA1))
 
 #define MOSI	PORTB5
