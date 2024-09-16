@@ -242,6 +242,9 @@ void calculate_note (uint16_t timestamp)
 
 void ioinit (void)
 {
+	// Calibrate RC Oscillator
+	OSCCAL = 0x4a;
+	
 	// Set PA0 as output
 	DDRA |= _BV(PORTA0);
 	
@@ -281,7 +284,7 @@ void ioinit (void)
 	TCCR1B |= _BV(ICES1);
 	
 	// Enable filter for the Timer/Counter1 Input Capture
-	TCCR1B |= _BV(ICNC1);
+	//TCCR1B |= _BV(ICNC1);
 	
 	// Select clkio/8 as Timer/Counter1 clock source
 	/* Since the CPU is clocked at 8 MHz, the timer will increment at 1 MHz.
