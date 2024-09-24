@@ -2040,7 +2040,7 @@
 			)
 		)
 	)
-	(footprint "MountingHole:MountingHole_2.5mm"
+	(footprint "SynthStuff:MountingHole_TrimPot"
 		(layer "F.Cu")
 		(uuid "2a8bc226-5c6e-4cce-890e-f01ce36c4aad")
 		(at 141.5 119.75)
@@ -2048,9 +2048,9 @@
 		(tags "mounting hole 2.5mm no annular")
 		(property "Reference" "H24"
 			(at 0 -3.5 0)
-			(layer "F.SilkS")
+			(layer "F.Fab")
 			(hide yes)
-			(uuid "960c1501-63be-445f-88d7-ac614494a0f5")
+			(uuid "1d7a6c01-50e0-46a0-8b40-ab4a7a7f58d5")
 			(effects
 				(font
 					(size 1 1)
@@ -2061,7 +2061,7 @@
 		(property "Value" "PW Range"
 			(at 0 3.5 0)
 			(layer "F.SilkS")
-			(uuid "05349782-8314-4076-bb3c-f9019e947d5d")
+			(uuid "58bff5aa-23bf-4304-b971-8c2bca0fab8d")
 			(effects
 				(font
 					(size 1 1)
@@ -2069,12 +2069,12 @@
 				)
 			)
 		)
-		(property "Footprint" "MountingHole:MountingHole_2.5mm"
+		(property "Footprint" "SynthStuff:MountingHole_TrimPot"
 			(at 0 0 0)
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "7fcd616b-34a0-464b-92ab-93465ae7bf13")
+			(uuid "db7257c0-b6c7-4a26-aca5-5bc63098191b")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2087,7 +2087,7 @@
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "92843f33-ac53-4205-a7bf-5fe0b8555170")
+			(uuid "545bd187-d664-4472-9b97-c24f4172be82")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2095,12 +2095,12 @@
 				)
 			)
 		)
-		(property "Description" "Mounting Hole without connection"
+		(property "Description" "Mounting Hole Trimpot"
 			(at 0 0 0)
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "f4942ca1-6a40-433c-a533-751d7998ce54")
+			(uuid "43308de5-5063-442e-b7ae-9d41697e9e4a")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2122,7 +2122,7 @@
 			)
 			(fill none)
 			(layer "Cmts.User")
-			(uuid "bed6c5d8-f583-4cbd-b756-b19cc60a1159")
+			(uuid "d999e929-374a-45de-8525-7f3301725303")
 		)
 		(fp_circle
 			(center 0 0)
@@ -2133,12 +2133,12 @@
 			)
 			(fill none)
 			(layer "F.CrtYd")
-			(uuid "d697636e-fac1-4e5a-aedb-db0bd4762aa4")
+			(uuid "3c4859f5-0519-4079-9c31-e2245d6781b0")
 		)
 		(fp_text user "${REFERENCE}"
 			(at 0 0 0)
 			(layer "F.Fab")
-			(uuid "d14e8b5e-c071-40cf-8df2-b6fd3b67f7b9")
+			(uuid "a2c0a9c4-8db9-4c37-ad35-419ed3bb81c1")
 			(effects
 				(font
 					(size 1 1)
@@ -2151,10 +2151,21 @@
 			(size 2.5 2.5)
 			(drill 2.5)
 			(layers "*.Cu" "*.Mask")
-			(uuid "6bcca8be-7fd5-4cd5-85d6-cc9a52637d5a")
+			(uuid "966709a0-41c4-4c73-90c2-8c697230b9ed")
+		)
+		(model "${KICAD8_3DMODEL_DIR}/Potentiometer_THT.3dshapes/Potentiometer_Bourns_3296W_Vertical.step"
+			(offset
+				(xyz -1.1 -1 -11.8)
+			)
+			(scale
+				(xyz 1 1 1)
+			)
+			(rotate
+				(xyz 0 0 -90)
+			)
 		)
 	)
-	(footprint "MountingHole:MountingHole_2.5mm"
+	(footprint "SynthStuff:MountingHole_TrimPot"
 		(layer "F.Cu")
 		(uuid "313cb34c-2726-4169-871f-f63a65608746")
 		(at 117.5 119.75)
@@ -2162,9 +2173,9 @@
 		(tags "mounting hole 2.5mm no annular")
 		(property "Reference" "H21"
 			(at 0 -3.5 0)
-			(layer "F.SilkS")
+			(layer "F.Fab")
 			(hide yes)
-			(uuid "c349003d-fa57-43f5-962d-bccba9037491")
+			(uuid "7e9a6f16-7dbc-41bf-83e3-8c8f2fdb766e")
 			(effects
 				(font
 					(size 1 1)
@@ -2175,7 +2186,7 @@
 		(property "Value" "V/Oct"
 			(at 0 3.5 0)
 			(layer "F.SilkS")
-			(uuid "e293be79-192e-4a61-b89f-4ea1c0f73988")
+			(uuid "15277d92-5376-4f4d-b87f-ea6c43387670")
 			(effects
 				(font
 					(size 1 1)
@@ -2183,12 +2194,12 @@
 				)
 			)
 		)
-		(property "Footprint" "MountingHole:MountingHole_2.5mm"
+		(property "Footprint" "SynthStuff:MountingHole_TrimPot"
 			(at 0 0 0)
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "71bb4910-8458-42d1-b0c6-e54ba3d248a6")
+			(uuid "b2926acc-dd9c-4fbf-9a2b-97fd5ad3bb2f")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2201,7 +2212,7 @@
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "7d646d93-f1bb-48c5-913b-9742def1fcf0")
+			(uuid "bbb9e2b3-025b-4870-bba1-2fef6947705b")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2209,12 +2220,12 @@
 				)
 			)
 		)
-		(property "Description" "Mounting Hole without connection"
+		(property "Description" "Mounting Hole Trimpot"
 			(at 0 0 0)
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "757244a7-61ab-40ec-ad2a-f700a8223139")
+			(uuid "5a8ef514-23ff-475e-97f6-1f4ac600ea21")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2236,7 +2247,7 @@
 			)
 			(fill none)
 			(layer "Cmts.User")
-			(uuid "795fb105-2886-4a27-95a3-91ae69001423")
+			(uuid "a0954bdb-70c9-4577-b7f6-cd04d99056f9")
 		)
 		(fp_circle
 			(center 0 0)
@@ -2247,12 +2258,12 @@
 			)
 			(fill none)
 			(layer "F.CrtYd")
-			(uuid "19d5cb64-10c3-4e95-85eb-ba6418416108")
+			(uuid "e228394f-f363-426b-b337-e4b84556f6fc")
 		)
 		(fp_text user "${REFERENCE}"
 			(at 0 0 0)
 			(layer "F.Fab")
-			(uuid "1c074a88-ba93-4d23-8a7f-4e6abc321ebb")
+			(uuid "16d21318-06b8-4dd1-ba26-1cbe8e4e2536")
 			(effects
 				(font
 					(size 1 1)
@@ -2265,10 +2276,21 @@
 			(size 2.5 2.5)
 			(drill 2.5)
 			(layers "*.Cu" "*.Mask")
-			(uuid "c8b783b0-cea4-460c-9e59-58f241ae8dc4")
+			(uuid "b19a4d9c-9a3c-438c-8484-e4914718bcca")
+		)
+		(model "${KICAD8_3DMODEL_DIR}/Potentiometer_THT.3dshapes/Potentiometer_Bourns_3296W_Vertical.step"
+			(offset
+				(xyz -1.1 -1 -11.8)
+			)
+			(scale
+				(xyz 1 1 1)
+			)
+			(rotate
+				(xyz 0 0 -90)
+			)
 		)
 	)
-	(footprint "MountingHole:MountingHole_2.5mm"
+	(footprint "SynthStuff:MountingHole_TrimPot"
 		(layer "F.Cu")
 		(uuid "32c33774-2511-4465-8b78-fa9f21c647d1")
 		(at 133.5 119.75)
@@ -2276,9 +2298,9 @@
 		(tags "mounting hole 2.5mm no annular")
 		(property "Reference" "H23"
 			(at 0 -3.5 0)
-			(layer "F.SilkS")
+			(layer "F.Fab")
 			(hide yes)
-			(uuid "5424692b-afa7-423e-be7c-5b3feae68114")
+			(uuid "b16ea5b1-6a68-4b55-9348-3afa49c878ca")
 			(effects
 				(font
 					(size 1 1)
@@ -2289,7 +2311,7 @@
 		(property "Value" "Center"
 			(at 0 3.5 0)
 			(layer "F.SilkS")
-			(uuid "f191e9cd-00a0-4d20-ad3e-10cf9073d739")
+			(uuid "0ef2cfd0-a566-4d0e-af81-d459282c754e")
 			(effects
 				(font
 					(size 1 1)
@@ -2297,12 +2319,12 @@
 				)
 			)
 		)
-		(property "Footprint" "MountingHole:MountingHole_2.5mm"
+		(property "Footprint" "SynthStuff:MountingHole_TrimPot"
 			(at 0 0 0)
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "85a766d4-9611-4804-97b0-b85970c331f2")
+			(uuid "071743c0-131c-48cf-99ac-edbcd799c0a8")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2315,7 +2337,7 @@
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "4d53ea32-5562-4e0a-ae4c-bc70be849db0")
+			(uuid "2321b45b-edf8-4971-ac16-28c573be43cd")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2323,12 +2345,12 @@
 				)
 			)
 		)
-		(property "Description" "Mounting Hole without connection"
+		(property "Description" "Mounting Hole Trimpot"
 			(at 0 0 0)
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "0c45f520-eddc-4233-82c9-c06264ed03e3")
+			(uuid "7e66d749-731a-4045-ba02-78e71186e156")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2350,7 +2372,7 @@
 			)
 			(fill none)
 			(layer "Cmts.User")
-			(uuid "4c2917d6-8e7c-427a-b1da-961576a4ae01")
+			(uuid "50e8e062-a07d-40d0-95d8-9f5e09cb7224")
 		)
 		(fp_circle
 			(center 0 0)
@@ -2361,12 +2383,12 @@
 			)
 			(fill none)
 			(layer "F.CrtYd")
-			(uuid "43def976-f3ca-4e5a-87ca-9ff3df97a252")
+			(uuid "624acd51-8b63-450a-a471-16e8fba3dfb4")
 		)
 		(fp_text user "${REFERENCE}"
 			(at 0 0 0)
 			(layer "F.Fab")
-			(uuid "953c5273-6dd3-4418-8b93-cfa3685cecc6")
+			(uuid "49159357-60e3-47e3-a4e6-d340784beb94")
 			(effects
 				(font
 					(size 1 1)
@@ -2379,7 +2401,18 @@
 			(size 2.5 2.5)
 			(drill 2.5)
 			(layers "*.Cu" "*.Mask")
-			(uuid "1181eaa0-1a4b-4074-afab-b7ff884fff4f")
+			(uuid "277faf5d-f0a7-4e7a-968e-5487fc640d88")
+		)
+		(model "${KICAD8_3DMODEL_DIR}/Potentiometer_THT.3dshapes/Potentiometer_Bourns_3296W_Vertical.step"
+			(offset
+				(xyz -1.1 -1 -11.8)
+			)
+			(scale
+				(xyz 1 1 1)
+			)
+			(rotate
+				(xyz 0 0 -90)
+			)
 		)
 	)
 	(footprint "SynthStuff:Jack_6.35mm_Cutout_Output_v6"
@@ -5555,7 +5588,7 @@
 			)
 		)
 	)
-	(footprint "MountingHole:MountingHole_2.5mm"
+	(footprint "SynthStuff:MountingHole_TrimPot"
 		(layer "F.Cu")
 		(uuid "c5c474dd-bba5-4782-bdee-842683518ba7")
 		(at 125.5 119.75)
@@ -5563,9 +5596,9 @@
 		(tags "mounting hole 2.5mm no annular")
 		(property "Reference" "H22"
 			(at 0 -3.5 0)
-			(layer "F.SilkS")
+			(layer "F.Fab")
 			(hide yes)
-			(uuid "f5f5db16-c28b-499c-9ec6-f459f932bf20")
+			(uuid "6ccac0ed-8352-478b-9286-12e4b1ad3caf")
 			(effects
 				(font
 					(size 1 1)
@@ -5576,7 +5609,7 @@
 		(property "Value" "Fine Range"
 			(at 0 3.5 0)
 			(layer "F.SilkS")
-			(uuid "5e5578e6-4422-4132-bcda-e22e5bf48dfa")
+			(uuid "e0e45ef2-5b51-4c44-9cc2-9dee1dda856c")
 			(effects
 				(font
 					(size 1 1)
@@ -5584,12 +5617,12 @@
 				)
 			)
 		)
-		(property "Footprint" "MountingHole:MountingHole_2.5mm"
+		(property "Footprint" "SynthStuff:MountingHole_TrimPot"
 			(at 0 0 0)
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "9b8b99bb-f732-450f-b8c7-ea99e351fea6")
+			(uuid "d2acf72f-f4ce-4e1d-a3f8-8559d37dc08b")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5602,7 +5635,7 @@
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "8413a65c-f055-445e-9b9f-1ea132329df6")
+			(uuid "095ab03d-dabc-4552-a2b6-0c0913d699c4")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5610,12 +5643,12 @@
 				)
 			)
 		)
-		(property "Description" "Mounting Hole without connection"
+		(property "Description" "Mounting Hole Trimpot"
 			(at 0 0 0)
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "b30e5859-0c6d-4207-9c5b-d6d9ba1c2b28")
+			(uuid "7fb5a4b3-8aea-4e67-b8c9-1eda24bbb3c1")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5637,7 +5670,7 @@
 			)
 			(fill none)
 			(layer "Cmts.User")
-			(uuid "0556afbf-2de5-4801-989d-f4b8dd2ad348")
+			(uuid "8f9098f9-9255-4433-97bb-5942188f40da")
 		)
 		(fp_circle
 			(center 0 0)
@@ -5648,12 +5681,12 @@
 			)
 			(fill none)
 			(layer "F.CrtYd")
-			(uuid "7ddce7ed-0174-4666-84e1-81589e4d89e7")
+			(uuid "7b8dcfd8-b807-4b96-9ca3-d3e95ea37059")
 		)
 		(fp_text user "${REFERENCE}"
 			(at 0 0 0)
 			(layer "F.Fab")
-			(uuid "3fa51cfc-b581-46fb-a602-9d59c00b17f6")
+			(uuid "03ed8005-1860-42d0-8b6c-fc8e5ae0dff9")
 			(effects
 				(font
 					(size 1 1)
@@ -5666,7 +5699,18 @@
 			(size 2.5 2.5)
 			(drill 2.5)
 			(layers "*.Cu" "*.Mask")
-			(uuid "f1c654b9-e86d-4797-81bb-4c2ba7f9b3db")
+			(uuid "5df0b7a9-ce95-49a8-a5de-fea190ee56f7")
+		)
+		(model "${KICAD8_3DMODEL_DIR}/Potentiometer_THT.3dshapes/Potentiometer_Bourns_3296W_Vertical.step"
+			(offset
+				(xyz -1.1 -1 -11.8)
+			)
+			(scale
+				(xyz 1 1 1)
+			)
+			(rotate
+				(xyz 0 0 -90)
+			)
 		)
 	)
 	(footprint "SynthStuff:Pot_Cutout_Medium_v2"

@@ -1736,7 +1736,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "MountingHole:MountingHole_2.5mm"
+		(property "Footprint" "SynthStuff:MountingHole_TrimPot"
 			(at 171.45 36.83 0)
 			(effects
 				(font
@@ -2599,7 +2599,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "MountingHole:MountingHole_2.5mm"
+		(property "Footprint" "SynthStuff:MountingHole_TrimPot"
 			(at 171.45 16.51 0)
 			(effects
 				(font
@@ -2926,7 +2926,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "MountingHole:MountingHole_2.5mm"
+		(property "Footprint" "SynthStuff:MountingHole_TrimPot"
 			(at 171.45 46.99 0)
 			(effects
 				(font
@@ -3186,7 +3186,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "MountingHole:MountingHole_2.5mm"
+		(property "Footprint" "SynthStuff:MountingHole_TrimPot"
 			(at 171.45 26.67 0)
 			(effects
 				(font
