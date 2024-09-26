@@ -13,6 +13,7 @@
 #include <avr/interrupt.h>
 #include <avr/pgmspace.h>
 #include <util/delay.h>
+#include <avr/eeprom.h>
 #include "Frequency_table_float.h"
 
 //////// GLOBAL VARIABLES ////////
@@ -260,8 +261,13 @@ Configure Timer0 and Timer1.
 */
 void ioinit (void)
 {
-	// Better calibrate internal 8 MHz RC Oscillator
-	OSCCAL = BETTER_RC_CALIB;
+	// Better calibrate internal 8 MHz RC Oscillator with user value stored in EEPROM
+	uint8_t better_calib_value;
+	better_calib_value = eeprom_read_byte(0);
+	if((better_calib_value != 0xFF) && (better_calib_value != 0x00))
+	{
+		OSCCAL = better_calib_value;
+	}
 	
 	// Set PA0 as output
 	DDRA |= _BV(PORTA0);

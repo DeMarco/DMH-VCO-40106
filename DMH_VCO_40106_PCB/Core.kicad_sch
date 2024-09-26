@@ -9315,7 +9315,7 @@
 			)
 		)
 		(property "Function" "Pulse Width"
-			(at 161.29 47.498 90)
+			(at 161.29 43.18 90)
 			(effects
 				(font
 					(size 1.27 1.27)
