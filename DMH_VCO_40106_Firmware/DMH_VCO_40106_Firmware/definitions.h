@@ -10,15 +10,6 @@
 #define DEFINITIONS_H_
 
 
-/*
-CPU clock calibration:
-Read the factory calibration value from the uC with read_calibration_byte.bat
-Type the found value below and modify it slightly until the tuner matches
-a reference tuner with enough precision.
-*/
-#define BETTER_RC_CALIB	0x44
-
-
 /* CPU Clock for the delay macros */
 
 #define F_CPU 8000000UL
