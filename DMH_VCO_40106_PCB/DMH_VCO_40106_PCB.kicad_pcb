@@ -46898,6 +46898,18 @@
 		(layer "Cmts.User")
 		(uuid "01741a2a-a0d5-438d-b2d9-05af67ccaece")
 	)
+	(gr_poly
+		(pts
+			(xy 70.4 130.1) (xy 60.3 129.9) (xy 60.2 127.5) (xy 71 127.9) (xy 70.3 130.1) (xy 69.9 130.1)
+		)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(fill none)
+		(layer "Cmts.User")
+		(uuid "051a3c8f-c4ff-4d35-bd62-3d82b18c3cf9")
+	)
 	(gr_circle
 		(center 124.5 111.62)
 		(end 126 111.62)
@@ -47227,6 +47239,17 @@
 		(fill none)
 		(layer "Cmts.User")
 		(uuid "6ecc20a5-05a1-4f5b-af10-382b64448f53")
+	)
+	(gr_circle
+		(center 146.3 115.7)
+		(end 146.2 118.2)
+		(stroke
+			(width 0.1)
+			(type default)
+		)
+		(fill none)
+		(layer "Cmts.User")
+		(uuid "78c497df-d405-4807-b6c5-b051a064e906")
 	)
 	(gr_circle
 		(center 117.5 119.75)
@@ -47782,6 +47805,17 @@
 		(uuid "f1041b5c-521e-40a7-8839-768b385d4f5e")
 	)
 	(gr_circle
+		(center 80.070653 177.3)
+		(end 78.970653 179.4)
+		(stroke
+			(width 0.1)
+			(type default)
+		)
+		(fill none)
+		(layer "Cmts.User")
+		(uuid "f3c9324d-7be8-4c65-b3ee-39597c6ceead")
+	)
+	(gr_circle
 		(center 149 62.5)
 		(end 149 63)
 		(stroke
@@ -47915,6 +47949,42 @@
 				(bold yes)
 			)
 			(justify mirror)
+		)
+	)
+	(gr_text "Use 18k"
+		(at 76.8 176.5 0)
+		(layer "Cmts.User")
+		(uuid "2c054b94-77ad-4194-b493-29758f9bf85f")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+			(justify left bottom)
+		)
+	)
+	(gr_text "silkscreen inverted"
+		(at 59.3 127.1 0)
+		(layer "Cmts.User")
+		(uuid "7e8b6f99-cf6c-4de7-b12c-9815e03c442b")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+			(justify left bottom)
+		)
+	)
+	(gr_text "Use 1k"
+		(at 143.6 117.2 0)
+		(layer "Cmts.User")
+		(uuid "f40945b8-4284-4091-ac41-54b40edf742b")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+			(justify left bottom)
 		)
 	)
 	(segment
