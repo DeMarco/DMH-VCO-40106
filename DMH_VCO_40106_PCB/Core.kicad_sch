@@ -5730,30 +5730,6 @@
 		)
 		(uuid "fd8084d3-ff94-4c24-8174-321305e91580")
 	)
-	(circle
-		(center 17.78 165.1)
-		(radius 5.08)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(fill
-			(type none)
-		)
-		(uuid 605d0b76-4933-4366-bf73-fa76cfad617d)
-	)
-	(circle
-		(center 196.85 93.98)
-		(radius 5.08)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(fill
-			(type none)
-		)
-		(uuid d70a4dbe-788f-4310-ad84-7c3b8a5a8902)
-	)
 	(text "Cermet trimpots pinout:\nwhen viewing the trimpot from above,\n1 = left = fully CCW\n2 = middle\n3 = rigth = fully CW"
 		(exclude_from_sim no)
 		(at 15.748 32.766 0)
@@ -5775,26 +5751,6 @@
 			(justify left)
 		)
 		(uuid "a21d1940-3de9-4795-a44e-603b4169a4e7")
-	)
-	(text "Used 18k for commonality sake"
-		(exclude_from_sim no)
-		(at 38.608 164.846 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-		)
-		(uuid "c573d17d-7510-4dcc-8272-9735244cf839")
-	)
-	(text "Replace R5 with 1k.\nOtherwise the total resistance here\nwill not allow full PW Kob Range,\neven when RV13 is all the way to 0k."
-		(exclude_from_sim no)
-		(at 220.218 94.234 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-		)
-		(uuid "edc00d79-5d6c-4efb-890c-0787388bfe1e")
 	)
 	(hierarchical_label "Sawtooth"
 		(shape output)
@@ -7011,7 +6967,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "20k"
+		(property "Value" "18k"
 			(at 17.78 166.3699 0)
 			(effects
 				(font
@@ -7039,6 +6995,15 @@
 			)
 		)
 		(property "Description" "Resistor, US symbol"
+			(at 20.32 165.1 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Function" ""
 			(at 20.32 165.1 0)
 			(effects
 				(font
@@ -7458,7 +7423,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "10k"
+		(property "Value" "1k"
 			(at 196.85 95.2499 0)
 			(effects
 				(font

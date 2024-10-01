@@ -15802,7 +15802,7 @@
 			)
 		)
 		(property "Value" "BC548"
-			(at -1.67 -4.86 180)
+			(at -1.67 0.64 180)
 			(layer "B.SilkS")
 			(uuid "0690bc0c-b619-4397-963b-c55588160379")
 			(effects
@@ -26306,7 +26306,7 @@
 				(justify mirror)
 			)
 		)
-		(property "Value" "20k"
+		(property "Value" "18k"
 			(at 3.81 0 90)
 			(layer "B.SilkS")
 			(uuid "9f38b9af-d9bf-41b6-a24b-8c91f800176b")
@@ -26355,6 +26355,20 @@
 			(effects
 				(font
 					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+				(justify mirror)
+			)
+		)
+		(property "Function" ""
+			(at 0 0 -90)
+			(unlocked yes)
+			(layer "B.Fab")
+			(hide yes)
+			(uuid "1b0c3654-08f9-4eba-8371-f7803e3fbf65")
+			(effects
+				(font
+					(size 1 1)
 					(thickness 0.15)
 				)
 				(justify mirror)
@@ -29082,7 +29096,7 @@
 				(justify mirror)
 			)
 		)
-		(property "Value" "10k"
+		(property "Value" "1k"
 			(at 3.81 0 90)
 			(layer "B.SilkS")
 			(uuid "383691e4-9f02-48db-8ca4-afc7dc685800")
@@ -29645,7 +29659,7 @@
 			)
 		)
 		(property "Value" "BC558"
-			(at 6.79 -4.64 180)
+			(at 6.79 0.61 180)
 			(layer "B.SilkS")
 			(uuid "9d4849f5-0af7-479a-b7c1-c2d395ab5eee")
 			(effects
@@ -46898,18 +46912,6 @@
 		(layer "Cmts.User")
 		(uuid "01741a2a-a0d5-438d-b2d9-05af67ccaece")
 	)
-	(gr_poly
-		(pts
-			(xy 70.4 130.1) (xy 60.3 129.9) (xy 60.2 127.5) (xy 71 127.9) (xy 70.3 130.1) (xy 69.9 130.1)
-		)
-		(stroke
-			(width 0.1)
-			(type solid)
-		)
-		(fill none)
-		(layer "Cmts.User")
-		(uuid "051a3c8f-c4ff-4d35-bd62-3d82b18c3cf9")
-	)
 	(gr_circle
 		(center 124.5 111.62)
 		(end 126 111.62)
@@ -47239,17 +47241,6 @@
 		(fill none)
 		(layer "Cmts.User")
 		(uuid "6ecc20a5-05a1-4f5b-af10-382b64448f53")
-	)
-	(gr_circle
-		(center 146.3 115.7)
-		(end 146.2 118.2)
-		(stroke
-			(width 0.1)
-			(type default)
-		)
-		(fill none)
-		(layer "Cmts.User")
-		(uuid "78c497df-d405-4807-b6c5-b051a064e906")
 	)
 	(gr_circle
 		(center 117.5 119.75)
@@ -47805,17 +47796,6 @@
 		(uuid "f1041b5c-521e-40a7-8839-768b385d4f5e")
 	)
 	(gr_circle
-		(center 80.070653 177.3)
-		(end 78.970653 179.4)
-		(stroke
-			(width 0.1)
-			(type default)
-		)
-		(fill none)
-		(layer "Cmts.User")
-		(uuid "f3c9324d-7be8-4c65-b3ee-39597c6ceead")
-	)
-	(gr_circle
 		(center 149 62.5)
 		(end 149 63)
 		(stroke
@@ -47938,7 +47918,7 @@
 		(layer "User.9")
 		(uuid "40211ea7-3e36-4f36-9dc5-cec3386a4b46")
 	)
-	(gr_text "Mk1.1 - September 2024"
+	(gr_text "Mk1.2 - October 2024"
 		(at 138.25 193.75 0)
 		(layer "B.SilkS")
 		(uuid "82568c4e-0f35-4a96-b616-849f564f391d")
@@ -47949,42 +47929,6 @@
 				(bold yes)
 			)
 			(justify mirror)
-		)
-	)
-	(gr_text "Use 18k"
-		(at 76.8 176.5 0)
-		(layer "Cmts.User")
-		(uuid "2c054b94-77ad-4194-b493-29758f9bf85f")
-		(effects
-			(font
-				(size 1 1)
-				(thickness 0.15)
-			)
-			(justify left bottom)
-		)
-	)
-	(gr_text "silkscreen inverted"
-		(at 59.3 127.1 0)
-		(layer "Cmts.User")
-		(uuid "7e8b6f99-cf6c-4de7-b12c-9815e03c442b")
-		(effects
-			(font
-				(size 1 1)
-				(thickness 0.15)
-			)
-			(justify left bottom)
-		)
-	)
-	(gr_text "Use 1k"
-		(at 143.6 117.2 0)
-		(layer "Cmts.User")
-		(uuid "f40945b8-4284-4091-ac41-54b40edf742b")
-		(effects
-			(font
-				(size 1 1)
-				(thickness 0.15)
-			)
-			(justify left bottom)
 		)
 	)
 	(segment
