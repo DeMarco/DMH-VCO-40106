@@ -5730,6 +5730,18 @@
 		)
 		(uuid "fd8084d3-ff94-4c24-8174-321305e91580")
 	)
+	(circle
+		(center 43.18 86.36)
+		(radius 5.08)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(fill
+			(type none)
+		)
+		(uuid bb2956b1-2bf9-4bcf-94b5-e35054946ab4)
+	)
 	(text "Cermet trimpots pinout:\nwhen viewing the trimpot from above,\n1 = left = fully CCW\n2 = middle\n3 = rigth = fully CW"
 		(exclude_from_sim no)
 		(at 15.748 32.766 0)
@@ -5751,6 +5763,17 @@
 			(justify left)
 		)
 		(uuid "a21d1940-3de9-4795-a44e-603b4169a4e7")
+	)
+	(text "Had to reduce R42 to 75k by soldering 300k in parallel in one build.\nThis allows VCO to be tuned to C1 (32.7Hz) when Coarse pot is full CCW\nand Fine pot is at 12 o'clock."
+		(exclude_from_sim no)
+		(at 76.708 73.914 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "c5f4556e-f888-456d-8591-b28d20a50c77")
 	)
 	(hierarchical_label "Sawtooth"
 		(shape output)
