@@ -3809,6 +3809,17 @@
 		)
 		(uuid 9866ebb1-3d7d-41c6-8737-a663b41105a1)
 	)
+	(text "This version of the Connectors PCB requires jumper wires to bring power supply\nto the OpAmp from the main PCB.\nJumper wires with a socket on one end are recommended in order to prevent\naccidental short-circuits.\n\n+12V:\n	- solder the bare wire end to the Cathode (K marked terminal) of D14\n	- connect the socketed end to J11\n-12V:\n	- solder the bare wire end to the Anode (non-K marked terminal) of D13\n	- connect the socketed end to J12"
+		(exclude_from_sim no)
+		(at 203.2 136.906 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "608911ea-69b2-4de7-b21b-c20dd4fb25b9")
+	)
 	(text "Not placed in main PCB. See \"DMH_VCO_40106_PCB_Connectors\" project."
 		(exclude_from_sim no)
 		(at 239.014 120.396 0)
