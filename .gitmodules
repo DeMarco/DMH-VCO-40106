@@ -7,3 +7,6 @@
 [submodule "DMH_VCO_40106_PCB_Connectors/Libraries/SynthStuff"]
 	path = DMH_VCO_40106_PCB_Connectors/Libraries/SynthStuff
 	url = https://github.com/DeMarco/KiCad-Lib-SynthStuff.git
+[submodule "DMH_VCO_40106_PCB_Conn_Mk2/Libraries/SynthStuff"]
+	path = DMH_VCO_40106_PCB_Conn_Mk2/Libraries/SynthStuff
+	url = https://github.com/DeMarco/KiCad-Lib-SynthStuff.git
