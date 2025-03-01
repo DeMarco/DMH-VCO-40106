@@ -4286,7 +4286,7 @@
 				(justify right)
 			)
 		)
-		(property "Value" "5M"
+		(property "Value" "10M"
 			(at 193.04 134.6199 0)
 			(effects
 				(font

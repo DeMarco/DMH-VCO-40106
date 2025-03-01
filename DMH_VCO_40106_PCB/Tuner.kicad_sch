@@ -462,6 +462,15 @@
 					(hide yes)
 				)
 			)
+			(property "Sim.Pins" "1=K 2=A"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
 			(property "ki_keywords" "LED diode"
 				(at 0 0 0)
 				(effects
@@ -4745,6 +4754,15 @@
 				)
 			)
 		)
+		(property "Sim.Pins" "1=K 2=A"
+			(at 156.21 171.45 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "2"
 			(uuid "0e14d5c1-a864-48b2-a0b9-9704e32a1081")
 		)
@@ -5026,6 +5044,15 @@
 				)
 			)
 		)
+		(property "Sim.Pins" "1=K 2=A"
+			(at 127 181.61 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "a088a4df-73f1-4945-a664-1d32d0ca3df6")
 		)
@@ -5167,6 +5194,15 @@
 					(bold yes)
 					(italic yes)
 				)
+			)
+		)
+		(property "Sim.Pins" "1=K 2=A"
+			(at 156.21 120.65 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
 			)
 		)
 		(pin "2"
@@ -6346,6 +6382,15 @@
 				)
 			)
 		)
+		(property "Sim.Pins" "1=K 2=A"
+			(at 156.21 158.75 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "206bf7be-f2a6-4f68-93f6-cb6abbef4741")
 		)
@@ -6516,6 +6561,15 @@
 				)
 			)
 		)
+		(property "Sim.Pins" "1=K 2=A"
+			(at 156.21 133.35 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "72ff5f41-30eb-4a06-b971-821fb8da140b")
 		)
@@ -6659,6 +6713,15 @@
 					(bold yes)
 					(italic yes)
 				)
+			)
+		)
+		(property "Sim.Pins" "1=K 2=A"
+			(at 156.21 146.05 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
 			)
 		)
 		(pin "2"
