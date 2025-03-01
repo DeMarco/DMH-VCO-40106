@@ -1,7 +1,7 @@
 (kicad_sch
-	(version 20231120)
+	(version 20250114)
 	(generator "eeschema")
-	(generator_version "8.0")
+	(generator_version "9.0")
 	(uuid "fefed352-c100-4617-bbfb-c55e7427b122")
 	(paper "A4")
 	(title_block
@@ -364,6 +364,10 @@
 	(sheet
 		(at 91.44 99.06)
 		(size 41.91 35.56)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
 		(fields_autoplaced yes)
 		(stroke
 			(width 0.1524)
@@ -393,33 +397,33 @@
 		)
 		(pin "Triangle Out" output
 			(at 133.35 109.22 0)
+			(uuid "ed3b3b0e-21ab-4159-a9ad-b916bbdd04b1")
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify right)
 			)
-			(uuid "ed3b3b0e-21ab-4159-a9ad-b916bbdd04b1")
 		)
 		(pin "Sawtooth In" input
 			(at 91.44 114.3 180)
+			(uuid "7a4d55d5-18fd-4404-9434-a376becf7e1e")
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify left)
 			)
-			(uuid "7a4d55d5-18fd-4404-9434-a376becf7e1e")
 		)
 		(pin "Triangle" output
 			(at 133.35 114.3 0)
+			(uuid "12c450ae-1805-4fc8-a137-4c44aefd610b")
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify right)
 			)
-			(uuid "12c450ae-1805-4fc8-a137-4c44aefd610b")
 		)
 		(instances
 			(project "DMH_VCO_40106_PCB"
@@ -432,6 +436,10 @@
 	(sheet
 		(at 149.86 99.06)
 		(size 40.64 35.56)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
 		(fields_autoplaced yes)
 		(stroke
 			(width 0.1524)
@@ -461,23 +469,23 @@
 		)
 		(pin "Sine Out" output
 			(at 190.5 110.49 0)
+			(uuid "4e7d8e5c-d30f-487a-ac52-f5373e18a275")
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify right)
 			)
-			(uuid "4e7d8e5c-d30f-487a-ac52-f5373e18a275")
 		)
 		(pin "Triangle In" input
 			(at 149.86 114.3 180)
+			(uuid "dbcf1a8e-35d1-44ba-90d9-0ca3416153c0")
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify left)
 			)
-			(uuid "dbcf1a8e-35d1-44ba-90d9-0ca3416153c0")
 		)
 		(instances
 			(project "DMH_VCO_40106_PCB"
@@ -490,6 +498,10 @@
 	(sheet
 		(at 27.94 99.06)
 		(size 43.18 35.56)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
 		(fields_autoplaced yes)
 		(stroke
 			(width 0.1524)
@@ -519,93 +531,93 @@
 		)
 		(pin "Exp FM In 2" input
 			(at 27.94 104.14 180)
+			(uuid "43d23922-787e-4c75-98bf-30345378a269")
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify left)
 			)
-			(uuid "43d23922-787e-4c75-98bf-30345378a269")
 		)
 		(pin "Exp FM In 1" input
 			(at 27.94 109.22 180)
+			(uuid "4a27f0e6-6def-4d41-ae0c-edd3d1fe7669")
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify left)
 			)
-			(uuid "4a27f0e6-6def-4d41-ae0c-edd3d1fe7669")
 		)
 		(pin "V{slash}Oct In" input
 			(at 27.94 119.38 180)
+			(uuid "7a1d9b33-46af-4019-b6e0-0405ede3f318")
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify left)
 			)
-			(uuid "7a1d9b33-46af-4019-b6e0-0405ede3f318")
 		)
 		(pin "PW Mod In" input
 			(at 27.94 124.46 180)
+			(uuid "1220e251-f380-4a2f-b6b0-c2b38ea44d56")
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify left)
 			)
-			(uuid "1220e251-f380-4a2f-b6b0-c2b38ea44d56")
 		)
 		(pin "Sawtooth Out" output
 			(at 71.12 109.22 0)
+			(uuid "4fb91045-8f96-48bb-bd00-e4edd4059b04")
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify right)
 			)
-			(uuid "4fb91045-8f96-48bb-bd00-e4edd4059b04")
 		)
 		(pin "Square Out" output
 			(at 71.12 104.14 0)
+			(uuid "c6d47251-25c1-495f-92cc-478da062d89a")
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify right)
 			)
-			(uuid "c6d47251-25c1-495f-92cc-478da062d89a")
 		)
 		(pin "Sync In" input
 			(at 27.94 129.54 180)
+			(uuid "945dbb46-849f-479c-8528-b54111952478")
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify left)
 			)
-			(uuid "945dbb46-849f-479c-8528-b54111952478")
 		)
 		(pin "Sawtooth" output
 			(at 71.12 114.3 0)
+			(uuid "c161a8c1-c238-45a5-ac9c-6a90fc1ab22b")
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify right)
 			)
-			(uuid "c161a8c1-c238-45a5-ac9c-6a90fc1ab22b")
 		)
 		(pin "Square" output
 			(at 71.12 119.38 0)
+			(uuid "99814ff7-6eb4-4895-b676-8f19a7194502")
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify right)
 			)
-			(uuid "99814ff7-6eb4-4895-b676-8f19a7194502")
 		)
 		(instances
 			(project "DMH_VCO_40106_PCB"
@@ -618,6 +630,10 @@
 	(sheet
 		(at 210.82 101.6)
 		(size 45.72 27.94)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
 		(fields_autoplaced yes)
 		(stroke
 			(width 0.1524)
@@ -647,13 +663,13 @@
 		)
 		(pin "Bus CV" output
 			(at 210.82 110.49 180)
+			(uuid "35abe730-510a-40dc-becd-239164019608")
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify left)
 			)
-			(uuid "35abe730-510a-40dc-becd-239164019608")
 		)
 		(instances
 			(project "DMH_VCO_40106_PCB"
@@ -666,6 +682,10 @@
 	(sheet
 		(at 27.94 49.53)
 		(size 44.45 33.02)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
 		(fields_autoplaced yes)
 		(stroke
 			(width 0.1524)
@@ -695,103 +715,103 @@
 		)
 		(pin "Sync In Jack" output
 			(at 27.94 53.34 180)
+			(uuid "c4a32d23-12a5-453a-9bd7-230e8ecfeef9")
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify left)
 			)
-			(uuid "c4a32d23-12a5-453a-9bd7-230e8ecfeef9")
 		)
 		(pin "V{slash}Oct In Jack" output
 			(at 27.94 58.42 180)
+			(uuid "a36ddf97-184c-4b32-b049-7100c1f1dd4d")
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify left)
 			)
-			(uuid "a36ddf97-184c-4b32-b049-7100c1f1dd4d")
 		)
 		(pin "PW Mod In Jack" output
 			(at 27.94 63.5 180)
+			(uuid "8d27594c-cbf4-47c2-aa77-bf0ebb87cb4c")
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify left)
 			)
-			(uuid "8d27594c-cbf4-47c2-aa77-bf0ebb87cb4c")
 		)
 		(pin "Exp FM In 1 Jack" output
 			(at 27.94 68.58 180)
+			(uuid "49366128-2c6d-457a-9883-7ed8177c3654")
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify left)
 			)
-			(uuid "49366128-2c6d-457a-9883-7ed8177c3654")
 		)
 		(pin "Exp FM In 2 Jack" output
 			(at 27.94 73.66 180)
+			(uuid "d1b4639d-9276-4502-83d0-33298346bb08")
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify left)
 			)
-			(uuid "d1b4639d-9276-4502-83d0-33298346bb08")
 		)
 		(pin "Sawtooth Out Jack" input
 			(at 72.39 53.34 0)
+			(uuid "07083444-b73e-4c76-9e23-6efffd5d7e05")
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify right)
 			)
-			(uuid "07083444-b73e-4c76-9e23-6efffd5d7e05")
 		)
 		(pin "Triangle Out Jack" input
 			(at 72.39 58.42 0)
+			(uuid "3ebc24dd-d726-4884-8aad-3dd50a19ec1d")
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify right)
 			)
-			(uuid "3ebc24dd-d726-4884-8aad-3dd50a19ec1d")
 		)
 		(pin "Sine Out Jack" input
 			(at 72.39 63.5 0)
+			(uuid "63ddb257-652a-4d57-a0a8-a8b145f342fa")
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify right)
 			)
-			(uuid "63ddb257-652a-4d57-a0a8-a8b145f342fa")
 		)
 		(pin "Square Out Jack" input
 			(at 72.39 68.58 0)
+			(uuid "9ad95280-66a4-449e-b74f-f8ba13cf7d53")
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify right)
 			)
-			(uuid "9ad95280-66a4-449e-b74f-f8ba13cf7d53")
 		)
 		(pin "Bus CV" input
 			(at 72.39 78.74 0)
+			(uuid "82df7e75-4d11-4d90-a171-3d7e53114198")
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify right)
 			)
-			(uuid "82df7e75-4d11-4d90-a171-3d7e53114198")
 		)
 		(instances
 			(project "DMH_VCO_40106_PCB"
@@ -804,6 +824,10 @@
 	(sheet
 		(at 209.55 30.48)
 		(size 41.91 40.64)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
 		(fields_autoplaced yes)
 		(stroke
 			(width 0.1524)
@@ -833,13 +857,13 @@
 		)
 		(pin "Square In" input
 			(at 209.55 53.34 180)
+			(uuid "fc8f126d-0709-4593-a908-821bc86a5bae")
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify left)
 			)
-			(uuid "fc8f126d-0709-4593-a908-821bc86a5bae")
 		)
 		(instances
 			(project "DMH_VCO_40106_PCB"
@@ -854,4 +878,5 @@
 			(page "1")
 		)
 	)
+	(embedded_fonts no)
 )
