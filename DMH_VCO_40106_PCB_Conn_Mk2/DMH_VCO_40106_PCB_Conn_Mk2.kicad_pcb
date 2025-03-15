@@ -126,7 +126,7 @@
 			(mirror no)
 			(drillshape 0)
 			(scaleselection 1)
-			(outputdirectory "")
+			(outputdirectory "Gerbers/")
 		)
 	)
 	(net 0 "")
@@ -7122,7 +7122,7 @@
 		(layer "User.9")
 		(uuid "40211ea7-3e36-4f36-9dc5-cec3386a4b46")
 	)
-	(gr_text "Mk2.0 - January 2025"
+	(gr_text "Mk2.0 - March 2025"
 		(at 138.25 235.5 0)
 		(layer "B.SilkS")
 		(uuid "aa19c6d3-e7b5-404c-b0b7-28ff0e6a8cd6")
