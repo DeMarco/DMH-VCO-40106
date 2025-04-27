@@ -3330,7 +3330,7 @@
 		)
 		(uuid "a21d1940-3de9-4795-a44e-603b4169a4e7")
 	)
-	(text "Had to reduce R42 to 75k by soldering 300k in parallel in one build.\nThis allows VCO to be tuned to C1 (32.7Hz) when Coarse pot is full CCW\nand Fine pot is at 12 o'clock."
+	(text "Had to reduce R42 to 75k by soldering 300k in parallel in some builds.\nThis allows VCO to be tuned to C1 (32.7Hz) when Coarse pot is full CCW\nand Fine pot is at 12 o'clock."
 		(exclude_from_sim no)
 		(at 76.708 73.914 0)
 		(effects
