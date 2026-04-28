@@ -47,14 +47,31 @@
         "silk_text_italic": false,
         "silk_text_size_h": 1.0,
         "silk_text_size_v": 1.0,
-        "silk_text_thickness": 0.1,
+        "silk_text_thickness": 0.15,
         "silk_text_upright": false,
         "zones": {
           "min_clearance": 0.5
         }
       },
       "diff_pair_dimensions": [],
-      "drc_exclusions": [],
+      "drc_exclusions": [
+        [
+          "silk_over_copper|58500000|184250000|73387ccd-73d5-4368-bb93-fb7d66d0652c|d7e7f950-b9a4-485d-8262-e3bff6888c4e",
+          ""
+        ],
+        [
+          "silk_over_copper|58500000|184250000|73387ccd-73d5-4368-bb93-fb7d66d0652c|e7dd7ba9-5643-4e44-8b09-cdf4f56b8e05",
+          ""
+        ],
+        [
+          "silk_over_copper|75000000|184250000|05ef8bb2-fd37-4a13-b3e8-60aa12ad6295|353c71d9-e150-48c7-929e-41deb03e9061",
+          ""
+        ],
+        [
+          "silk_over_copper|75000000|184250000|05ef8bb2-fd37-4a13-b3e8-60aa12ad6295|62fc85c6-a0a3-4437-bce3-03466a65968e",
+          ""
+        ]
+      ],
       "meta": {
         "version": 2
       },
@@ -139,7 +156,7 @@
         "min_text_thickness": 0.15,
         "min_through_hole_diameter": 0.3,
         "min_track_width": 0.15,
-        "min_via_annular_width": 0.25,
+        "min_via_annular_width": 0.1,
         "min_via_diameter": 0.5,
         "solder_mask_to_copper_clearance": 0.0,
         "use_height_for_length_calcs": true
@@ -475,7 +492,7 @@
     "pinned_symbol_libs": []
   },
   "meta": {
-    "filename": "DMH_VCO_40106_PANEL.kicad_pro",
+    "filename": "DMH_VCO_5cm_PANEL.kicad_pro",
     "version": 3
   },
   "net_settings": {
@@ -527,6 +544,10 @@
     "netclass_patterns": [
       {
         "netclass": "Power",
+        "pattern": "+5V"
+      },
+      {
+        "netclass": "Power",
         "pattern": "+12V"
       },
       {
@@ -544,7 +565,7 @@
       "gencad": "",
       "idf": "",
       "netlist": "",
-      "plot": "Gerbers/",
+      "plot": "",
       "pos_files": "",
       "specctra_dsn": "",
       "step": "",
@@ -662,18 +683,18 @@
     "subpart_id_separator": 0,
     "top_level_sheets": [
       {
-        "filename": "DMH_VCO_40106_PANEL.kicad_sch",
-        "name": "DMH_VCO_40106_PANEL",
-        "uuid": "00000000-0000-0000-0000-000000000000"
+        "filename": "DMH_VCO_5cm_PANEL.kicad_sch",
+        "name": "DMH_VCO_5cm_PANEL",
+        "uuid": "a552705f-a9fe-462e-9913-5cfcc08b233c"
       }
     ],
-    "used_designators": "",
+    "used_designators": "H5-18,H21-23,H30-35",
     "variants": []
   },
   "sheets": [
     [
-      "1ac843a2-b018-4f05-9c7c-f861332ffc39",
-      "Root"
+      "a552705f-a9fe-462e-9913-5cfcc08b233c",
+      "DMH_VCO_5cm_PANEL"
     ]
   ],
   "text_variables": {},
